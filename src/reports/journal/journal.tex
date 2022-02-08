@@ -1,0 +1,52 @@
+\documentclass[12pt, a4paper, norsk]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc,url}
+\usepackage{babel,textcomp}
+\usepackage{amsmath, amssymb}
+\usepackage{polynom}
+\usepackage[parfill]{parskip}
+\usepackage{listings}
+\usepackage{fancyhdr}
+
+\newcommand{\entry}[1]{\,
+	\section*{#1}
+	\markright{}
+	\addcontentsline{toc}{section}{#1}
+}
+
+% ------------------------------------------------------------
+% Side formatering
+\usepackage{fancyhdr}
+\lhead{DATA3900}
+\chead{Prosjektdagbok}
+\rhead{Bachelorprosjekt 23}
+\usepackage{lastpage}
+\cfoot{Page \thepage}
+% ------------------------------------------------------------
+% ------------------------------------------------------------
+\title
+{
+	DATA3900 - Bachelorprosjekt \\
+	Prosjekt dagbok
+}
+\author{Bachelorprosjekt 23:\\
+    Hansen, Andreas Torres (s338851)\\
+	Nguyen, Uy Quoc (s341864)\\
+	Ottersland, Anders Hagen (s341883)
+	}
+\date{Sist oppdatert:\\ \today}
+
+\begin{document}
+	\maketitle
+	\pagenumbering{gobble}
+	\clearpage
+	\tableofcontents
+	\clearpage
+	\pagestyle{fancy}
+	\pagenumbering{arabic}
+%	\include{./entries/andreas}
+%	\clearpage
+	\include{./entries/uy}
+%	\clearpage
+%	\include{./entries/anders}
+\end{document}

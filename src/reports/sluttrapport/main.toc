@@ -1,0 +1,4 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {norsk}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografi}{2}{chapter*.1}%

@@ -1,0 +1,72 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{bachelor2020}{report}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5200374ee5d1e573cc6eb7494ed6bd1a}{%
+           family={Samset},
+           familyi={S\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b17997244d42b52c0d223735fe02954b}{%
+           family={Bakken},
+           familyi={B\bibinitperiod},
+           given={Mads},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0956c32aa7a4b1a9c031eae891b2e051}{%
+           family={Sandberg},
+           familyi={S\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87945d736f646b9274453e4381358a10}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Eivind},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Høyskolen Kristiania}%
+      }
+      \strng{namehash}{129a07da2c5e5058a3d76280aced3a45}
+      \strng{fullhash}{640e3996744c70a30f387427f1dab303}
+      \strng{bibnamehash}{640e3996744c70a30f387427f1dab303}
+      \strng{authorbibnamehash}{640e3996744c70a30f387427f1dab303}
+      \strng{authornamehash}{129a07da2c5e5058a3d76280aced3a45}
+      \strng{authorfullhash}{640e3996744c70a30f387427f1dab303}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Selvkjørende kjøretøy: En prototype med Raspberry Pi}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,79 @@
+\documentclass[11pt, a4paper, norsk]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc,url}
+\usepackage{babel,textcomp}
+\usepackage{amsmath, amssymb}
+\usepackage{polynom}
+\usepackage[parfill]{parskip}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks   = true, %Colours links instead of ugly boxes
+	urlcolor     = blue, %Colour for external hyperlinks
+	linkcolor    = blue, %Colour of internal links
+	citecolor   = blue %Colour of citations
+}
+
+
+% ------------------------------------------------------------
+%Bibliografi
+\usepackage[style=apa, backend=biber]{biblatex}
+\usepackage{csquotes}
+\DeclareLanguageMapping{english}{english-apa}
+\addbibresource{bibliography.bib}
+% ------------------------------------------------------------
+
+% ------------------------------------------------------------
+% Side formatering
+\lhead{Bachelorprosjekt}
+\chead{Forprosjektrapport}
+\rhead{Gruppe 23}
+\usepackage{lastpage}
+% ------------------------------------------------------------
+% ------------------------------------------------------------
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Huge}
+%% ------------------------------------------ %% 
+
+% ------------------------------------------------------------
+\title
+{
+	DATA3900 - Bachelorprosjekt \\
+	Forprosjektrapport
+}
+\author{Gruppe 23:\\
+    Hansen, Andreas Torres (s338851)\\
+	Nguyen, Uy Quoc (s341864)\\
+	Ottersland, Anders Hagen (s341883)\\
+	\\Antall sider: \pageref{LastPage}}
+\date{Sist oppdatert:\\ \today}
+
+\begin{document}
+	\maketitle
+	\pagenumbering{gobble}
+	\tableofcontents
+	% \listoffigures <- utkommenter dersom vi har figurer
+	% \listoftables <- utkommenter dersom vi har tabeller
+	\clearpage
+	\pagestyle{fancy}
+	\pagenumbering{arabic}
+	% ------------------------------------------------------------
+	% Dokumentasjonen går inn her, alt annet generes automatisk. 
+	% Husk bare på å inkludere referanser i form av \cite{referanse-navn}
+	% uten parantes, eller (\cite{referanse-navn}) <- med parantes
+	% ------------------------------------------------------------
+    \include{./deler/presentasjon}
+    \include{./deler/sammendrag}
+    \include{./deler/dagens_situasjon}
+    \include{./deler/mål_rammebetingelser}
+    \include{./deler/løsninger_alternativer}
+    \include{./deler/analyse_virkninger}
+    \include{./deler/arbeidsplan_fremdriftplan}
+	% ------------------------------------------------------------
+	\clearpage
+    \addcontentsline{toc}{chapter}{Bibliografi}
+    \printbibliography
+\end{document}

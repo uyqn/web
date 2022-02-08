@@ -1,0 +1,15 @@
+\chead{Analyse av virkninger}
+\chapter{Analyse av virkninger}
+Etter mange diskusjoner både internt og med veiledere ble det konkludert med at gruppen ønsker å bygge videre på resultater fra tidligere prosjekt. Gruppen antok at det var både mer verdiskapende og hensiktsmessig for Accenture.
+
+\cite{bachelor2020} ble vellykket med å skape en selvkjørende modell-bil med Raspberry Pi. Prosjektet deres var derfor veldig fokusert på maskinlæring og hadde implementert dette godt i prosjektet sitt. De hadde desverre ikke tid eller kapasitet til å implementere kommunikasjon mellom bilene på grunn av pandemien. Gruppen vår skal derfor utvide dette med IoT prosjektet. I henhold til kommunikasjon mellom bilene måtte det bestemmes om bilene skulle kommunisere med hverandre via peer-to-peer (P2P) eller om det skulle implementere et sentralisert system som tar hånd om alle overordnede beslutninger.
+
+\section{Sentralisert system}
+Med et sentralisert system vil alle bilene være koblet opp mot et server. Det ble også under en workshop diskutert hvordan dette skulle gjøres. Siden, skalering av systemet måtte bli tatt hensyn til, ville det vært unødvendig å koble alle biler opp mot det samme nettverket på grunn av overbelastning. Gruppen konkluderte med at en server skulle ha ansvar for alle biler på en og samme vei og en annen server skulle ta hånd om en annen vei osv. Ved krysninger så skulle det opprettes en annen server som kommuniserer igjen med de involverte servere for veiene.
+
+Fordelene med en sentralisert løsning vil i hovedsak være for å være ansvarlig for tilfeller hvor etiske beslutninger måtte foretas. Siden bilene er automatiserte så var det naturlig at etiske beslutninger måtte bli tatt hensyn til. \cite{bachelor2020} nevnte også dette selvom de ikke hadde implementert noe for å addressere dette.
+
+\section{Desentralisert system}
+Det andre alternativet var å implementere et P2P nettverk mellom Raspberry Pi bilene slik at kommunikasjonen mellom dem skjedde på et individuelt nivå. En slik løsning ville potensielt introdusert mer kompleksitet i prosjektet. Siden dette prosjektet gikk ut på å bygge videre på \cite{bachelor2020} kunne vi riskere å måtte modifisere på eksisterende og fungerende moduler noe vi prøver å unngå. Itillegg måtte vi også potensielt ha installert ekstra komponenter for å realisere et slikt system. På den andre siden ville det muligens vært lettere å skalere fordi vi hadde unngått loadbalancing på servere.
+
+I henhold til etiske beslutninger var det tenkelig at dette ville vært en utfordring å ta hensyn til i et slikt system. Et eksempel var diskutert: Dersom to biler var i kollisjonskurs med hverandre kunne begge risikere å kjøre ut av veien. Dette ville vært enklere å håndtere av et sentralisert system.
