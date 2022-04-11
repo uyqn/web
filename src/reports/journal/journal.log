@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.9.15)  11 JAN 2022 10:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.23)  23 MAR 2022 07:58
 entering extended mode
-**./journal.tex
-(journal.tex
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**journal.tex
+(./journal.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> xparse <2020-03-03>
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count179
@@ -21,65 +23,57 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
-Package: babel 2021/01/26 3.53 The Babel package
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def
-File: babel.def 2021/01/26 3.53 Babel common definitions
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
 \babel@savecnt=\count187
 \U@D=\dimen139
-\l@babelnohyphens=\language83
+\l@babelnohyphens=\language87
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
-f)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count188
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-norsk\norsk.l
-df
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel-norsk/norsk.ldf
 Language: norsk 2012/08/06 v2.0i Norsk support from the babel system
 Package babel Info: Making " an active character on input line 113.
 ))
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
-For additional information on amsmath, use the `?' option.
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen140
 ))
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen141
-) (C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
-y
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count189
@@ -120,12 +114,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.st
-y
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.s
-ty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -133,37 +125,32 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/polynom\polynom.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/polynom/polynom.sty
 Package: polynom 2017/07/17 0.19 (CH,HA)
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
 \pld@currstage=\count267
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/parskip\parskip.sty
-Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+(/usr/local/texlive/2021/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoptions
-.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.s
-ty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetke
-ys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.s
-ty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count268
 ))
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.s
-ty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count269
 \lst@gtempboxa=\box49
 \lst@token=\toks23
@@ -177,21 +164,18 @@ ty
 \lst@lineno=\count274
 \lst@maxwidth=\dimen152
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.st
-y
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count275
 \lst@skipnumbers=\count276
 \lst@framebox=\box50
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.c
-fg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.s
-ty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip52
@@ -204,16 +188,15 @@ rs
 \f@nch@O@olf=\skip59
 \f@nch@O@orf=\skip60
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpage\lastpage.s
-ty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend
--pdftex.def
-File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box51
-) (journal.aux (entries/uy.aux))
+)
+(./journal.aux (./entries/uy.aux))
 \openout1 = `journal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -237,28 +220,28 @@ Package lastpage Info: Please have a look at the pageslts package at
 LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 
 
-(C:\Users\uyngu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1
+) [1
 
-{C:/Users/uyngu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(journal.toc)
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./jour
+nal.toc)
 \tf@toc=\write3
 \openout3 = `journal.toc'.
 
- [2
+
+[2
 
 ]
 \openout2 = `./entries/uy.aux'.
 
- (entries/uy.tex)
+ (./entries/uy.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -270,30 +253,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 
-] 
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2] 
 AED: lastpage setting LastPage
-(journal.aux (entries/uy.aux)) ) 
+(./journal.aux (./entries/uy.aux)) ) 
 Here is how much of TeX's memory you used:
- 5567 strings out of 479300
- 75792 string characters out of 2853552
- 383885 words of memory out of 3000000
- 22981 multiletter control sequences out of 15000+200000
- 413273 words of font info for 48 fonts, out of 3000000 for 9000
+ 5568 strings out of 478994
+ 74193 string characters out of 5858184
+ 388077 words of memory out of 5000000
+ 23000 multiletter control sequences out of 15000+600000
+ 413610 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,10n,74p,523b,975s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/uyngu/AppData/Local/Programs/MiKTeX 2
-.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Users/uyngu/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/uyngu/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/u
-yngu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb
-><C:/Users/uyngu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/
-sfbx2488.pfb><C:/Users/uyngu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/cm-super/sfrm1200.pfb><C:/Users/uyngu/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/cm-super/sfrm1440.pfb><C:/Users/uyngu/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on journal.pdf (3 pages, 107294 bytes).
+ 67i,10n,74p,521b,975s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/e
+nc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/en
+c/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
+m-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-
+super/sfrm2074.pfb>
+Output written on journal.pdf (4 pages, 108673 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

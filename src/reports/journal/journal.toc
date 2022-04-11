@@ -2,3 +2,6 @@
 \contentsline {part}{Nguyen, Uy Quoc (s341864)}{1}{}%
 \contentsline {section}{en eller annen dato}{1}{}%
 \contentsline {section}{11. januar 2022}{1}{}%
+\contentsline {section}{12. januar 2022}{1}{}%
+\contentsline {part}{I\hspace {1em}Ottersland, Anders Hagen (s341883)}{1}{}%
+\contentsline {section}{24. januar 2022}{2}{}%
