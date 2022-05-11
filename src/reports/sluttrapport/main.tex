@@ -1,4 +1,4 @@
-\documentclass[14pt, a4paper, norsk]{report}
+\documentclass[14pt, a4paper, english]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc,url}
 \usepackage{babel,textcomp}
@@ -9,7 +9,15 @@
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{listings}
+\lstset{
+	basicstyle=\ttfamily,
+	columns=fullflexible,
+	frame=single,
+	breaklines=true,
+	postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
 \usepackage{hyperref}
+\usepackage{xcolor}
 \hypersetup{
 	colorlinks   = true, %Colours links instead of ugly boxes
 	urlcolor     = blue, %Colour for external hyperlinks
@@ -28,10 +36,10 @@
 % ------------------------------------------------------------
 % Side formatering
 \lhead{DATA3900}
-\chead{Sluttrapport}
-\rhead{Gruppe 23}
+\chead{Final report}
+\rhead{Group 23}
 \usepackage{lastpage}
-\cfoot{Side \thepage\ av \pageref{LastPage}}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
 % ------------------------------------------------------------
 % ------------------------------------------------------------
 \titleformat{\chapter}[display]
@@ -41,19 +49,33 @@
 % ------------------------------------------------------------
 \title
 {
-	DATA3900 - Bachelorprosjekt \\
-	Sluttrapport
+	DATA3900 - Bachelorproject \\
+	Final report
 }
 \author{Gruppe 23:\\
     Hansen, Andreas Torres (s338851)\\
 	Nguyen, Uy Quoc (s341864)\\
 	Ottersland, Anders Hagen (s341883)\\
-	\\Antall sider: \pageref{LastPage}}
-\date{Sist oppdatert:\\ \today}
+	\\Total pages: \pageref{LastPage}}
+\date{Last updated:\\ \today}
 
 \begin{document}
 	\maketitle
 	\pagenumbering{gobble}
+	\begin{abstract}
+		Short summary of the project including the result that the group reached.
+	\end{abstract}
+	\clearpage
+	\chapter*{Preface}
+	This is the report of our bachelor thesis at Oslo Metropolitan University, Faculty of Technology, Art and Design. Our project was done for Accenture, and lasted from January 2022 to May 2022. We have tried to develop a solution for traffic management with self-driving cars and server communication. A physical demonstration of our proposed solution is done with the use of a Raspberry Pi computer working as a car. In this project we have documented the functionality of our system, and our process of making it. 
+	
+	The report is split into 7 chapters. Introduction, research areas, process documentation, implementation, results, discussion and conclusion. At the end we have added a Moscow analysis, sprint overview and our project journal as appendices. Technical terms are in appendix for those with less technical knowledge. (Kan kanskje droppe dette)
+	
+	We would like to thank everyone that has contributed to our project. We would especially like to thank:
+	\begin{itemize}
+		\item Ivar Fauske Aasen, Solfrid Johansen and Benjamin Vallestad, representatives from Accenture.
+		\item Dr. Jianhua Zhang, internal supervisor at OsloMet.
+	\end{itemize}
 	\tableofcontents
 	% \listoffigures <- utkommenter dersom vi har figurer
 	% \listoftables <- utkommenter dersom vi har tabeller
@@ -65,11 +87,16 @@
 	% Husk bare på å inkludere referanser i form av \cite{referanse-navn}
 	% uten parantes, eller (\cite{referanse-navn}) <- med parantes
 	% ------------------------------------------------------------
-    This is a sample reference \cite{einstein}
-	
+	\include{chapters/introductions}
+	\include{chapters/research_areas}
+	\include{chapters/process_documentation}
+	\include{chapters/implementation}
+	\include{chapters/product_documentation}
+	\include{chapters/discussion}
+	\include{chapters/conclusion}
 	
 	% ------------------------------------------------------------
 	\clearpage
-    \addcontentsline{toc}{chapter}{Bibliografi}
+    \addcontentsline{toc}{chapter}{Bibliography}
     \printbibliography
 \end{document}

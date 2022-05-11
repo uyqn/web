@@ -1,0 +1,78 @@
+\section{User manual}
+We have written a manual for people who want to recreate our demonstration. The demonstration could for example be shown off at exhibitions. The manual could also be used for people who want to further test and develop our IoT-system.
+
+First check the IP-address of the internet you are connected to, and the usable ports. Make sure that your computer hosting the server and the vehicles are connected to the same network.
+
+\begin{lstlisting}
+$ipconfig getifaddr en0
+192.168.56.208
+\end{lstlisting}
+
+Then open the Server solution in your code editor, we have used visual studio. Under the folder “properties” there is a file called launchSettings.json. In that file write in the ip address and the port in the applicationUrl-section:
+
+\clearpage
+\begin{lstlisting}
+"profiles": {
+	"SignalRServer": {
+		"commandName": "Project",
+		"dotnetRunMessages": true,
+		"launchBrowser": false,
+		"applicationUrl": "https://192.168.56.208:7058;http://192.168.56.208:5048",
+		"environmentVariables": {
+			"ASPNETCORE_ENVIRONMENT": "Development"
+		}
+	},
+\end{lstlisting}
+
+After that open the Client solution. Here we used Pycharm as the text editor. Open the config.json document and write in the same ip-address and port:
+
+\begin{lstlisting}
+"client": {
+	"host": "192.168.56.208",
+	"port": 5048,
+	"delay": 0.1
+},
+\end{lstlisting}
+
+If the vehicles haven’t connected to that network before, they need to log on that network. To log on to a new network you will need to connect the raspBerry pi’s to a screen. That could be done via the micro usb-port at the raspberry pi. When the raspberry pi has booted up, click on the internet-icon and connect to the same network as the server. If you have connected to the internet it will be saved and the vehicle should connect to that internet automatically when booting up. 
+
+If you want to change the velocities of the vehicles it can be done here in the server:
+\begin{lstlisting}
+public class VehiclesHubDatabase : IVehiclesHubDatabase
+{
+	private readonly Intersection _intersection;
+	
+	private readonly HashSet<Vehicle> _vehicles = new();
+	private readonly HashSet<Lane> _lanes = new();
+	public int Count => _vehicles.Count;
+	
+	private readonly Dictionary<string, Vehicle> _connectionIds = new();
+	private readonly Dictionary<Vehicle, string> _vehiclesConnectionId = new();
+	public Dictionary<Vehicle, Thread?> VehicleThreads { get; }= new();
+	public Thread? GlobalThread { get; set; }
+	public Stopwatch Clock { get; } = new();
+	
+	public double SpeedLimit => 80;
+\end{lstlisting}
+
+The file is located at VehicleHubDatabase under the Database folder. The variable you want to change is the SpeedLimit.
+
+Right under you can change the length of the roads:
+\begin{lstlisting}
+public VehiclesHubDatabase()
+{
+	_intersection = new Intersection().
+		AddRoad(new Road {Length = 300}.
+			AddLane(null, true).
+			AddLane()).
+		AddRoad(new Road {Length = 300}.
+			AddLane(null, true).
+			AddLane());
+	
+	_intersection.ConnectedLanes().
+		ForEach(lane => _lanes.Add(lane));
+}
+\end{lstlisting}
+
+We have written more about the specifics of the system in our product documentation.
+Then place the vehicles down at the start of the track, turn on the server and connect to the power banks. The vehicles should automatically connect to the server and start driving after 20-30 seconds.

@@ -1,0 +1,29 @@
+\subsection{Implementation of Server}
+The network-layer of an IoT-system is responsible for transferring data collected by the things-layer \parencite[pp. 8-9]{iot_platforms}. In our project this is done by a centralized server that is connected to all the clients. 
+
+The task required the client, which in our case is the cars, to receive the commands from the server. The group prior had made it such as the car made decisions based on its AI. The AI used picture recognition which could recognize speed limit signs and stop signs. The cars were also programmed to follow a path. Furthermore we needed a server which could send commands to the clients at a frequent rate, based on the information given by the clients. The server’s commands need to overwrite the AI that is already on the vehicles.
+
+Here are some requirements needed for the server:
+\begin{itemize}
+	\item Needs to be able to send messages to all clients simultaneously, or a specific group of clients.
+	\item Handle increasing traffic
+	\item Little to no delay
+	\item Two way communication between server and client
+\end{itemize}
+
+We initially coded a server by using API. The server was able to receive information from the clients, but for the cars to receive information from the server, they had to host their own servers. The car’s main priority should be calculating decisions based on their AI, not hosting a server. It would also be harder to add a server to the code from the previous group. We therefore thought of some other solutions. 
+
+Websockets provides a two way communication over a single tcp-connection. This means that both the server and client can send and receive messages from each other. They also allow for a better efficiency than REST API because they do not require the request/response overhead for each message that is sent and received. This solved the issue we previously had with the solo API-solution.
+
+ASP.NET Core Signal R is an open source library that simplifies adding real-time web functionality to apps (Microsoft, 2022). It supports websockets as a real time communication which is perfect for a two way communication. Signal R is often used in games, social networks and gps-apps where information to the clients are needed instantly. It also scales with increasing traffic. Signal R uses hubs where servers and clients communicate with each other. Hubs allows servers and clients to call methods on eachother. Since the server needs to send the cars commands this is perfect for our Iot-system.
+
+The server needed some specific functionalities in correlation with the problem statement stated earlier. We did some research on what caused traffic jams and chose two problems which our server would focus on solving:
+
+\begin{itemize}
+	\item Delayed reaction times when people stop and accelerate 
+	\item Increased traffic flow in intersections
+\end{itemize}
+
+The first point happens when a car changes velocity. Therefore the server has to check if any car’s have changed their velocity. If yes, the server needs to send a command to all the car’s behind a certain distance of the car that changed their velocity.  The distance will be calculated by the server based on the change of velocity. The command sent out to the car’s behind will be to change velocity based on distance to the car that changed their velocity and the amount of changed velocity.
+
+To increase traffic flow in intersections we can have the server work as some traffic lights. The server can check if cars are closing in on the intersection’s position and give one lane the green light and the other the red light. The lights will depend on which car’s come first. The difference between a server doing this and a traffic light system is that the server can tell the vehicles to slow down before the intersection, making the traffic flow smoother.

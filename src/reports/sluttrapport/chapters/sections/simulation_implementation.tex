@@ -1,0 +1,14 @@
+\section{Implementation of simulation}
+To show that the solution was reaching the requirements we needed to create a demonstration. A demonstration was also an important part of testing the functionalities of the IoT-system. There were two options which were viable in this case. The first one was to create a virtual simulation using unity or another graphic-program. The other option was to build a physical demonstration with two or more cars. We chose to implement a physical demonstration with two cars. This was because we already had one car finished by the previous group. In addition it was more beneficial for Accenture with a physical demo since they can show it at exhibits.
+\begin{itemize}
+	\item That the server can turn off and the cars would still drive on their own.
+	\item Cars communicating through the server and acing based on the server’s decisions
+	\item Scalability to the real world
+\end{itemize}
+First we built the server with only one single lane road in mind. With this solution the potential of showing off the functionalities of the IoT-system was low. We could potentially have shown that if a car in front slows down, the car behind also slows down. This would show that the system could prevent some traffic, but only in a specific scenario. However we wanted to show that the IoT system could work in more than just one single-lane road. We therefore chose to try to emulate an intersection in the physical demo.
+
+For a physical demo to work we needed to build another car. Luckily the previous group had documented their work and we could follow their process from their final report. We also had the parts provided to us. However we were unable to get the full functionality of the second car since the TPU accelerator used by the previous group was unavailable. The TPU accelerator provided the car with the processing power needed for the AI. This meant that the car was built without the camera. But this had a minor effect on our demo since the other car was fully functional without the system. We solved this problem by letting the server do the decision making for the car with less functionality.
+
+We also needed to emulate a road system which contained the intersection we were going to demonstrate in the demo. Since the AI had not trained to recognize intersections yet we had to code a road system into our server that contained roads, lanes and intersections. We then had to build a physical intersection for our cars with tape that correlates with the emulated intersection. 
+
+\input{chapters/sections/subsections/calibration_of_cars}
