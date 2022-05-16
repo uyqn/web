@@ -1,12 +1,2 @@
 \section{Demo}
-To test the solution we have worked on, we made a physical demonstration with two cars that meet at an intersection. We want to test that a combination of a centralized communication system and artificial intelligence can improve traffic flow. What we wanted to observe was that the velocity of the vehicles were not drasticly changed and therefore not distrupting the traffic flow.
 
-We found a space at accenture that was big enough to build the track. Because of the limitations of the raspberry pi were the power given to the vehicles could not be under 40 and over 100, we needed a road that could be over three meters long. If the road was under three meters the vehicle that had be given a power by the server which were under the limit. The server works in a way that the demo would not start until both vehicles had connected to it. Theoreticly this means that the vehicles should start at the same time. We also placed the vehicles at the same lenght apart from the intersection so that they would crash if the server did not intervene. This way we could know for sure that the server were giving directions to the vehicles. 
-
-(Picture of the demo where the vehicles crashes)
-
-To make the demo hundred percent accurate were not possible. This is beacause of the limitations of the raspberry pi. As mentioned it was not a vast gap between the lowest and the highest velocity of the vehicles. The vehicles were not able to recieve the messages at the excact same time as well. This ment that they could start with a difference of half a secound. Another factor was that the vehicles were not always moving completely straight forward which we assumed in the server. However we were able to get a consistent demo with enough margins. We made  vast margins by making a buffersone around the vehicles. The buffersone was about twenty centimeters.
-
-(Picture of a succesful demo! Yay)
-
-We observed troughout multible demonstrations that the vehicles accelerated from 80 cm/s to 55 cm/s when the server intervined. Without the servers intervention, one of the vehicles would have had to completely stop at the intersection which would be a higher change in velocity. We concluded with that in this specific scenario, the server had increased traffic flow. However it is hard to say anyhting regarding more complex scenarios with more vehicles.
