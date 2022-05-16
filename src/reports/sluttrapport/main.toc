@@ -37,7 +37,7 @@
 \contentsline {chapter}{\numberline {4}Product documentation}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Preface}{21}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Program description}{21}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Correlation between product requirements and final product}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Adherence to project requirements}{21}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Server flow diagram}{21}{section.4.4}%
 \contentsline {section}{\numberline {4.5}User manual}{21}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Discussion}{25}{chapter.5}%
