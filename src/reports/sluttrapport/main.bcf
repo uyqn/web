@@ -2795,22 +2795,11 @@
     <bcf:citekey order="2">accenture_about</bcf:citekey>
     <bcf:citekey order="3">iot_analytics</bcf:citekey>
     <bcf:citekey order="4">chinese_iov</bcf:citekey>
-    <bcf:citekey order="5">artificial_intelligence</bcf:citekey>
-    <bcf:citekey order="6">artificial_intelligence</bcf:citekey>
-    <bcf:citekey order="7">ml_explained</bcf:citekey>
-    <bcf:citekey order="8">delua_ibm</bcf:citekey>
-    <bcf:citekey order="9">delua_ibm</bcf:citekey>
-    <bcf:citekey order="10">policy_advise</bcf:citekey>
-    <bcf:citekey order="11">kopestinsky</bcf:citekey>
-    <bcf:citekey order="12">synopsys_autonomous_car</bcf:citekey>
-    <bcf:citekey order="13">datatilsynet_personopplysning</bcf:citekey>
-    <bcf:citekey order="14">iot_analytics</bcf:citekey>
-    <bcf:citekey order="15">chinese_iov</bcf:citekey>
-    <bcf:citekey order="16">iot_gateway</bcf:citekey>
-    <bcf:citekey order="17">raspberrypi</bcf:citekey>
-    <bcf:citekey order="18">iot_platforms</bcf:citekey>
-    <bcf:citekey order="19">iot_platforms</bcf:citekey>
-    <bcf:citekey order="20">iot_platforms</bcf:citekey>
+    <bcf:citekey order="5">iot_gateway</bcf:citekey>
+    <bcf:citekey order="6">raspberrypi</bcf:citekey>
+    <bcf:citekey order="7">iot_platforms</bcf:citekey>
+    <bcf:citekey order="8">iot_platforms</bcf:citekey>
+    <bcf:citekey order="9">iot_platforms</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
