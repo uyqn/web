@@ -2791,38 +2791,19 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">accenture_earning_report_2021</bcf:citekey>
-    <bcf:citekey order="2">accenture_about</bcf:citekey>
-    <bcf:citekey order="3">iot_analytics</bcf:citekey>
-    <bcf:citekey order="4">chinese_iov</bcf:citekey>
-    <bcf:citekey order="5">artificial_intelligence</bcf:citekey>
-    <bcf:citekey order="6">artificial_intelligence</bcf:citekey>
-    <bcf:citekey order="7">ml_explained</bcf:citekey>
-    <bcf:citekey order="8">delua_ibm</bcf:citekey>
-    <bcf:citekey order="9">delua_ibm</bcf:citekey>
-    <bcf:citekey order="10">policy_advise</bcf:citekey>
-    <bcf:citekey order="11">kopestinsky</bcf:citekey>
-    <bcf:citekey order="12">synopsys_autonomous_car</bcf:citekey>
-    <bcf:citekey order="13">datatilsynet_personopplysning</bcf:citekey>
-    <bcf:citekey order="14">iot_gateway</bcf:citekey>
-    <bcf:citekey order="15">raspberrypi</bcf:citekey>
-    <bcf:citekey order="16">iot_platforms</bcf:citekey>
-    <bcf:citekey order="17">iot_platforms</bcf:citekey>
-    <bcf:citekey order="18">iot_platforms</bcf:citekey>
-    <bcf:citekey order="19">accenture_earning_report_2021</bcf:citekey>
-    <bcf:citekey order="20">accenture_about</bcf:citekey>
-    <bcf:citekey order="21">iot_analytics</bcf:citekey>
-    <bcf:citekey order="22">chinese_iov</bcf:citekey>
-    <bcf:citekey order="23">artificial_intelligence</bcf:citekey>
-    <bcf:citekey order="24">ml_explained</bcf:citekey>
-    <bcf:citekey order="25">delua_ibm</bcf:citekey>
-    <bcf:citekey order="26">policy_advise</bcf:citekey>
-    <bcf:citekey order="27">kopestinsky</bcf:citekey>
-    <bcf:citekey order="28">synopsys_autonomous_car</bcf:citekey>
-    <bcf:citekey order="29">datatilsynet_personopplysning</bcf:citekey>
-    <bcf:citekey order="30">iot_gateway</bcf:citekey>
-    <bcf:citekey order="31">raspberrypi</bcf:citekey>
-    <bcf:citekey order="32">iot_platforms</bcf:citekey>
+    <bcf:citekey order="1">rest_api</bcf:citekey>
+    <bcf:citekey order="2">influxdb</bcf:citekey>
+    <bcf:citekey order="3">webhooks</bcf:citekey>
+    <bcf:citekey order="4">rfc_websockets</bcf:citekey>
+    <bcf:citekey order="5">microsoft_websockets</bcf:citekey>
+    <bcf:citekey order="6">microsoft_signalr</bcf:citekey>
+    <bcf:citekey order="7">microsoft_signalr</bcf:citekey>
+    <bcf:citekey order="8">rest_api</bcf:citekey>
+    <bcf:citekey order="9">influxdb</bcf:citekey>
+    <bcf:citekey order="10">webhooks</bcf:citekey>
+    <bcf:citekey order="11">rfc_websockets</bcf:citekey>
+    <bcf:citekey order="12">microsoft_websockets</bcf:citekey>
+    <bcf:citekey order="13">microsoft_signalr</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

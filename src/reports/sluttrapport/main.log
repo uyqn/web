@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  11 MAY 2022 12:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  16 MAY 2022 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,10 +669,7 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./main.aux (./chapters/introductions.aux) (./chapters/research_areas.aux)
-(./chapters/process_documentation.aux) (./chapters/implementation.aux)
-(./chapters/product_documentation.aux) (./chapters/discussion.aux)
-(./chapters/conclusion.aux))
+(./main.aux (./chapters/implementation.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -800,15 +797,7 @@ l.79 	\tableofcontents
                        [1
 
 
-] (./main.toc
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.36 ...{\numberline {6}Discussion}{19}{chapter.6}
-                                                  % [2
-
-])
+] (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -818,196 +807,65 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.82 	\clearpage
-                 [3]
-\openout2 = `chapters/introductions.aux'.
+                 [2
 
- (./chapters/introductions.tex
+]
+\openout2 = `chapters/implementation.aux'.
+
+ (./chapters/implementation.tex
 Chapter 1.
-(./chapters/sections/stakeholders.tex
-(./chapters/sections/subsections/students.tex)
-(./chapters/sections/subsections/product_owner.tex)
-(./chapters/sections/subsections/supervisors.tex)
-(./chapters/sections/subsections/client.tex))
-(./chapters/sections/project_description.tex
-(./chapters/sections/subsections/project_background.tex
+(./chapters/sections/rest_api.tex
+Overfull \hbox (2.00815pt too wide) in paragraph at lines 4--5
+[]\T1/cmr/m/it/10 Representational state trans-fer \T1/cmr/m/n/10 (REST) \T1/cm
+r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
+ []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 
-     [1
+l.13 
+      [1
 
 
 
-]
-Overfull \hbox (3.41492pt too wide) in paragraph at lines 8--9
-[]\T1/cmr/m/n/10 Accenture has in many years of-fered fi-nal year stu-dents at 
-OsloMet and Høyskolen
- []
+]) (./chapters/sections/signalr.tex [2])) [3] [4]
 
-) (./chapters/sections/subsections/significance.tex)
-(./chapters/sections/subsections/goals_and_requirements.tex)
-(./chapters/sections/subsections/problem_statement.tex [2]))) [3]
-\openout2 = `chapters/research_areas.aux'.
-
-
-(./chapters/research_areas.tex
-Chapter 2.
-(./chapters/sections/internet_of_things.tex)
-(./chapters/sections/artificial_intelligence.tex
-Overfull \hbox (9.35681pt too wide) in paragraph at lines 2--3
-\T1/cmr/m/n/10 Artificial in-tel-li-gence(AI) lever-ages com-put-ers and ma-chi
-nes to mimic the problem-
- []
-
-[4
-
-
-
-
-]) (./chapters/sections/machine_learning.tex)
-(./chapters/sections/self_driving_cars.tex [5])
-(./chapters/sections/ethics_and_security.tex)) [6]
-\openout2 = `chapters/process_documentation.aux'.
-
-
-(./chapters/process_documentation.tex
-Chapter 3.
-(./chapters/sections/development_method.tex
-<figures/scrum_process.png, id=306, 990.70125pt x 446.66875pt>
-File: figures/scrum_process.png Graphic file (type png)
-<use figures/scrum_process.png>
-Package pdftex.def Info: figures/scrum_process.png  used on input line 8.
-(pdftex.def)             Requested size: 345.0pt x 155.54579pt.
- [7
-
-
-
-
- <./figures/scrum_process.png>]
-<figures/kanban_screenshot.png, id=315, 1495.5875pt x 858.20625pt>
-File: figures/kanban_screenshot.png Graphic file (type png)
-<use figures/kanban_screenshot.png>
-Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 26.
-(pdftex.def)             Requested size: 345.0pt x 197.97256pt.
-)
-(./chapters/sections/tools_and_technology.tex [8 <./figures/kanban_screenshot.p
-ng>])) [9]
-\openout2 = `chapters/implementation.aux'.
-
- (./chapters/implementation.tex
-Chapter 4.
-(./chapters/sections/pre_project_phase.tex
-(./chapters/sections/subsections/programming_language.tex))
-(./chapters/sections/client_server_implementation.tex [10
-
-
-
-
-]
-(./chapters/sections/subsections/client_implementation.tex)
-(./chapters/sections/subsections/server_implementation.tex [11]))
-(./chapters/sections/simulation_implementation.tex [12]
-(./chapters/sections/subsections/calibration_of_cars.tex [13]))
-(./chapters/sections/system_security.tex
-(./chapters/sections/subsections/privacy.tex))) [14] [15]
-\openout2 = `chapters/product_documentation.aux'.
-
-
-(./chapters/product_documentation.tex
-Chapter 5.
-(./chapters/sections/client_and_server.tex) (./chapters/sections/demo.tex)
-(./chapters/sections/user_manual.tex
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [16
-
-
-
-
-] [17
-
-]))
-[18]
-\openout2 = `chapters/discussion.aux'.
-
- (./chapters/discussion.tex
-Chapter 6.
-(./chapters/sections/evaluation_of_process.tex
-(./chapters/sections/subsections/work_methodology.tex))
-(./chapters/sections/evaluation_of_results.tex)
-(./chapters/sections/further_work.tex [19
-
-
-
-
-]
-(./chapters/sections/subsections/scalability.tex)
-(./chapters/sections/subsections/extendability_real_world.tex)
-(./chapters/sections/subsections/risk_management.tex))) [20]
-\openout2 = `chapters/conclusion.aux'.
-
-
-(./chapters/conclusion.tex
-Chapter 7.
-) [21
-
-
-
-
-]
-Overfull \hbox (9.65384pt too wide) in paragraph at lines 102--102
-\T1/cmr/m/it/10 2022\T1/cmr/m/n/10 . Re-trieved March 21, 2022, from [][]$https
- : / / policyadvice . net / insurance /
- []
-
-[22
-
-
-
-
-] 
 AED: lastpage setting LastPage
-[23] (./main.aux (./chapters/introductions.aux) (./chapters/research_areas.aux)
-(./chapters/process_documentation.aux) (./chapters/implementation.aux)
-(./chapters/product_documentation.aux) (./chapters/discussion.aux)
-(./chapters/conclusion.aux))
+[5
+
+
+
+
+] (./main.aux (./chapters/implementation.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E1BC131995E2F2D3E2AD5B106688B567;6469.
+(rerunfilecheck)             Checksum: 9DDF3A010E32D3117CE500DEAF6C346E;506.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23077 strings out of 478238
- 404309 string characters out of 5843941
- 1388536 words of memory out of 5000000
- 40737 multiletter control sequences out of 15000+600000
- 483101 words of font info for 65 fonts, out of 8000000 for 9000
+ 22165 strings out of 478238
+ 380364 string characters out of 5843941
+ 1195590 words of memory out of 5000000
+ 40107 multiletter control sequences out of 15000+600000
+ 482012 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,12n,75p,1210b,5035s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,11n,72p,1193b,5035s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
-2022/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2022
-/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (28 pages, 717255 bytes).
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on main.pdf (9 pages, 149684 bytes).
 PDF statistics:
- 579 PDF objects out of 1000 (max. 8388607)
- 512 compressed objects within 6 object streams
- 140 named destinations out of 1000 (max. 500000)
- 363 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
