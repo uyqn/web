@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.23)  16 MAY 2022 09:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.23)  16 MAY 2022 11:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,25 +934,26 @@ LaTeX Warning: Citation 'iot_analytics' on page 10 undefined on input line 3.
 LaTeX Warning: Citation 'chinese_iov' on page 10 undefined on input line 5.
 
 ) (chapters/sections/subsections/Increasing_trafficflow_for_one_lane_road.tex
+Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
+|[]\T1/cmr/bx/n/12 Preventing traf-fic con-ges-tions for a one lane road| 
+ []
+
 [10]) (chapters/sections/subsections/MoSCoW_method.tex
 <figures/MosCoW_method.png, id=313, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 10.
 (pdftex.def)             Requested size: 345.0pt x 188.69875pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)) (chapters/sections/client_server_implementation.tex
+))
+(chapters/sections/client_server_implementation.tex
 
 LaTeX Warning: Citation 'iot_gateway' on page 11 undefined on input line 2.
 
+[11 <./figures/MosCoW_method.png>]
 (chapters/sections/subsections/client_implementation.tex
 
-LaTeX Warning: Citation 'raspberrypi' on page 11 undefined on input line 2.
+LaTeX Warning: Citation 'raspberrypi' on page 12 undefined on input line 2.
 
-[11]
 
 LaTeX Warning: Citation 'iot_platforms' on page 12 undefined on input line 4.
 
@@ -960,12 +961,11 @@ LaTeX Warning: Citation 'iot_platforms' on page 12 undefined on input line 4.
 
 LaTeX Warning: Citation 'iot_platforms' on page 12 undefined on input line 2.
 
-[12 <./figures/MosCoW_method.png>] [13]))
-(chapters/sections/simulation_implementation.tex
+[12])) (chapters/sections/simulation_implementation.tex [13]
 (chapters/sections/subsections/calibration_of_cars.tex [14]))
-(chapters/sections/system_security.tex [15]
+(chapters/sections/system_security.tex
 (chapters/sections/subsections/privacy.tex)) (chapters/sections/demo_phase.tex
-(chapters/sections/subsections/building_car.tex))) [16] [17
+[15] (chapters/sections/subsections/building_car.tex))) [16] [17
 
 
 
@@ -976,19 +976,19 @@ LaTeX Warning: Citation 'iot_platforms' on page 12 undefined on input line 2.
 (chapters/product_documentation.tex
 Chapter 4.
 (chapters/sections/client_and_server.tex) (chapters/sections/demo.tex)
-(chapters/sections/user_manual.tex
+(chapters/sections/user_manual.tex [18
+
+
+]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 .
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[18
+[19] [20
 
-
-] [19
-
-])) [20]
+])) [21]
 \openout2 = `chapters/discussion.aux'.
 
  (chapters/discussion.tex
@@ -996,7 +996,7 @@ Chapter 5.
 (chapters/sections/evaluation_of_process.tex
 (chapters/sections/subsections/work_methodology.tex))
 (chapters/sections/evaluation_of_results.tex)
-(chapters/sections/further_work.tex [21
+(chapters/sections/further_work.tex [22
 
 
 
@@ -1005,15 +1005,15 @@ Chapter 5.
 (chapters/sections/subsections/scalability.tex)
 (chapters/sections/subsections/extendability_real_world.tex
 
-LaTeX Warning: Citation 'iot_platforms' on page 22 undefined on input line 5.
+LaTeX Warning: Citation 'iot_platforms' on page 23 undefined on input line 5.
 
-) (chapters/sections/subsections/risk_management.tex))) [22]
+) (chapters/sections/subsections/risk_management.tex))) [23]
 \openout2 = `chapters/conclusion.aux'.
 
 
 (chapters/conclusion.tex
 Chapter 6.
-) [23
+) [24
 
 
 
@@ -1031,7 +1031,7 @@ AED: lastpage setting LastPage
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8AAC6402CD445E35708BD7F0865F643A;6830.
+(rerunfilecheck)             Checksum: D75A9351FC19109B2730872B1491327A;6865.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1042,8 +1042,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22810 strings out of 478659
- 404027 string characters out of 2845920
+ 22811 strings out of 478659
+ 404034 string characters out of 2845920
  1382756 words of memory out of 3000000
  40354 multiletter control sequences out of 15000+600000
  418136 words of font info for 65 fonts, out of 8000000 for 9000
@@ -1065,9 +1065,9 @@ s/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 <C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 r7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on main.pdf (28 pages, 730331 bytes).
+Output written on main.pdf (29 pages, 732864 bytes).
 PDF statistics:
- 875 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
+ 880 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
  376 words of extra memory for PDF output out of 10000 (max. 10000000)
 
