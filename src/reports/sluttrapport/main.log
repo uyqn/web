@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.13)  16 MAY 2022 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.13)  16 MAY 2022 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,7 +683,8 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(main.aux (chapters/implementation.aux) (chapters/product_documentation.aux)
+(main.aux (chapters/introductions.aux) (chapters/process_documentation.aux)
+(chapters/implementation.aux) (chapters/product_documentation.aux)
 (chapters/discussion.aux) (chapters/conclusion.aux))
 \openout1 = `main.aux'.
 
@@ -817,7 +818,15 @@ l.79 	\tableofcontents
                        [1
 
 
-] (main.toc)
+] (main.toc
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 ... to project requirements}{19}{section.4.5}
+                                                  % [2
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -827,21 +836,87 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.82 	\clearpage
-                 [2
+                 [3]
+\openout2 = `chapters/introductions.aux'.
 
-]
-\openout2 = `chapters/implementation.aux'.
-
- (chapters/implementation.tex
+ (chapters/introductions.tex
 Chapter 1.
-(chapters/sections/phases.tex) (chapters/sections/pre_project_phase.tex
-(chapters/sections/subsections/programming_language.tex)
+(chapters/sections/stakeholders.tex (chapters/sections/subsections/students.tex
+) (chapters/sections/subsections/product_owner.tex)
+(chapters/sections/subsections/supervisors.tex)
+(chapters/sections/subsections/client.tex
+
+LaTeX Warning: Citation 'accenture_earning_report_2021' on page 1 undefined on 
+input line 4.
+
+
+LaTeX Warning: Citation 'accenture_about' on page 1 undefined on input line 4.
+
+)) (chapters/sections/project_description.tex
+Overfull \hbox (50.27847pt too wide) in paragraph at lines 4--1
+\T1/cmr/m/n/10 In 2021, Ac-cen-ture gen-er-ated a rev-enue of ap-prox-i-mately 
+$50.3 bil-lion ([]).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--1
+
+ []
+
+(chapters/sections/subsections/project_background.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 
-      [1
+l.3 
+     [1
+
+
+
+]
+Overfull \hbox (3.41492pt too wide) in paragraph at lines 8--9
+[]\T1/cmr/m/n/10 Accenture has in many years of-fered fi-nal year stu-dents at 
+OsloMet and Høyskolen
+ []
+
+) (chapters/sections/subsections/significance.tex)
+(chapters/sections/subsections/goals_and_requirements.tex)
+(chapters/sections/subsections/problem_statement.tex [2]))) [3]
+\openout2 = `chapters/process_documentation.aux'.
+
+
+(chapters/process_documentation.tex
+Chapter 2.
+(chapters/sections/development_method.tex
+<figures/scrum_process.png, id=272, 990.70125pt x 446.66875pt>
+File: figures/scrum_process.png Graphic file (type png)
+<use figures/scrum_process.png>
+Package pdftex.def Info: figures/scrum_process.png  used on input line 8.
+(pdftex.def)             Requested size: 345.0pt x 155.54579pt.
+ [4
+
+
+
+
+ <./figures/scrum_process.png>]
+<figures/kanban_screenshot.png, id=280, 1495.5875pt x 858.20625pt>
+File: figures/kanban_screenshot.png Graphic file (type png)
+<use figures/kanban_screenshot.png>
+Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 30.
+(pdftex.def)             Requested size: 345.0pt x 197.97256pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (chapters/sections/tools_and_technology.tex [5] [6 <./figures/kanban_screensh
+ot.png>])) [7]
+\openout2 = `chapters/implementation.aux'.
+
+ (chapters/implementation.tex
+Chapter 3.
+(chapters/sections/phases.tex) (chapters/sections/pre_project_phase.tex
+(chapters/sections/subsections/programming_language.tex) [8
+
 
 
 
@@ -849,14 +924,14 @@ l.20
 (chapters/sections/subsections/artificial_intelligence_and_Internet_of_things.t
 ex
 
-LaTeX Warning: Citation 'iot_analytics' on page 2 undefined on input line 3.
+LaTeX Warning: Citation 'iot_analytics' on page 9 undefined on input line 3.
 
 
-LaTeX Warning: Citation 'chinese_iov' on page 2 undefined on input line 5.
+LaTeX Warning: Citation 'chinese_iov' on page 9 undefined on input line 5.
 
 ) (chapters/sections/subsections/Increasing_trafficflow_for_one_lane_road.tex
-[2]) (chapters/sections/subsections/MoSCoW_method.tex
-<figures/MosCoW_method.png, id=183, 1036.87375pt x 567.11874pt>
+[9]) (chapters/sections/subsections/MoSCoW_method.tex
+<figures/MosCoW_method.png, id=308, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 10.
@@ -867,37 +942,37 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )) (chapters/sections/client_server_implementation.tex
 
-LaTeX Warning: Citation 'iot_gateway' on page 3 undefined on input line 2.
+LaTeX Warning: Citation 'iot_gateway' on page 10 undefined on input line 2.
 
 (chapters/sections/subsections/client_implementation.tex
 
-LaTeX Warning: Citation 'raspberrypi' on page 3 undefined on input line 2.
+LaTeX Warning: Citation 'raspberrypi' on page 10 undefined on input line 2.
 
-[3]
+[10]
 
-LaTeX Warning: Citation 'iot_platforms' on page 4 undefined on input line 4.
+LaTeX Warning: Citation 'iot_platforms' on page 11 undefined on input line 4.
 
 ) (chapters/sections/subsections/server_implementation.tex
 
-LaTeX Warning: Citation 'iot_platforms' on page 4 undefined on input line 2.
+LaTeX Warning: Citation 'iot_platforms' on page 11 undefined on input line 2.
 
-[4 <./figures/MosCoW_method.png>] [5]))
+[11 <./figures/MosCoW_method.png>] [12]))
 (chapters/sections/simulation_implementation.tex)
-(chapters/sections/system_security.tex [6]
+(chapters/sections/system_security.tex [13]
 (chapters/sections/subsections/privacy.tex)) (chapters/sections/demo_phase.tex
-(chapters/sections/subsections/building_car.tex [7]
-<figures/two_cars.jpg, id=213, 4047.12pt x 3035.34pt>
+(chapters/sections/subsections/building_car.tex [14]
+<figures/two_cars.jpg, id=337, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 (pdftex.def)             Requested size: 345.0pt x 258.71838pt.
 )
-(chapters/sections/subsections/calibration_of_cars.tex [8 <./figures/two_cars.j
-pg>]))) [9]
+(chapters/sections/subsections/calibration_of_cars.tex [15 <./figures/two_cars.
+jpg>]))) [16]
 \openout2 = `chapters/product_documentation.aux'.
 
  (chapters/product_documentation.tex
-Chapter 2.
+Chapter 4.
 (chapters/sections/client_and_server.tex) (chapters/sections/demo.tex)
 (chapters/sections/user_manual.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
@@ -905,23 +980,25 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 
 (C:\Users\anha\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [10
+) [17
 
 
 
 
 ]
-[11
+[18
 
-])) [12]
+]) (chapters/sections/raspberry_pi.tex)
+(chapters/sections/adherence_to_requirements.tex)) [19]
 \openout2 = `chapters/discussion.aux'.
 
- (chapters/discussion.tex
-Chapter 3.
+
+(chapters/discussion.tex
+Chapter 5.
 (chapters/sections/evaluation_of_process.tex
 (chapters/sections/subsections/work_methodology.tex))
 (chapters/sections/evaluation_of_results.tex)
-(chapters/sections/further_work.tex [13
+(chapters/sections/further_work.tex [20
 
 
 
@@ -930,15 +1007,15 @@ Chapter 3.
 (chapters/sections/subsections/scalability.tex)
 (chapters/sections/subsections/extendability_real_world.tex
 
-LaTeX Warning: Citation 'iot_platforms' on page 14 undefined on input line 5.
+LaTeX Warning: Citation 'iot_platforms' on page 21 undefined on input line 5.
 
-) (chapters/sections/subsections/risk_management.tex))) [14]
+) (chapters/sections/subsections/risk_management.tex))) [21]
 \openout2 = `chapters/conclusion.aux'.
 
 
 (chapters/conclusion.tex
-Chapter 4.
-) [15
+Chapter 6.
+) [22
 
 
 
@@ -949,13 +1026,14 @@ LaTeX Warning: Empty bibliography on input line 101.
 
 
 AED: lastpage setting LastPage
-(main.aux (chapters/implementation.aux) (chapters/product_documentation.aux)
+(main.aux (chapters/introductions.aux) (chapters/process_documentation.aux)
+(chapters/implementation.aux) (chapters/product_documentation.aux)
 (chapters/discussion.aux) (chapters/conclusion.aux))
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FA2AD1F7C2FDE54C38ADED6CBB681E37;4625.
+(rerunfilecheck)             Checksum: 863026C5F49674E0A3D79010C7E27863;6861.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -966,10 +1044,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22739 strings out of 478619
- 398498 string characters out of 2843717
- 1378844 words of memory out of 3000000
- 40408 multiletter control sequences out of 15000+600000
+ 22944 strings out of 478619
+ 407277 string characters out of 2843717
+ 1384412 words of memory out of 3000000
+ 40530 multiletter control sequences out of 15000+600000
  482415 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,70p,1296b,5035s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -987,9 +1065,9 @@ grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/anha/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/anha/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/a
 nha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (19 pages, 977820 bytes).
+Output written on main.pdf (27 pages, 1424809 bytes).
 PDF statistics:
- 722 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 868 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
