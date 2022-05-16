@@ -1,25 +1,25 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.23)  16 MAY 2022 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  16 MAY 2022 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2021-11-22>
+L3 programming layer <2022-05-04>
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count183
-\c@chapter=\count184
-\c@section=\count185
-\c@subsection=\count186
-\c@subsubsection=\count187
-\c@paragraph=\count188
-\c@subparagraph=\count189
-\c@figure=\count190
-\c@table=\count191
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -37,14 +37,14 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/11/29 3.67 The Babel package
-\babel@savecnt=\count192
+Package: babel 2022/04/30 3.74 The Babel package
+\babel@savecnt=\count194
 \U@D=\dimen139
 \l@unhyphenated=\language79
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count193
+\bbl@dirlevel=\count195
 
 *************************************
 * Local config file bblopts.cfg used
@@ -84,13 +84,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count194
+\inf@bad=\count196
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count195
-\leftroot@=\count196
+\uproot@=\count197
+\leftroot@=\count198
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count197
-\DOTSCASE@=\count198
+\classnum@=\count199
+\DOTSCASE@=\count266
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -99,15 +99,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen142
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count199
-\c@MaxMatrixCols=\count266
+\macc@depth=\count267
+\c@MaxMatrixCols=\count268
 \dotsspace@=\muskip17
-\c@parentequation=\count267
-\dspbrk@lvl=\count268
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
 \tag@help=\toks19
-\row@=\count269
-\column@=\count270
-\maxfields@=\count271
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
 \andhelp@=\toks20
 \eqnshift@=\dimen143
 \alignsep@=\dimen144
@@ -139,7 +139,7 @@ Package: polynom 2017/07/17 0.19 (CH,HA)
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-\pld@currstage=\count272
+\pld@currstage=\count274
 )
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
@@ -155,7 +155,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count273
+\etb@tempcnta=\count275
 )) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
 y
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
@@ -169,7 +169,7 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen152
 \titlewidthfirst=\dimen153
 ) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+Package: fancyhdr 2022/05/10 v4.0.2 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip54
 \f@nch@O@elh=\skip55
@@ -202,23 +202,23 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@width=\dimen155
 )
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count274
+\lst@mode=\count276
 \lst@gtempboxa=\box53
 \lst@token=\toks25
-\lst@length=\count275
+\lst@length=\count277
 \lst@currlwidth=\dimen156
-\lst@column=\count276
-\lst@pos=\count277
+\lst@column=\count278
+\lst@pos=\count279
 \lst@lostspace=\dimen157
 \lst@width=\dimen158
-\lst@newlines=\count278
-\lst@lineno=\count279
+\lst@newlines=\count280
+\lst@lineno=\count281
 \lst@maxwidth=\dimen159
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count280
-\lst@skipnumbers=\count281
+\c@lstnumber=\count282
+\lst@skipnumbers=\count283
 \lst@framebox=\box54
 )
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -226,10 +226,10 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+Package: hyperref 2022-05-13 v7.00o Hypertext links for LaTeX
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
@@ -262,18 +262,13 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen160
-\Hy@linkcounter=\count282
-\Hy@pagecounter=\count283
+\Hy@linkcounter=\count284
+\Hy@pagecounter=\count285
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2022-05-13 v7.00o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langp
-atches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
-nguages
 )
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -281,21 +276,21 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count284
+\Hy@SavedSpaceFactor=\count286
  (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-05-13 v7.00o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Hyper figures OFF on input line 4142.
+Package hyperref Info: Link nesting OFF on input line 4147.
+Package hyperref Info: Hyper index ON on input line 4150.
+Package hyperref Info: Plain pages OFF on input line 4157.
+Package hyperref Info: Backreferencing OFF on input line 4162.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count285
-LaTeX Info: Redefining \url on input line 4804.
+Package hyperref Info: Bookmarks ON on input line 4395.
+\c@Hy@tempcnt=\count287
+LaTeX Info: Redefining \url on input line 4742.
 \XeTeXLinkMargin=\dimen161
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
@@ -306,38 +301,38 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count286
+\Fld@menulength=\count288
 \Field@Width=\dimen162
 \Fld@charsize=\dimen163
-Package hyperref Info: Hyper figures OFF on input line 6076.
-Package hyperref Info: Link nesting OFF on input line 6081.
-Package hyperref Info: Hyper index ON on input line 6084.
-Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring OFF on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6101.
-Package hyperref Info: PDF/A mode OFF on input line 6106.
-LaTeX Info: Redefining \ref on input line 6146.
-LaTeX Info: Redefining \pageref on input line 6150.
+Package hyperref Info: Hyper figures OFF on input line 6020.
+Package hyperref Info: Link nesting OFF on input line 6025.
+Package hyperref Info: Hyper index ON on input line 6028.
+Package hyperref Info: backreferencing OFF on input line 6035.
+Package hyperref Info: Link coloring OFF on input line 6040.
+Package hyperref Info: Link coloring with OCG OFF on input line 6045.
+Package hyperref Info: PDF/A mode OFF on input line 6050.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6097.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count287
-\c@Item=\count288
-\c@Hfootnote=\count289
+\Hy@abspage=\count289
+\c@Item=\count290
+\c@Hfootnote=\count291
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+File: hpdftex.def 2022-05-13 v7.00o Hyperref driver for pdfTeX
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count290
-\c@bookmark@seq@number=\count291
+\Fld@listcount=\count292
+\c@bookmark@seq@number=\count293
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -371,10 +366,10 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 26.
  (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count292
+\lrq@indent=\count294
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -382,48 +377,48 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count293
-\c@listtotal=\count294
-\c@listcount=\count295
-\c@liststart=\count296
-\c@liststop=\count297
-\c@citecount=\count298
-\c@citetotal=\count299
-\c@multicitecount=\count300
-\c@multicitetotal=\count301
-\c@instcount=\count302
-\c@maxnames=\count303
-\c@minnames=\count304
-\c@maxitems=\count305
-\c@minitems=\count306
-\c@citecounter=\count307
-\c@maxcitecounter=\count308
-\c@savedcitecounter=\count309
-\c@uniquelist=\count310
-\c@uniquename=\count311
-\c@refsection=\count312
-\c@refsegment=\count313
-\c@maxextratitle=\count314
-\c@maxextratitleyear=\count315
-\c@maxextraname=\count316
-\c@maxextradate=\count317
-\c@maxextraalpha=\count318
-\c@abbrvpenalty=\count319
-\c@highnamepenalty=\count320
-\c@lownamepenalty=\count321
-\c@maxparens=\count322
-\c@parenlevel=\count323
-\blx@tempcnta=\count324
-\blx@tempcntb=\count325
-\blx@tempcntc=\count326
-\blx@maxsection=\count327
-\blx@maxsegment@0=\count328
-\blx@notetype=\count329
-\blx@parenlevel@text=\count330
-\blx@parenlevel@foot=\count331
-\blx@sectionciteorder@0=\count332
-\blx@entrysetcounter=\count333
-\blx@biblioinstance=\count334
+\c@tabx@nest=\count295
+\c@listtotal=\count296
+\c@listcount=\count297
+\c@liststart=\count298
+\c@liststop=\count299
+\c@citecount=\count300
+\c@citetotal=\count301
+\c@multicitecount=\count302
+\c@multicitetotal=\count303
+\c@instcount=\count304
+\c@maxnames=\count305
+\c@minnames=\count306
+\c@maxitems=\count307
+\c@minitems=\count308
+\c@citecounter=\count309
+\c@maxcitecounter=\count310
+\c@savedcitecounter=\count311
+\c@uniquelist=\count312
+\c@uniquename=\count313
+\c@refsection=\count314
+\c@refsegment=\count315
+\c@maxextratitle=\count316
+\c@maxextratitleyear=\count317
+\c@maxextraname=\count318
+\c@maxextradate=\count319
+\c@maxextraalpha=\count320
+\c@abbrvpenalty=\count321
+\c@highnamepenalty=\count322
+\c@lownamepenalty=\count323
+\c@maxparens=\count324
+\c@parenlevel=\count325
+\blx@tempcnta=\count326
+\blx@tempcntb=\count327
+\blx@tempcntc=\count328
+\c@blx@maxsection=\count329
+\c@blx@maxsegment@0=\count330
+\blx@notetype=\count331
+\blx@parenlevel@text=\count332
+\blx@parenlevel@foot=\count333
+\c@blx@sectionciteorder@0=\count334
+\blx@entrysetcounter=\count335
+\blx@biblioinstance=\count336
 \labelnumberwidth=\skip64
 \labelalphawidth=\skip65
 \biblabelsep=\skip66
@@ -435,14 +430,14 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count335
-\c@maxcomprange=\count336
-\c@mincompwidth=\count337
+\c@mincomprange=\count337
+\c@maxcomprange=\count338
+\c@mincompwidth=\count339
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
@@ -452,84 +447,84 @@ File: apa.dbx 2021/12/24 v9.15 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count338
-\c@savedafterword=\count339
-\c@annotator=\count340
-\c@savedannotator=\count341
-\c@author=\count342
-\c@savedauthor=\count343
-\c@bookauthor=\count344
-\c@savedbookauthor=\count345
-\c@commentator=\count346
-\c@savedcommentator=\count347
-\c@editor=\count348
-\c@savededitor=\count349
-\c@editora=\count350
-\c@savededitora=\count351
-\c@editorb=\count352
-\c@savededitorb=\count353
-\c@editorc=\count354
-\c@savededitorc=\count355
-\c@foreword=\count356
-\c@savedforeword=\count357
-\c@holder=\count358
-\c@savedholder=\count359
-\c@introduction=\count360
-\c@savedintroduction=\count361
-\c@namea=\count362
-\c@savednamea=\count363
-\c@nameb=\count364
-\c@savednameb=\count365
-\c@namec=\count366
-\c@savednamec=\count367
-\c@translator=\count368
-\c@savedtranslator=\count369
-\c@shortauthor=\count370
-\c@savedshortauthor=\count371
-\c@shorteditor=\count372
-\c@savedshorteditor=\count373
-\c@narrator=\count374
-\c@savednarrator=\count375
-\c@execproducer=\count376
-\c@savedexecproducer=\count377
-\c@execdirector=\count378
-\c@savedexecdirector=\count379
-\c@with=\count380
-\c@savedwith=\count381
-\c@labelname=\count382
-\c@savedlabelname=\count383
-\c@institution=\count384
-\c@savedinstitution=\count385
-\c@lista=\count386
-\c@savedlista=\count387
-\c@listb=\count388
-\c@savedlistb=\count389
-\c@listc=\count390
-\c@savedlistc=\count391
-\c@listd=\count392
-\c@savedlistd=\count393
-\c@liste=\count394
-\c@savedliste=\count395
-\c@listf=\count396
-\c@savedlistf=\count397
-\c@location=\count398
-\c@savedlocation=\count399
-\c@organization=\count400
-\c@savedorganization=\count401
-\c@origlocation=\count402
-\c@savedoriglocation=\count403
-\c@origpublisher=\count404
-\c@savedorigpublisher=\count405
-\c@publisher=\count406
-\c@savedpublisher=\count407
-\c@language=\count408
-\c@savedlanguage=\count409
-\c@origlanguage=\count410
-\c@savedoriglanguage=\count411
-\c@citation=\count412
-\c@savedcitation=\count413
-\c@pageref=\count414
-\c@savedpageref=\count415
+\c@afterword=\count340
+\c@savedafterword=\count341
+\c@annotator=\count342
+\c@savedannotator=\count343
+\c@author=\count344
+\c@savedauthor=\count345
+\c@bookauthor=\count346
+\c@savedbookauthor=\count347
+\c@commentator=\count348
+\c@savedcommentator=\count349
+\c@editor=\count350
+\c@savededitor=\count351
+\c@editora=\count352
+\c@savededitora=\count353
+\c@editorb=\count354
+\c@savededitorb=\count355
+\c@editorc=\count356
+\c@savededitorc=\count357
+\c@foreword=\count358
+\c@savedforeword=\count359
+\c@holder=\count360
+\c@savedholder=\count361
+\c@introduction=\count362
+\c@savedintroduction=\count363
+\c@namea=\count364
+\c@savednamea=\count365
+\c@nameb=\count366
+\c@savednameb=\count367
+\c@namec=\count368
+\c@savednamec=\count369
+\c@translator=\count370
+\c@savedtranslator=\count371
+\c@shortauthor=\count372
+\c@savedshortauthor=\count373
+\c@shorteditor=\count374
+\c@savedshorteditor=\count375
+\c@narrator=\count376
+\c@savednarrator=\count377
+\c@execproducer=\count378
+\c@savedexecproducer=\count379
+\c@execdirector=\count380
+\c@savedexecdirector=\count381
+\c@with=\count382
+\c@savedwith=\count383
+\c@labelname=\count384
+\c@savedlabelname=\count385
+\c@institution=\count386
+\c@savedinstitution=\count387
+\c@lista=\count388
+\c@savedlista=\count389
+\c@listb=\count390
+\c@savedlistb=\count391
+\c@listc=\count392
+\c@savedlistc=\count393
+\c@listd=\count394
+\c@savedlistd=\count395
+\c@liste=\count396
+\c@savedliste=\count397
+\c@listf=\count398
+\c@savedlistf=\count399
+\c@location=\count400
+\c@savedlocation=\count401
+\c@organization=\count402
+\c@savedorganization=\count403
+\c@origlocation=\count404
+\c@savedoriglocation=\count405
+\c@origpublisher=\count406
+\c@savedorigpublisher=\count407
+\c@publisher=\count408
+\c@savedpublisher=\count409
+\c@language=\count410
+\c@savedlanguage=\count411
+\c@origlanguage=\count412
+\c@savedoriglanguage=\count413
+\c@citation=\count414
+\c@savedcitation=\count415
+\c@pageref=\count416
+\c@savedpageref=\count417
 \shorthandwidth=\skip72
 \shortjournalwidth=\skip73
 \shortserieswidth=\skip74
@@ -548,25 +543,25 @@ Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count416
-\c@textcitetotal=\count417
-\c@textcitemaxnames=\count418
-\c@biburlbigbreakpenalty=\count419
-\c@biburlbreakpenalty=\count420
-\c@biburlnumpenalty=\count421
-\c@biburlucpenalty=\count422
-\c@biburllcpenalty=\count423
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count418
+\c@textcitetotal=\count419
+\c@textcitemaxnames=\count420
+\c@biburlbigbreakpenalty=\count421
+\c@biburlbreakpenalty=\count422
+\c@biburlnumpenalty=\count423
+\c@biburlucpenalty=\count424
+\c@biburllcpenalty=\count425
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count424
+\c@smartand=\count426
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -577,9 +572,9 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
-File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count425
-\c@bbx:relatedtotal=\count426
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count427
+\c@bbx:relatedtotal=\count428
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
 ed, overwriting.
@@ -592,10 +587,10 @@ Package biblatex Warning: The starred command '\DeclareDelimAlias*' is
 (biblatex)                Use the unstarred version '\DeclareDelimAlias'
 (biblatex)                instead.
 
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'blx@printdelim@b
-ib@' already defined, overwriting.
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'blx@printdelim@b
-iblist@' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
 )
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
@@ -625,15 +620,40 @@ Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
-)) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.st
-y
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-05-04 L3 programming layer (loader) 
+
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count429
+\l__pdf_internal_box=\box55
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2022-05-04 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+))
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count427
-\csq@gtype=\count428
-\csq@glevel=\count429
-\csq@qlevel=\count430
-\csq@maxlvl=\count431
-\csq@tshold=\count432
+\csq@reset=\count430
+\csq@gtype=\count431
+\csq@glevel=\count432
+\csq@qlevel=\count433
+\csq@maxlvl=\count434
+\csq@tshold=\count435
 \csq@ltx@everypar=\toks26
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -653,20 +673,12 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
-(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count433
-\l__pdf_internal_box=\box55
-)
-
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(main.aux (chapters/introductions.aux) (chapters/research_areas.aux)
-(chapters/process_documentation.aux) (chapters/implementation.aux)
-(chapters/product_documentation.aux) (chapters/discussion.aux)
-(chapters/conclusion.aux))
+(main.aux (chapters/introductions.aux) (chapters/process_documentation.aux)
+(chapters/implementation.aux) (chapters/product_documentation.aux)
+(chapters/discussion.aux) (chapters/conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -691,16 +703,16 @@ LaTeX Font Info:    ... okay on input line 62.
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count434
+\scratchcounter=\count436
 \scratchdimen=\dimen164
 \scratchbox=\box56
-\nofMPsegments=\count435
-\nofMParguments=\count436
+\nofMPsegments=\count437
+\nofMParguments=\count438
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count437
+\MPscratchCnt=\count439
 \MPscratchDim=\dimen165
-\MPnumerator=\count438
-\makeMPintoPDFobject=\count439
+\MPnumerator=\count440
+\makeMPintoPDFobject=\count441
 \everyMPtoPDFconversion=\toks28
 )
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -713,11 +725,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count440
+\c@lstlisting=\count442
 Package hyperref Info: Link coloring ON on input line 62.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+Package: nameref 2022-05-13 v2.48 Cross-referencing by name of section
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -726,12 +738,8 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count441
-)
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
- (main.out) (main.out)
+\c@section@level=\count443
+) (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -746,7 +754,7 @@ Package biblatex Info: ... file 'english.lbx' found.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
 x
-File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
@@ -759,35 +767,17 @@ Package biblatex Info: ... file 'american.lbx' found.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.l
 bx
-File: american.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+File: american.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
 x
-File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 ))))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-
-(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-11-22 L3 programming layer (loader) 
-)
-Package biblatex Info: ... and expl3
-(biblatex)             2021-11-22 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
-.sty
-(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
-Package: xparse 2021-11-12 L3 Experimental document command parser
-)
-Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
-)
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
@@ -826,7 +816,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 ...bration of the cars}{17}{subsection.4.6.2}
+l.37 ...e {4}Product documentation}{21}{chapter.4}
                                                   % [2
 
 ])
@@ -885,87 +875,24 @@ OsloMet and Høyskolen
 ) (chapters/sections/subsections/significance.tex)
 (chapters/sections/subsections/goals_and_requirements.tex)
 (chapters/sections/subsections/problem_statement.tex [2]))) [3]
-\openout2 = `chapters/research_areas.aux'.
-
-
-(chapters/research_areas.tex
-Chapter 2.
-(chapters/sections/internet_of_things.tex
-
-LaTeX Warning: Citation 'iot_analytics' on page 4 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'chinese_iov' on page 4 undefined on input line 4.
-
-) (chapters/sections/artificial_intelligence.tex
-
-LaTeX Warning: Citation 'artificial_intelligence' on page 4 undefined on input 
-line 2.
-
-
-Overfull \hbox (9.35681pt too wide) in paragraph at lines 2--3
-\T1/cmr/m/n/10 Artificial in-tel-li-gence(AI) lever-ages com-put-ers and ma-chi
-nes to mimic the problem-
- []
-
-[4
-
-
-
-
-]
-
-LaTeX Warning: Citation 'artificial_intelligence' on page 5 undefined on input 
-line 4.
-
-) (chapters/sections/machine_learning.tex
-
-LaTeX Warning: Citation 'ml_explained' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Citation 'delua_ibm' on page 5 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'delua_ibm' on page 5 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'policy_advise' on page 5 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'kopestinsky' on page 5 undefined on input line 11.
-
-) (chapters/sections/self_driving_cars.tex [5]
-
-LaTeX Warning: Citation 'synopsys_autonomous_car' on page 6 undefined on input 
-line 4.
-
-) (chapters/sections/ethics_and_security.tex
-Overfull \hbox (2.32816pt too wide) in paragraph at lines 4--1
-\T1/cmr/m/n/10 ([]). The self driv-ing buses Ruter has im-ple-mented
- []
-
-
-LaTeX Warning: Citation 'datatilsynet_personopplysning' on page 6 undefined on 
-input line 4.
-
-)) [6]
 \openout2 = `chapters/process_documentation.aux'.
 
- (chapters/process_documentation.tex
-Chapter 3.
+
+(chapters/process_documentation.tex
+Chapter 2.
 (chapters/sections/development_method.tex
-<figures/scrum_process.png, id=316, 990.70125pt x 446.66875pt>
+<figures/scrum_process.png, id=292, 990.70125pt x 446.66875pt>
 File: figures/scrum_process.png Graphic file (type png)
 <use figures/scrum_process.png>
 Package pdftex.def Info: figures/scrum_process.png  used on input line 8.
 (pdftex.def)             Requested size: 345.0pt x 155.54579pt.
- [7
+ [4
 
 
 
 
  <./figures/scrum_process.png>]
-<figures/kanban_screenshot.png, id=324, 1495.5875pt x 858.20625pt>
+<figures/kanban_screenshot.png, id=300, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
 Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 30.
@@ -974,14 +901,14 @@ Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 30.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (chapters/sections/tools_and_technology.tex [8] [9 <./figures/kanban_screensh
-ot.png>])) [10]
+) (chapters/sections/tools_and_technology.tex [5] [6 <./figures/kanban_screensh
+ot.png>])) [7]
 \openout2 = `chapters/implementation.aux'.
 
  (chapters/implementation.tex
-Chapter 4.
+Chapter 3.
 (chapters/sections/phases.tex) (chapters/sections/pre_project_phase.tex
-(chapters/sections/subsections/programming_language.tex) [11
+(chapters/sections/subsections/programming_language.tex) [8
 
 
 
@@ -990,18 +917,18 @@ Chapter 4.
 (chapters/sections/subsections/artificial_intelligence_and_Internet_of_things.t
 ex
 
-LaTeX Warning: Citation 'iot_analytics' on page 12 undefined on input line 3.
+LaTeX Warning: Citation 'iot_analytics' on page 9 undefined on input line 3.
 
 
-LaTeX Warning: Citation 'chinese_iov' on page 12 undefined on input line 5.
+LaTeX Warning: Citation 'chinese_iov' on page 9 undefined on input line 5.
 
 ) (chapters/sections/subsections/Increasing_trafficflow_for_one_lane_road.tex
 Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/12 Preventing traf-fic con-ges-tions for a one lane road| 
  []
 
-[12]) (chapters/sections/subsections/MoSCoW_method.tex
-<figures/MosCoW_method.png, id=352, 1036.87375pt x 567.11874pt>
+[9]) (chapters/sections/subsections/MoSCoW_method.tex
+<figures/MosCoW_method.png, id=328, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 10.
@@ -1009,25 +936,25 @@ Package pdftex.def Info: figures/MosCoW_method.png  used on input line 10.
 ))
 (chapters/sections/client_server_implementation.tex
 
-LaTeX Warning: Citation 'iot_gateway' on page 13 undefined on input line 2.
+LaTeX Warning: Citation 'iot_gateway' on page 10 undefined on input line 2.
 
-[13 <./figures/MosCoW_method.png>]
+[10 <./figures/MosCoW_method.png>]
 (chapters/sections/subsections/client_implementation.tex
 
-LaTeX Warning: Citation 'raspberrypi' on page 14 undefined on input line 2.
+LaTeX Warning: Citation 'raspberrypi' on page 11 undefined on input line 2.
 
 
-LaTeX Warning: Citation 'iot_platforms' on page 14 undefined on input line 4.
+LaTeX Warning: Citation 'iot_platforms' on page 11 undefined on input line 4.
 
 ) (chapters/sections/subsections/server_implementation.tex
 
-LaTeX Warning: Citation 'iot_platforms' on page 14 undefined on input line 2.
+LaTeX Warning: Citation 'iot_platforms' on page 11 undefined on input line 2.
 
-[14])) (chapters/sections/simulation_implementation.tex [15])
+[11])) (chapters/sections/simulation_implementation.tex [12])
 (chapters/sections/system_security.tex
 (chapters/sections/subsections/privacy.tex)) (chapters/sections/demo_phase.tex
-[16] (chapters/sections/subsections/building_car.tex
-<figures/two_cars.jpg, id=376, 4047.12pt x 3035.34pt>
+[13] (chapters/sections/subsections/building_car.tex
+<figures/two_cars.jpg, id=351, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
@@ -1036,19 +963,58 @@ Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (chapters/sections/subsections/calibration_of_cars.tex [17]
+) (chapters/sections/subsections/calibration_of_cars.tex [14]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18 <./figures/two_cars.jpg>])
+[15 <./figures/two_cars.jpg>])
 (chapters/sections/subsections/construction_of_demo.tex))
-(chapters/sections/results.tex [19])) [20]
+(chapters/sections/results.tex [16]) (chapters/sections/rest_api.tex
+
+LaTeX Warning: Citation 'rest_api' on page 17 undefined on input line 4.
+
+
+Overfull \hbox (2.00815pt too wide) in paragraph at lines 4--5
+[]\T1/cmr/m/it/10 Representational state trans-fer \T1/cmr/m/n/10 (REST) \T1/cm
+r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
+ []
+
+
+LaTeX Warning: Citation 'influxdb' on page 17 undefined on input line 6.
+
+[17]
+
+LaTeX Warning: Citation 'webhooks' on page 18 undefined on input line 29.
+
+) (chapters/sections/signalr.tex
+
+LaTeX Warning: Citation 'rfc_websockets' on page 18 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'microsoft_websockets' on page 18 undefined on input li
+ne 2.
+
+[18]
+
+LaTeX Warning: Citation 'microsoft_signalr' on page 19 undefined on input line 
+4.
+
+
+LaTeX Warning: Citation 'microsoft_signalr' on page 19 undefined on input line 
+4.
+
+) [19]) [20]
 \openout2 = `chapters/product_documentation.aux'.
 
  (chapters/product_documentation.tex
-Chapter 5.
+Chapter 4.
 (chapters/sections/preface.tex) (chapters/sections/program_description.tex)
-(chapters/sections/user_manual.tex
+(chapters/sections/correlation_between_product_and_requirements.tex
+Overfull \hbox (10.36331pt too wide) in paragraph at lines 1--1
+|[]\T1/cmr/bx/n/14.4 Correlation be-tween prod-uct re-quire-ments and
+ []
+
+) (chapters/sections/server_diagram.tex) (chapters/sections/user_manual.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 .
 
@@ -1060,17 +1026,17 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 
 
-] [22
+] [22] [23
 
-])) [23]
+])) [24]
 \openout2 = `chapters/discussion.aux'.
 
  (chapters/discussion.tex
-Chapter 6.
+Chapter 5.
 (chapters/sections/evaluation_of_process.tex
 (chapters/sections/subsections/work_methodology.tex))
 (chapters/sections/evaluation_of_results.tex)
-(chapters/sections/further_work.tex [24
+(chapters/sections/further_work.tex [25
 
 
 
@@ -1079,15 +1045,15 @@ Chapter 6.
 (chapters/sections/subsections/scalability.tex)
 (chapters/sections/subsections/extendability_real_world.tex
 
-LaTeX Warning: Citation 'iot_platforms' on page 25 undefined on input line 5.
+LaTeX Warning: Citation 'iot_platforms' on page 26 undefined on input line 5.
 
-) (chapters/sections/subsections/risk_management.tex))) [25]
+) (chapters/sections/subsections/risk_management.tex))) [26]
 \openout2 = `chapters/conclusion.aux'.
 
 
 (chapters/conclusion.tex
-Chapter 7.
-) [26
+Chapter 6.
+) [27
 
 
 
@@ -1098,15 +1064,20 @@ LaTeX Warning: Empty bibliography on input line 101.
 
 
 AED: lastpage setting LastPage
-(main.aux (chapters/introductions.aux) (chapters/research_areas.aux)
-(chapters/process_documentation.aux) (chapters/implementation.aux)
-(chapters/product_documentation.aux) (chapters/discussion.aux)
-(chapters/conclusion.aux))
+(main.aux (chapters/introductions.aux) (chapters/process_documentation.aux)
+(chapters/implementation.aux) (chapters/product_documentation.aux)
+(chapters/discussion.aux) (chapters/conclusion.aux))
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 729DFF2484775FF178506817CF9167F3;7828.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 7C6279F75906BD33EAC927FCA4C5CFC7;7697
+(rerunfilecheck)             After:  9EBB0F9926FD3219B61B1361338A3AA4;7683.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1117,31 +1088,40 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22906 strings out of 478659
- 408133 string characters out of 2845920
- 1385678 words of memory out of 3000000
- 40412 multiletter control sequences out of 15000+600000
- 416586 words of font info for 63 fonts, out of 8000000 for 9000
+ 23006 strings out of 478614
+ 409655 string characters out of 2843122
+ 1388436 words of memory out of 3000000
+ 40572 multiletter control sequences out of 15000+600000
+ 483101 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,70p,1296b,4825s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1200.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1440.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\tcrm1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Ander\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Ander\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Ander/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ande
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
-ers/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-msy10.pfb>
-Output written on main.pdf (31 pages, 1444381 bytes).
+ 60i,12n,70p,1296b,5035s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+ <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt10
+00.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecti1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecbx1200.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ecbx1440.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\tcrm1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Ander\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Ander\AppData\
+Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Ander/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7
+.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb>
+Output written on main.pdf (32 pages, 1455067 bytes).
 PDF statistics:
- 927 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
- 429 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 960 PDF objects out of 1000 (max. 8388607)
+ 140 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 

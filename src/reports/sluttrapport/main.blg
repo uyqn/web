@@ -9,18 +9,12 @@ Reallocating 'name_of_file' (item size: 1) to 35 items.
 A level-1 auxiliary file: chapters/process_documentation.aux
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: chapters/implementation.aux
-Reallocating 'name_of_file' (item size: 1) to 35 items.
-A level-1 auxiliary file: chapters/product_documentation.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: chapters/discussion.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: chapters/conclusion.aux
 I found no \citation commands---while reading file main.aux
 I found no \bibdata command---while reading file main.aux
 I found no \bibstyle command---while reading file main.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            90 strings with 676 characters,
+            87 strings with 596 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
