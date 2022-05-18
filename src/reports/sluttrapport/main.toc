@@ -19,28 +19,33 @@
 \contentsline {subsection}{\numberline {3.2.1}Choice of programming languages}{9}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Internet of Things}{9}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Preventing traffic congestions for a one lane road}{9}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}MoSCoW method}{12}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Phase 4 - Making a demo}{12}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Building a car}{12}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Calibration of the cars}{13}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Construction of demonstration}{14}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Phase 2: REST API}{15}{section.3.4}%
-\contentsline {subsubsection}{Webhooks}{16}{subsubsection*.3}%
-\contentsline {section}{\numberline {3.5}Phase 3: SignalR}{17}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Results}{18}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Evaluation of process}{18}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Possible improvements}{19}{subsection.3.6.2}%
-\contentsline {chapter}{\numberline {4}Product documentation}{20}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Preface}{20}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Program description}{20}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Adherence to project requirements}{22}{section.4.3}%
-\contentsline {section}{\numberline {4.4}User manual}{22}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Discussion}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Evaluation of process}{25}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Work methodology}{25}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2}Evaluation of results}{25}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Further work}{25}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Scalability}{26}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Extendability to the real world applications}{26}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Risk management}{26}{subsection.5.3.3}%
-\contentsline {chapter}{\numberline {6}Conclusion}{27}{chapter.6}%
+\contentsline {subsection}{\numberline {3.2.4}Prioritization method}{12}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Phase 2: REST API}{12}{section.3.3}%
+\contentsline {subsubsection}{Webhooks}{14}{subsubsection*.3}%
+\contentsline {section}{\numberline {3.4}Phase 3: SignalR}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Phase 4 - Making a demo}{15}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Building a car}{16}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Calibration of the cars}{16}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Construction of demonstration}{18}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Phase 2: REST API}{18}{section.3.6}%
+\contentsline {subsubsection}{Webhooks}{20}{subsubsection*.4}%
+\contentsline {section}{\numberline {3.7}Phase 3: SignalR}{20}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Results}{21}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Self evaluation}{21}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Possible improvements}{22}{subsection.3.8.2}%
+\contentsline {section}{\numberline {3.9}Conclusion}{22}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Educational Value}{22}{subsection.3.9.1}%
+\contentsline {chapter}{\numberline {4}Product documentation}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Preface}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Program description}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Adherence to project requirements}{25}{section.4.3}%
+\contentsline {section}{\numberline {4.4}User manual}{25}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Discussion}{28}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Evaluation of process}{28}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Work methodology}{28}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Evaluation of results}{28}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Further work}{28}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Scalability}{29}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Extendability to the real world applications}{29}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Risk management}{29}{subsection.5.3.3}%
+\contentsline {chapter}{\numberline {6}Conclusion}{30}{chapter.6}%

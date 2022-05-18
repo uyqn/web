@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  18 MAY 2022 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  18 MAY 2022 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -677,8 +677,12 @@ LaTeX Warning: Unused global option(s):
     [14pt].
 
 (main.aux (chapters/introductions.aux) (chapters/process_documentation.aux)
-(chapters/implementation.aux) (chapters/product_documentation.aux)
-(chapters/discussion.aux) (chapters/conclusion.aux))
+(chapters/implementation.aux
+
+LaTeX Warning: Label `phase2' multiply defined.
+
+) (chapters/product_documentation.aux) (chapters/discussion.aux)
+(chapters/conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -816,7 +820,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...{\numberline {5}Discussion}{25}{chapter.5}
+l.38 ...e {4}Product documentation}{23}{chapter.4}
                                                   % [2
 
 ])
@@ -881,7 +885,7 @@ OsloMet and Høyskolen
 (chapters/process_documentation.tex
 Chapter 2.
 (chapters/sections/development_method.tex
-<figures/scrum_process.png, id=267, 990.70125pt x 446.66875pt>
+<figures/scrum_process.png, id=287, 990.70125pt x 446.66875pt>
 File: figures/scrum_process.png Graphic file (type png)
 <use figures/scrum_process.png>
 Package pdftex.def Info: figures/scrum_process.png  used on input line 8.
@@ -892,7 +896,7 @@ Package pdftex.def Info: figures/scrum_process.png  used on input line 8.
 
 
  <./figures/scrum_process.png>]
-<figures/kanban_screenshot.png, id=275, 1495.5875pt x 858.20625pt>
+<figures/kanban_screenshot.png, id=295, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
 Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 30.
@@ -928,7 +932,7 @@ Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
  []
 
 [9]
-<figures/flow_diagram_first.png, id=303, 291.0875pt x 402.50375pt>
+<figures/flow_diagram_first.png, id=323, 291.0875pt x 402.50375pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -940,26 +944,61 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [10] [11 <./figures/flow_diagram_first.png>]
 (chapters/sections/subsections/MoSCoW_method.tex
-<figures/MosCoW_method.png, id=316, 1036.87375pt x 567.11874pt>
+<figures/MosCoW_method.png, id=336, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
-Package pdftex.def Info: figures/MosCoW_method.png  used on input line 8.
+Package pdftex.def Info: figures/MosCoW_method.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 188.69875pt.
 ))
-(chapters/sections/demo_phase.tex
-(chapters/sections/subsections/building_car.tex [12
+(chapters/sections/rest_api.tex
+
+LaTeX Warning: Citation 'rest_api' on page 12 undefined on input line 4.
+
+
+Overfull \hbox (2.00815pt too wide) in paragraph at lines 4--5
+[]\T1/cmr/m/it/10 Representational state trans-fer \T1/cmr/m/n/10 (REST) \T1/cm
+r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
+ []
+
+[12
 
  <./figures/MosCoW_method.png>]
-<figures/two_cars.jpg, id=324, 4047.12pt x 3035.34pt>
+
+LaTeX Warning: Citation 'influxdb' on page 13 undefined on input line 6.
+
+[13]
+
+LaTeX Warning: Citation 'webhooks' on page 14 undefined on input line 29.
+
+) (chapters/sections/signalr.tex
+
+LaTeX Warning: Citation 'rfc_websockets' on page 14 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'microsoft_websockets' on page 14 undefined on input li
+ne 2.
+
+
+LaTeX Warning: Citation 'microsoft_signalr' on page 14 undefined on input line 
+4.
+
+
+LaTeX Warning: Citation 'microsoft_signalr' on page 14 undefined on input line 
+4.
+
+[14]) (chapters/sections/demo_phase.tex
+(chapters/sections/subsections/building_car.tex [15]
+<figures/two_cars.jpg, id=363, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 (pdftex.def)             Requested size: 345.0pt x 258.71838pt.
-) (chapters/sections/subsections/calibration_of_cars.tex [13 <./figures/two_car
-s.jpg>]) (chapters/sections/subsections/construction_of_demo.tex [14]))
+)
+(chapters/sections/subsections/calibration_of_cars.tex [16 <./figures/two_cars.
+jpg>]) (chapters/sections/subsections/construction_of_demo.tex [17]))
 (chapters/sections/rest_api.tex
 
-LaTeX Warning: Citation 'rest_api' on page 15 undefined on input line 4.
+LaTeX Warning: Citation 'rest_api' on page 18 undefined on input line 4.
 
 
 Overfull \hbox (2.00815pt too wide) in paragraph at lines 4--5
@@ -968,38 +1007,40 @@ r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
  []
 
 
-LaTeX Warning: Citation 'influxdb' on page 15 undefined on input line 6.
+LaTeX Warning: Citation 'influxdb' on page 18 undefined on input line 6.
 
-[15]
+[18]
 
-LaTeX Warning: Citation 'webhooks' on page 16 undefined on input line 29.
+LaTeX Warning: Citation 'webhooks' on page 19 undefined on input line 29.
 
-) (chapters/sections/signalr.tex [16]
+) (chapters/sections/signalr.tex [19]
 
-LaTeX Warning: Citation 'rfc_websockets' on page 17 undefined on input line 2.
+LaTeX Warning: Citation 'rfc_websockets' on page 20 undefined on input line 2.
 
 
-LaTeX Warning: Citation 'microsoft_websockets' on page 17 undefined on input li
+LaTeX Warning: Citation 'microsoft_websockets' on page 20 undefined on input li
 ne 2.
 
 
-LaTeX Warning: Citation 'microsoft_signalr' on page 17 undefined on input line 
+LaTeX Warning: Citation 'microsoft_signalr' on page 20 undefined on input line 
 4.
 
 
-LaTeX Warning: Citation 'microsoft_signalr' on page 17 undefined on input line 
+LaTeX Warning: Citation 'microsoft_signalr' on page 20 undefined on input line 
 4.
 
-[17]) (chapters/sections/results.tex
+[20]) (chapters/sections/results.tex
 (chapters/sections/subsections/evaluation_of_process.tex)
-(chapters/sections/subsections/possible_improvements.tex [18]))) [19]
+(chapters/sections/subsections/possible_improvements.tex [21]))
+(chapters/sections/conclusion.tex
+(chapters/sections/subsections/educational_value.tex))) [22]
 \openout2 = `chapters/product_documentation.aux'.
 
 
 (chapters/product_documentation.tex
 Chapter 4.
 (chapters/sections/preface.tex) (chapters/sections/program_description.tex
-<figures/Flow_diagram_server.png, id=371, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=409, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 5.
@@ -1007,14 +1048,17 @@ Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 5.
 (pdftex.def)             Requested size: 345.0pt x 565.49129pt.
 
 
+LaTeX Warning: Float too large for page by 1.49129pt on input line 8.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [20
+) [23
 
 
 
 
-] [21 <./figures/Flow_diagram_server.png>]
+] [24 <./figures/Flow_diagram_server.png>]
 (chapters/sections/adherence_to_requirements.tex)
 (chapters/sections/server_diagram.tex) (chapters/sections/user_manual.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
@@ -1023,11 +1067,11 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[22
+[25
 
-] [23
+] [26
 
-])) [24]
+])) [27]
 \openout2 = `chapters/discussion.aux'.
 
  (chapters/discussion.tex
@@ -1035,7 +1079,7 @@ Chapter 5.
 (chapters/sections/evaluation_of_process.tex
 (chapters/sections/subsections/work_methodology.tex))
 (chapters/sections/evaluation_of_results.tex)
-(chapters/sections/further_work.tex [25
+(chapters/sections/further_work.tex [28
 
 
 
@@ -1044,22 +1088,22 @@ Chapter 5.
 (chapters/sections/subsections/scalability.tex)
 (chapters/sections/subsections/extendability_real_world.tex
 
-LaTeX Warning: Citation 'iot_platforms' on page 26 undefined on input line 5.
+LaTeX Warning: Citation 'iot_platforms' on page 29 undefined on input line 5.
 
-) (chapters/sections/subsections/risk_management.tex))) [26]
+) (chapters/sections/subsections/risk_management.tex))) [29]
 \openout2 = `chapters/conclusion.aux'.
 
 
 (chapters/conclusion.tex
 Chapter 6.
-) [27
+) [30
 
 
 
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 101.
+LaTeX Warning: Empty bibliography on input line 102.
 
 
 AED: lastpage setting LastPage
@@ -1069,8 +1113,11 @@ AED: lastpage setting LastPage
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EF94458AFCB2F0F5D71D9E7233BA20CC;6687.
+(rerunfilecheck)             Checksum: FC3AB47D690B3FF549BB18B4E6EEF4DD;7239.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1081,10 +1128,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22995 strings out of 478614
- 408816 string characters out of 2843122
- 1388474 words of memory out of 3000000
- 40577 multiletter control sequences out of 15000+600000
+ 23022 strings out of 478614
+ 409857 string characters out of 2843122
+ 1388516 words of memory out of 3000000
+ 40587 multiletter control sequences out of 15000+600000
  483101 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,70p,1296b,5035s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1104,9 +1151,9 @@ s/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 <C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 r7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on main.pdf (32 pages, 1494666 bytes).
+Output written on main.pdf (35 pages, 1510440 bytes).
 PDF statistics:
- 927 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 969 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 415 words of extra memory for PDF output out of 10000 (max. 10000000)
 
