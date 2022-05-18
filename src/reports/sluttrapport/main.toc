@@ -31,11 +31,15 @@
 \contentsline {subsection}{\numberline {3.5.3}Construction of demonstration}{16}{subsection.3.5.3}%
 \contentsline {section}{\numberline {3.6}Results}{16}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Product documentation}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Product specification}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Initialization}{17}{subsection.4.1.1}%
-\contentsline {subsubsection}{Client.py}{17}{subsubsection*.10}%
-\contentsline {subsubsection}{Vehicle.py}{18}{subsubsection*.11}%
-\contentsline {subsection}{\numberline {4.1.2}Handshake and listener}{19}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Patch}{22}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}VehiclesHubDatabase}{23}{subsection.4.1.4}%
-\contentsline {chapter}{Bibliography}{24}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.1}Preface}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Program description}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Adherence to project requirements}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Server flow diagram}{17}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Product specification}{17}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Initialization}{18}{subsection.4.5.1}%
+\contentsline {subsubsection}{Client.py}{18}{subsubsection*.10}%
+\contentsline {subsubsection}{Vehicle.py}{19}{subsubsection*.11}%
+\contentsline {subsection}{\numberline {4.5.2}Handshake and listener}{20}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Patch}{23}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}VehiclesHubDatabase}{24}{subsection.4.5.4}%
+\contentsline {chapter}{Bibliography}{25}{subsection.4.5.4}%
