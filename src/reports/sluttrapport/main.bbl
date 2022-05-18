@@ -19,6 +19,72 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{accenture_earning_report_2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d55af1659424cf94d869e2580a11bf8}{%
+           family={Accenture},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{fullhash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{bibnamehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authorbibnamehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authornamehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authorfullhash}{1d55af1659424cf94d869e2580a11bf8}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Earnings Report - 2021}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://newsroom.accenture.com/news/accenture-reports-very-strong-fourth-quarter-and-full-year-fiscal-2021-results.htm
+      \endverb
+      \verb{url}
+      \verb https://newsroom.accenture.com/news/accenture-reports-very-strong-fourth-quarter-and-full-year-fiscal-2021-results.htm
+      \endverb
+    \endentry
+    \entry{accenture_about}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d55af1659424cf94d869e2580a11bf8}{%
+           family={Accenture},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{fullhash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{bibnamehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authorbibnamehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authornamehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authorfullhash}{1d55af1659424cf94d869e2580a11bf8}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About Accenture}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.accenture.com/no-en/about/company-index
+      \endverb
+      \verb{url}
+      \verb https://www.accenture.com/no-en/about/company-index
+      \endverb
+    \endentry
     \entry{webhooks}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a8fd8cd0b6d2cfda939a8ef257e60192}{%
