@@ -1,5 +1,5 @@
-\section{Phase 2: REST API}\label{phase2}
-The aim of the project was to connect Raspberry Pi devices to a system. Thus, the group decided that the best way to establish this connection was to implement a RESTful API on the server. In addition, the question on how the data should be stored was also arises during this phase.
+\section{Phase 2 - REST API}\label{phase2}
+The aim of the project was to connect Raspberry Pi devices to a system. Thus, the group decided that the best way to establish this connection was to implement a RESTful API on the server. In addition, the question on how the data should be stored was also discussed during this phase.
 
 \emph{Representational state transfer} (REST) \emph{application programming interface} (API) provides a way for client and server to establish communication through \emph{hypertext transfer protocol} (HTTP). Using a REST API clients can send requests to a server to perform standard CRUD (create, read, update and delete) operations on a database \parencite{rest_api}.
 
@@ -13,7 +13,7 @@ However, a RESTful API server were not able to perform all its required task tha
 
 A new solution had to be in place in order to achieve our goal. Other solutions were proposed during this stage.
 
-\subsubsection*{Long polling}
+\subsection{Long polling}
 Polling is the idea that the server pushes resources to the client. There are mainly two types of polling; short- and long polling. 
 
 In short polling, a client requests a resource from the server and the server responds with nothing if the resrouce is not available. The client will then send a new request in a short amount of time and the cycles repeats until the client receives the resource it has requested.
@@ -22,8 +22,8 @@ Long polling is similar to short polling, however, the server does not send anyt
 
 However, implementing a method on the server to block the response introduced more complication to the project. Also, with the asynchronous nature of the controllers implemented on the server it would also mean that the server will consume a lot of the processor which also means that the performance of the server will be heavily deteriorated.
 
-\subsubsection*{Implement REST API on the client}
+\subsection{Implement REST API on the client}
 Another solution was to implement the client itself as a REST API server on its own. However, in order to achieve this, each client needed to also send the server its host and port information to the server. Also, the server has to be implemented as a client in order to connect to the vehicles.
 
-\subsubsection{Webhooks}
+\subsection{Webhooks}
 Webhooks, according to \cite{webhooks}, is a user-defined callback over HTTP. In our case, implementing webhooks to post notifications on clients based on events sent to the server. This was a good contender to solve our issue. However, implementing webhooks includes extensive research into a system the group had never heard of, in addition to scarce information on how to create such a system. The group decided that the time constraint of this project did not justify the time it would take to implement such a system.

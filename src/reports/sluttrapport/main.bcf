@@ -2802,25 +2802,16 @@
     <bcf:citekey order="9">microsoft_websockets</bcf:citekey>
     <bcf:citekey order="10">microsoft_signalr</bcf:citekey>
     <bcf:citekey order="11">microsoft_signalr</bcf:citekey>
-    <bcf:citekey order="12">rest_api</bcf:citekey>
-    <bcf:citekey order="13">influxdb</bcf:citekey>
-    <bcf:citekey order="14">webhooks</bcf:citekey>
-    <bcf:citekey order="15">rfc_websockets</bcf:citekey>
-    <bcf:citekey order="16">microsoft_websockets</bcf:citekey>
-    <bcf:citekey order="17">microsoft_signalr</bcf:citekey>
-    <bcf:citekey order="18">microsoft_signalr</bcf:citekey>
-    <bcf:citekey order="19">iot_platforms</bcf:citekey>
-    <bcf:citekey order="20">accenture_earning_report_2021</bcf:citekey>
-    <bcf:citekey order="21">accenture_about</bcf:citekey>
-    <bcf:citekey order="22">iot_analytics</bcf:citekey>
-    <bcf:citekey order="23">chinese_iov</bcf:citekey>
-    <bcf:citekey order="24">rest_api</bcf:citekey>
-    <bcf:citekey order="25">influxdb</bcf:citekey>
-    <bcf:citekey order="26">webhooks</bcf:citekey>
-    <bcf:citekey order="27">rfc_websockets</bcf:citekey>
-    <bcf:citekey order="28">microsoft_websockets</bcf:citekey>
-    <bcf:citekey order="29">microsoft_signalr</bcf:citekey>
-    <bcf:citekey order="30">iot_platforms</bcf:citekey>
+    <bcf:citekey order="12">accenture_earning_report_2021</bcf:citekey>
+    <bcf:citekey order="13">accenture_about</bcf:citekey>
+    <bcf:citekey order="14">iot_analytics</bcf:citekey>
+    <bcf:citekey order="15">chinese_iov</bcf:citekey>
+    <bcf:citekey order="16">rest_api</bcf:citekey>
+    <bcf:citekey order="17">influxdb</bcf:citekey>
+    <bcf:citekey order="18">webhooks</bcf:citekey>
+    <bcf:citekey order="19">rfc_websockets</bcf:citekey>
+    <bcf:citekey order="20">microsoft_websockets</bcf:citekey>
+    <bcf:citekey order="21">microsoft_signalr</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

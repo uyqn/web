@@ -1,0 +1,32 @@
+\subsection{Vehicle.py}
+The vehicle class is supposed to contain all the data and methods of the vehicle. Furthermore, \pythoninline{class Vehicle(Client):} inherits the client class which enables Vehicle to perform all the necessary operations to establish connection upon initiation. An important remark is that \pythoninline{class Client} perform a negotiation to the using \pythoninline{self.\_\_class\_\_.\_\_name\_\_.lower()} which means that when \pythoninline{Vehicle} gets initialized, \pythoninline{class Client} do a POST call to \pythoninline{"http://host:port/vehiclesHub"}, which is mapped in Program.cs with \csharpinline{app.MapHub<VehiclesHub>("/vehiclesHub");}.
+
+Furthermore, \pythoninline{class Vehicle} also reads from config.json to define it's initial properties with the snippet shown below:
+\begin{python}
+if properties is None and len(kwargs) == 0:
+	with open("client/config.json") as f:
+		config = json.load(f).get('vehicle')
+		if config is not None:
+			self.properties.update(config)
+\end{python}
+
+\pythoninline{class Vehicle} also utilizes the property builder of \pythoninline{class Client}.
+
+\begin{python}
+self.property_builder(
+	required={'length', 'height', 'width', 'mass'},
+	optional={'velocity': 0, 'position': 0, 'travel_plan': None},
+)
+\end{python}
+
+In short, the property builder is used to define the required properties of the vehicle class. That is, if one should directly initialize Vehicle without using config.json one must assign values to length, height, width and mass. The meaning is to somewhat restrict what data the vehicle class should contain.
+
+Lastly, \pythoninline{class Vehicle} adds an additional subscribed events that the server can invoke:
+\begin{python}
+self.subscribed_events.update({
+	"adjust_velocity": self.adjust_velocity
+})
+\end{python}
+
+Likewise, as in \pythoninline{class Client} should other events be required for vehicle, one can add it to the dictionary as proposed above.
+

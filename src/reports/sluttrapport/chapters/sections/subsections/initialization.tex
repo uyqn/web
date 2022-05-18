@@ -1,0 +1,94 @@
+\subsection{Initialization}\label{initialization}
+\subsubsection{Client.py}
+The client package is the main module in the Raspberry Pi vehicles. The class that is mainly responsible to connect, handle and sending data to the server is the client class in client.py. Client class is not meant to be used alone but rather as a super class for other IoT devices. Hence, it was developed with the intention to be inherited and handle everything that pertains to client-server communication in the background.
+
+Client's init method does several things: It reads from the config.json file to store the defined host and port it is going to connect to.
+\begin{python}
+class Client:
+	def __init__(self, properties=None, **kwargs):
+		...
+		with open("client/config.json") as f:
+			config = json.load(f).get('client')
+			if config is not None:
+				self.__uri = f"://{config.get('host')}:{config.get('port')}/{self.__class__.__name__.lower()}sHub"
+				self.__delay = config.get('delay')
+		...
+\end{python}
+
+Then, it starts a negotiation proccess with the server where it receives a connection id that the client will use during its connection lifetime to the hub.
+
+\begin{python}
+class Client:
+	def __init__(self, properties=None, **kwargs):
+		...
+		urllib3.disable_warnings()
+		response = requests.post(f"http{self.__uri}/negotiate?negotiateVersion=0", verify=False)
+		self.connection_id = response.json().get("connectionId")
+		self.websocket_uri = f"ws{self.__uri}?id={self.connection_id}"
+		...
+\end{python}
+
+The client also gives itself a random id that is stored as one of its properties. The client's id is also stored on the server and is mostly used to retrieve and update the client's information on the server.
+
+Furthermore, \verb|Client.__init__| also stores a dictionary of events.
+\begin{python}
+class Client:
+	def __init__(self, properties=None, **kwargs):
+		...
+		self.subscribed_events = {
+			"disconnect": self.disconnect,
+			"force_patch": self.force_patch,
+			"continuously_patch": self.continuously_force_patch
+		}
+		...
+\end{python}
+
+The values of this dictionary is a reference to a function in this class and is used to invoke certain behaviours by the server. For instance, \newline\verb|await Clients.Client(Context.ConnectionId).SendAsync("disconnect");| from the server will call \verb|def disconnect(self)| in the client. 
+
+\subsubsection{Vehicle.py}
+The vehicle class is supposed to contain all the data and methods of the vehicle. Furthermore, \verb|class Vehicle(Client)| inherits the client class which enables Vehicle to perform all the necessary operations to establish connection upon initiation. An important remark is that \verb|Client| performs the negotiation to the server using endpoint \newline \verb|{self.__class__.__name__.lower()}sHub/negotiate?negotiateVersion=0| meaning that through inheritence and initialization of \verb|Vehicle|, the subclass negotiates with the endpoint  \verb|vehiclesHub/negotiate?negotiateVersion=0|, which is mapped in \verb|Program.cs| with
+\begin{csharp}
+...
+app.MapHub<VehiclesHub>("/vehiclesHub");
+...
+\end{csharp}
+
+Furthermore, \verb|Vehicle| also reads from \verb|config.json| to define it's initial properties with the snippet shown below:
+\begin{python}
+class Vehicle(Client):
+	def __init__(self, properties=None, **kwargs):
+		...
+		if properties is None and len(kwargs) == 0:
+			with open("client/config.json") as f:
+				config = json.load(f).get('vehicle')
+				if config is not None:
+					self.properties.update(config)
+		...
+\end{python}
+
+\verb|Vehicle| also utilizes the property builder of \verb|Client|.
+
+\begin{python}
+class Vehicle(Client):
+	def __init__(self, properties=None, **kwargs):
+		...
+		self.property_builder(
+			required={'length', 'height', 'width', 'mass'},
+			optional={'velocity': 0, 'position': 0, 'travel_plan': None},
+		)
+		...
+\end{python}
+
+In short, the property builder is used to define the required properties of the vehicle class. That is, if one should directly initialize Vehicle without using config.json one must assign values to length, height, width and mass. The meaning is to somewhat restrict what data the vehicle class should contain.
+
+Lastly, \verb|Vehicle| adds an additional subscribed events that the server can invoke:
+\begin{python}
+class Vehicle(Client):
+	def __init__(self, properties=None, **kwargs):
+		...
+		self.subscribed_events.update({
+			"adjust_velocity": self.adjust_velocity
+		})
+\end{python}
+
+Likewise, as in \verb|Client| should other events be required for vehicle, one can add it to the dictionary as proposed above.
