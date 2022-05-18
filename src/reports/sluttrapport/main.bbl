@@ -1,0 +1,313 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{webhooks}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8fd8cd0b6d2cfda939a8ef257e60192}{%
+           family={{Atlassian}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{fullhash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{bibnamehash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{authorbibnamehash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{authornamehash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{authorfullhash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{8}
+      \field{title}{Webhooks}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.atlassian.com/server/jira/platform/webhooks/
+      \endverb
+      \verb{url}
+      \verb https://developer.atlassian.com/server/jira/platform/webhooks/
+      \endverb
+    \endentry
+    \entry{chinese_iov}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c96b183e4568f7b752bdf47beab94ff4}{%
+           family={{Chinese APEC Delegation}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c96b183e4568f7b752bdf47beab94ff4}
+      \strng{fullhash}{c96b183e4568f7b752bdf47beab94ff4}
+      \strng{bibnamehash}{c96b183e4568f7b752bdf47beab94ff4}
+      \strng{authorbibnamehash}{c96b183e4568f7b752bdf47beab94ff4}
+      \strng{authornamehash}{c96b183e4568f7b752bdf47beab94ff4}
+      \strng{authorfullhash}{c96b183e4568f7b752bdf47beab94ff4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{White Paper of Internet of Vehicles (IoV)}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://mddb.apec.org/Documents/2014/TEL/TEL50-PLEN/14_tel50_plen_020.pdf
+      \endverb
+      \verb{url}
+      \verb http://mddb.apec.org/Documents/2014/TEL/TEL50-PLEN/14_tel50_plen_020.pdf
+      \endverb
+    \endentry
+    \entry{rfc_websockets}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cdf249d29ccc7edcf24f6bfef0893ebd}{%
+           family={Fette},
+           familyi={F\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fa97ca9bca09f72482fe5f985ecef60}{%
+           family={Melnikov},
+           familyi={M\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hampton, Middlesex TW12 2BX: UK}%
+      }
+      \strng{namehash}{a413dbe318e95f69f8330db28642e805}
+      \strng{fullhash}{a413dbe318e95f69f8330db28642e805}
+      \strng{bibnamehash}{a413dbe318e95f69f8330db28642e805}
+      \strng{authorbibnamehash}{a413dbe318e95f69f8330db28642e805}
+      \strng{authornamehash}{a413dbe318e95f69f8330db28642e805}
+      \strng{authorfullhash}{a413dbe318e95f69f8330db28642e805}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{The websocket protocol}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.17487/RFC6455
+      \endverb
+      \verb{urlraw}
+      \verb https://www.rfc-editor.org/rfc/pdfrfc/rfc6455.txt.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.rfc-editor.org/rfc/pdfrfc/rfc6455.txt.pdf
+      \endverb
+    \endentry
+    \entry{rest_api}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0f8b695ff7d8e2cd1fcb24a576b29987}{%
+           family={{IBM Cloud Education}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{fullhash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{bibnamehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{authorbibnamehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{authornamehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{authorfullhash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{4}
+      \field{title}{REST APIs}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/cloud/learn/rest-apis
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/cloud/learn/rest-apis
+      \endverb
+    \endentry
+    \entry{influxdb}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=17bbda2e6d486775fa732a610719e5bf}{%
+           family={{Influxdata}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{17bbda2e6d486775fa732a610719e5bf}
+      \strng{fullhash}{17bbda2e6d486775fa732a610719e5bf}
+      \strng{bibnamehash}{17bbda2e6d486775fa732a610719e5bf}
+      \strng{authorbibnamehash}{17bbda2e6d486775fa732a610719e5bf}
+      \strng{authornamehash}{17bbda2e6d486775fa732a610719e5bf}
+      \strng{authorfullhash}{17bbda2e6d486775fa732a610719e5bf}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{InfluxDB is the time series platform for developers}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.influxdata.com/products/influxdb-overview/
+      \endverb
+      \verb{url}
+      \verb https://www.influxdata.com/products/influxdb-overview/
+      \endverb
+    \endentry
+    \entry{microsoft_signalr}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{3}
+      \field{title}{Overview of ASP.NET Core SignalR}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-6.0
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-6.0
+      \endverb
+    \endentry
+    \entry{microsoft_websockets}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{3}
+      \field{title}{WebSockets support in ASP.NET Core}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets?view=aspnetcore-6.0
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets?view=aspnetcore-6.0
+      \endverb
+    \endentry
+    \entry{iot_analytics}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f08be59af1edb235f14afd150401e7e7}{%
+           family={Sinha},
+           familyi={S\bibinitperiod},
+           given={Satyajit},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f08be59af1edb235f14afd150401e7e7}
+      \strng{fullhash}{f08be59af1edb235f14afd150401e7e7}
+      \strng{bibnamehash}{f08be59af1edb235f14afd150401e7e7}
+      \strng{authorbibnamehash}{f08be59af1edb235f14afd150401e7e7}
+      \strng{authornamehash}{f08be59af1edb235f14afd150401e7e7}
+      \strng{authorfullhash}{f08be59af1edb235f14afd150401e7e7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{9}
+      \field{title}{State of IoT 2021: Number of connected IoT devices growing 9\% to 12.3 billion globally, cellular IoT now surpassing 2 billion}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://iot-analytics.com/number-connected-iot-devices/
+      \endverb
+      \verb{url}
+      \verb https://iot-analytics.com/number-connected-iot-devices/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
