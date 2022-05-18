@@ -123,13 +123,13 @@
 		},
 		keywordstyle=\color{bluekeywords},
 		stringstyle=\color{otterbrown},
-		emph=[1]{Task, JsonDocument, Vehicle, DataException, IDevice, VehiclesHubDatabase, VehiclesHub, Hub},
+		emph=[1]{Task, JsonDocument, Vehicle, DataException, IDevice, VehiclesHubDatabase, VehiclesHub, Hub, Intersection, HashSet, Dictionary, IVehiclesHubDatabase, Road, IEnumerable},
 		emphstyle=[1]{\color{blue-violet}},
 		emph=[2]{
-			AddClient, Create, GetProperty, ExtractLane, CurrentLane, SetTravelPlan, StartNode, EndNode, Add, Update, Route, Details, Client, WaitForVehicles, Fetch, SendEventToAll, SendAsync, Start, MapHub, Patch, HandleIntersection, HandleEndOfRoute, HandleInsideIntersection,
+			AddClient, Create, GetProperty, ExtractLane, CurrentLane, SetTravelPlan, StartNode, EndNode, Add, Update, Route, Details, Client, WaitForVehicles, Fetch, SendEventToAll, SendAsync, Start, MapHub, Patch, HandleIntersection, HandleEndOfRoute, HandleInsideIntersection, AddRoad, AddLane, ConnectedLanes, ForEach, AddSingleton, Remove, NextVehiclesIn, OnlyFirstIntoNextVehiclesIn
 		},
 		emphstyle=[2]{\color{deepgreen}},
-		emph=[3]{RootElement, Id, Context, ConnectionId, Velocity, Clients, SpeedLimit, All, Clock},
+		emph=[3]{RootElement, Id, Context, ConnectionId, Velocity, Clients, SpeedLimit, All, Clock, _intersection, _vehicles, _lanes, Count, _connectionIds, _vehiclesConnectionId, Length, Services},
 		emphstyle=[3]{\color{cyan}}
 }}
 
@@ -277,7 +277,6 @@
 	% Husk bare på å inkludere referanser i form av \cite{referanse-navn}
 	% uten parantes, eller (\cite{referanse-navn}) <- med parantes
 	% ------------------------------------------------------------
-
 	\include{chapters/introductions}
 	%\include{chapters/research_areas}
 	\include{chapters/process_documentation}

@@ -19,27 +19,37 @@
 \contentsline {subsection}{\numberline {3.2.1}Choice of programming languages}{9}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Internet of Things}{9}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Preventing traffic congestions for a one lane road}{9}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}MoSCoW method}{10}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Phase 2 - REST API}{10}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Long polling}{11}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Implement REST API on the client}{12}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Webhooks}{12}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Phase 3 - SignalR}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Phase 4 - Making a demo}{13}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Building a car}{14}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Calibration of the cars}{15}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Construction of demonstration}{16}{subsection.3.5.3}%
-\contentsline {section}{\numberline {3.6}Results}{16}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Product documentation}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Preface}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Program description}{17}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Adherence to project requirements}{17}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Server flow diagram}{17}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Product specification}{17}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Initialization}{18}{subsection.4.5.1}%
-\contentsline {subsubsection}{Client.py}{18}{subsubsection*.10}%
-\contentsline {subsubsection}{Vehicle.py}{19}{subsubsection*.11}%
-\contentsline {subsection}{\numberline {4.5.2}Handshake and listener}{20}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Patch}{23}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}VehiclesHubDatabase}{24}{subsection.4.5.4}%
-\contentsline {chapter}{Bibliography}{25}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {3.2.4}Prioritization method}{12}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Phase 2 - REST API}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Long polling}{13}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Implement REST API on the client}{14}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Webhooks}{14}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Phase 3 - SignalR}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Phase 4 - Making a demo}{15}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Building a car}{16}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Calibration of the cars}{16}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Construction of demonstration}{18}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Results}{18}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Self evaluation}{18}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Possible improvements}{19}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Conclusion}{19}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Educational Value}{19}{subsection.3.7.1}%
+\contentsline {chapter}{\numberline {4}Product documentation}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Preface}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Program description}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Adherence to project requirements}{23}{section.4.3}%
+\contentsline {section}{\numberline {4.4}User manual}{23}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Product specification}{25}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Initialization}{25}{subsection.4.5.1}%
+\contentsline {subsubsection}{Client.py}{25}{subsubsection*.12}%
+\contentsline {subsubsection}{Vehicle.py}{26}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {4.5.2}Handshake and listener}{27}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Patch}{30}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}VehiclesHubDatabase}{32}{subsection.4.5.4}%
+\contentsline {subsubsection}{Adding vehicles}{34}{subsubsection*.15}%
+\contentsline {subsubsection}{Removing vehicles}{34}{subsubsection*.16}%
+\contentsline {subsubsection}{Updating vehicles}{34}{subsubsection*.17}%
+\contentsline {subsubsection}{Fetching vehicles}{34}{subsubsection*.18}%
+\contentsline {subsubsection}{Get the connection Id of a particular vehicle}{35}{subsubsection*.19}%
+\contentsline {subsubsection}{Find vehicles approaching the intersection}{35}{subsubsection*.20}%
+\contentsline {chapter}{Bibliography}{36}{lstnumber.-32.6}%
