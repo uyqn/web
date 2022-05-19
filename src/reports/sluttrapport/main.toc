@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {3.5.3}Construction of semi physical demonstration}{18}{subsection.3.5.3}%
 \contentsline {section}{\numberline {3.6}Results}{21}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Self evaluation}{21}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Possible improvements}{22}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.2}Possible improvements}{21}{subsection.3.6.2}%
 \contentsline {section}{\numberline {3.7}Conclusion}{22}{section.3.7}%
 \contentsline {subsection}{\numberline {3.7.1}Educational Value}{22}{subsection.3.7.1}%
 \contentsline {chapter}{\numberline {4}Product documentation}{23}{chapter.4}%

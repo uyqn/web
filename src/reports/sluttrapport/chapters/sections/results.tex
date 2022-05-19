@@ -1,8 +1,10 @@
 \section{Results}
 
-We observed thoughout multible semi physical demoes that even if the cars startet at the same distance from an intersection and had the same initial velocity, they would be able to pass the intersection without having to stop. This is because prior to the intersection the server would tell the car that would enter the intersection last to slow down. An example of a successful demo kan be seen in figure 3.6. According to what the server was logging, the car that slowed down prior the the intersection had changed its velocity from 80cm/s so 55c cm/s. The car had then returned to 80cm/s after the other car had passed the intersection.
+We observed thoughout multible semi physical demoes, that even if the cars startet at the same distance from an intersection and had the same initial velocity, they would be able to pass the intersection without having to stop. This is because prior to the intersection the server would tell the car that would enter the intersection last to slow down. An example of a successful demo kan be seen in figure 3.6. According to what the server was logging, the car that slowed down prior the the intersection had changed its velocity from 80cm/s so 55c cm/s. The car had then returned to 80cm/s after the other car had passed the intersection.
 
-If we compare that data to a real world cenario were instead of 80 cm/h the cars would drive in 80 km/h prior to an intersection. In the real world, one of the cars would have to stop before a traffic light while the other could drive past the intersection. This would lead to a velocity change from 80 km/h to 0. In our scenario the car would only have to slow down to 55 km/h.   
+If we compare that data to a real world cenario were instead of 80 cm/h the cars would drive in 80 km/h prior to an intersection. In the real world, one of the cars would have to stop before a traffic light while the other could drive past the intersection. This would lead to a velocity change from 80 km/h to 0. In our scenario the car would only have to slow down to 55 km/h.
+
+Change of velocity can lead to a distruption of traffic flow. We can  therefore conclude that in the specific scenario showed in the semi physical demonstration the server improved traffic flow.   
 
 \input{chapters/sections/subsections/evaluation_of_process}
 \input{chapters/sections/subsections/possible_improvements}
