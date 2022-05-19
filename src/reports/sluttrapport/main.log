@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  18 MAY 2022 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  19 MAY 2022 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,7 +864,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 ...e {4}Product documentation}{22}{chapter.4}
+l.37 ...e {4}Product documentation}{21}{chapter.4}
                                                   % [2
 
 ])
@@ -878,14 +878,6 @@ een already used, duplicate ignored
                    \relax 
 l.272 	\clearpage
                   [3]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.285 	\include{chapters/introductions}
-                                        [1
-
-]
 \openout2 = `chapters/introductions.aux'.
 
  (chapters/introductions.tex
@@ -895,7 +887,14 @@ Chapter 1.
 (chapters/sections/subsections/supervisors.tex)
 (chapters/sections/subsections/client.tex))
 (chapters/sections/project_description.tex
-(chapters/sections/subsections/project_background.tex [2
+(chapters/sections/subsections/project_background.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 
+     [1
+
 
 
 ]
@@ -906,25 +905,25 @@ OsloMet and Høyskolen
 
 ) (chapters/sections/subsections/significance.tex)
 (chapters/sections/subsections/goals_and_requirements.tex)
-(chapters/sections/subsections/problem_statement.tex [3]))) [4]
+(chapters/sections/subsections/problem_statement.tex [2]))) [3]
 \openout2 = `chapters/process_documentation.aux'.
 
 
 (chapters/process_documentation.tex
 Chapter 2.
 (chapters/sections/development_method.tex
-<figures/scrum_process.png, id=285, 990.70125pt x 446.66875pt>
+<figures/scrum_process.png, id=280, 990.70125pt x 446.66875pt>
 File: figures/scrum_process.png Graphic file (type png)
 <use figures/scrum_process.png>
 Package pdftex.def Info: figures/scrum_process.png  used on input line 8.
 (pdftex.def)             Requested size: 345.0pt x 155.54579pt.
- [5
+ [4
 
 
 
 
  <./figures/scrum_process.png>]
-<figures/kanban_screenshot.png, id=293, 1495.5875pt x 858.20625pt>
+<figures/kanban_screenshot.png, id=288, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
 Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 30.
@@ -933,14 +932,14 @@ Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 30.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (chapters/sections/tools_and_technology.tex [6] [7 <./figures/kanban_screensh
-ot.png>])) [8]
+) (chapters/sections/tools_and_technology.tex [5] [6 <./figures/kanban_screensh
+ot.png>])) [7]
 \openout2 = `chapters/implementation.aux'.
 
  (chapters/implementation.tex
 Chapter 3.
 (chapters/sections/phases.tex) (chapters/sections/pre_project_phase.tex
-(chapters/sections/subsections/programming_language.tex) [9
+(chapters/sections/subsections/programming_language.tex) [8
 
 
 
@@ -953,8 +952,8 @@ Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/12 Preventing traf-fic con-ges-tions for a one lane road| 
  []
 
-[10]
-<figures/flow_diagram_first.png, id=325, 291.0875pt x 402.50375pt>
+[9]
+<figures/flow_diagram_first.png, id=320, 291.0875pt x 402.50375pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -964,9 +963,9 @@ Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [11] [12 <./figures/flow_diagram_first.png>]
+) [10] [11 <./figures/flow_diagram_first.png>]
 (chapters/sections/subsections/MoSCoW_method.tex
-<figures/MosCoW_method.png, id=338, 1036.87375pt x 567.11874pt>
+<figures/MosCoW_method.png, id=333, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 9.
@@ -978,31 +977,31 @@ Overfull \hbox (2.00815pt too wide) in paragraph at lines 4--5
 r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
  []
 
-[13
+[12
 
- <./figures/MosCoW_method.png>] [14]) (chapters/sections/signalr.tex
-[15]) (chapters/sections/demo_phase.tex
-(chapters/sections/subsections/building_car.tex [16]
-<figures/two_cars.jpg, id=379, 4047.12pt x 3035.34pt>
+ <./figures/MosCoW_method.png>] [13]) (chapters/sections/signalr.tex
+[14]) (chapters/sections/demo_phase.tex
+(chapters/sections/subsections/building_car.tex [15]
+<figures/two_cars.jpg, id=374, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
 )
-(chapters/sections/subsections/calibration_of_cars.tex [17 <./figures/two_cars.
-jpg>]) (chapters/sections/subsections/construction_of_demo.tex [18]))
+(chapters/sections/subsections/calibration_of_cars.tex [16 <./figures/two_cars.
+jpg>]) (chapters/sections/subsections/construction_of_demo.tex [17]))
 (chapters/sections/results.tex
-(chapters/sections/subsections/evaluation_of_process.tex [19])
+(chapters/sections/subsections/evaluation_of_process.tex [18])
 (chapters/sections/subsections/possible_improvements.tex))
 (chapters/sections/conclusion.tex
-(chapters/sections/subsections/educational_value.tex [20]))) [21]
+(chapters/sections/subsections/educational_value.tex [19]))) [20]
 \openout2 = `chapters/product_documentation.aux'.
 
 
 (chapters/product_documentation.tex
 Chapter 4.
 (chapters/sections/preface.tex) (chapters/sections/program_description.tex
-<figures/Flow_diagram_server.png, id=414, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=409, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 5.
@@ -1015,12 +1014,12 @@ LaTeX Warning: Float too large for page by 1.49129pt on input line 8.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [22
+) [21
 
 
 
 
-] [23 <./figures/Flow_diagram_server.png>]
+] [22 <./figures/Flow_diagram_server.png>]
 (chapters/sections/adherence_to_requirements.tex)
 (chapters/sections/server_diagram.tex) (chapters/sections/user_manual.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
@@ -1029,9 +1028,9 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[24
+[23
 
-]) (chapters/sections/product_specification.tex [25]
+]) (chapters/sections/product_specification.tex [24]
 (chapters/sections/subsections/initialization.tex
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -1198,7 +1197,7 @@ Package xcolor Warning: Incompatible color definition on input line 14.
 
 Package xcolor Warning: Incompatible color definition on input line 21.
 
-[26]
+[25]
 
 Package xcolor Warning: Incompatible color definition on input line 22.
 
@@ -1435,7 +1434,7 @@ Package xcolor Warning: Incompatible color definition on input line 61.
 
 Package xcolor Warning: Incompatible color definition on input line 61.
 
-[27]
+[26]
 
 Package xcolor Warning: Incompatible color definition on input line 62.
 
@@ -1632,7 +1631,7 @@ Package xcolor Warning: Incompatible color definition on input line 11.
 
 Package xcolor Warning: Incompatible color definition on input line 13.
 
-[28]
+[27]
 
 Package xcolor Warning: Incompatible color definition on input line 20.
 
@@ -1819,7 +1818,7 @@ Package xcolor Warning: Incompatible color definition on input line 57.
 
 Package xcolor Warning: Incompatible color definition on input line 57.
 
-[29]
+[28]
 
 Package xcolor Warning: Incompatible color definition on input line 60.
 
@@ -1907,7 +1906,7 @@ Package xcolor Warning: Incompatible color definition on input line 102.
 
 Package xcolor Warning: Incompatible color definition on input line 102.
 
-[30]) (chapters/sections/subsections/patching.tex
+[29]) (chapters/sections/subsections/patching.tex
 
 Package xcolor Warning: Incompatible color definition on input line 5.
 
@@ -2028,7 +2027,7 @@ Package xcolor Warning: Incompatible color definition on input line 33.
 
 Package xcolor Warning: Incompatible color definition on input line 33.
 
-[31]
+[30]
 
 Package xcolor Warning: Incompatible color definition on input line 36.
 
@@ -2062,10 +2061,10 @@ Package xcolor Warning: Incompatible color definition on input line 41.
 
 Package xcolor Warning: Incompatible color definition on input line 41.
 
-) (chapters/sections/subsections/database.tex))) [32]
+) (chapters/sections/subsections/database.tex))) [31]
 
 AED: lastpage setting LastPage
-[33
+[32
 
 
 
@@ -2075,8 +2074,14 @@ chapters/implementation.aux) (chapters/product_documentation.aux))
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5475FB6801A52468F929550D5D5B9C77;6979.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 5475FB6801A52468F929550D5D5B9C77;6979
+(rerunfilecheck)             After:  B3DDF452D634EB62EF90B63A49954DF6;7055.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -2087,9 +2092,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25244 strings out of 478614
- 447794 string characters out of 2843122
- 1365025 words of memory out of 3000000
+ 25243 strings out of 478614
+ 447787 string characters out of 2843122
+ 1365023 words of memory out of 3000000
  42611 multiletter control sequences out of 15000+600000
  483758 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2110,9 +2115,9 @@ s/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 <C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 r7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on main.pdf (38 pages, 1558374 bytes).
+Output written on main.pdf (37 pages, 1557051 bytes).
 PDF statistics:
- 1267 PDF objects out of 1440 (max. 8388607)
- 327 named destinations out of 1000 (max. 500000)
+ 1259 PDF objects out of 1440 (max. 8388607)
+ 326 named destinations out of 1000 (max. 500000)
  399 words of extra memory for PDF output out of 10000 (max. 10000000)
 

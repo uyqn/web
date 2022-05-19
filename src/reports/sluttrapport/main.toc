@@ -1,49 +1,49 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Stakeholders}{2}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Students}{2}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Product owner}{2}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Supervisors}{2}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Client}{2}{subsection.1.1.4}%
-\contentsline {section}{\numberline {1.2}Project Description}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Project background}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Significance}{3}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Goals and requirements}{3}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Problem statement}{4}{subsection.1.2.4}%
-\contentsline {chapter}{\numberline {2}Process documentation}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Development method}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Tools and technologies}{7}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Implementation}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Process phases}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Phase 1 - Planning and research phase}{9}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Choice of programming languages}{10}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Internet of Things}{10}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Preventing traffic congestions for a one lane road}{10}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Prioritization method}{13}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Phase 2 - REST API}{13}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Long polling}{14}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Implement REST API on the client}{15}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Webhooks}{15}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Phase 3 - SignalR}{15}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Phase 4 - Making a demo}{16}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Building a car}{17}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Calibration of the cars}{17}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Construction of demonstration}{19}{subsection.3.5.3}%
-\contentsline {section}{\numberline {3.6}Results}{19}{section.3.6}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Stakeholders}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Students}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Product owner}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Supervisors}{1}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Client}{1}{subsection.1.1.4}%
+\contentsline {section}{\numberline {1.2}Project Description}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Project background}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Significance}{2}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Goals and requirements}{2}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Problem statement}{3}{subsection.1.2.4}%
+\contentsline {chapter}{\numberline {2}Process documentation}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Development method}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Tools and technologies}{6}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Implementation}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Process phases}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Phase 1 - Planning and research phase}{8}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Choice of programming languages}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Internet of Things}{9}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Preventing traffic congestions for a one lane road}{9}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Prioritization method}{12}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Phase 2 - REST API}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Long polling}{13}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Implement REST API on the client}{14}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Webhooks}{14}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Phase 3 - SignalR}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Phase 4 - Making a demo}{15}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Building a car}{16}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Calibration of the cars}{16}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Construction of semi physical demonstration}{18}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Results}{18}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Self evaluation}{19}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Possible improvements}{20}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Conclusion}{20}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Educational Value}{20}{subsection.3.7.1}%
-\contentsline {chapter}{\numberline {4}Product documentation}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Preface}{22}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Program description}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Adherence to project requirements}{24}{section.4.3}%
-\contentsline {section}{\numberline {4.4}User manual}{24}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Product specification}{26}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Initialization}{26}{subsection.4.5.1}%
-\contentsline {subsubsection}{Client.py}{26}{subsubsection*.12}%
-\contentsline {subsubsection}{Vehicle.py}{27}{subsubsection*.13}%
-\contentsline {subsection}{\numberline {4.5.2}Handshake and listener}{28}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Patch}{31}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}VehiclesHubDatabase}{32}{subsection.4.5.4}%
-\contentsline {chapter}{Bibliography}{33}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {3.6.2}Possible improvements}{19}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Conclusion}{19}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Educational Value}{19}{subsection.3.7.1}%
+\contentsline {chapter}{\numberline {4}Product documentation}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Preface}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Program description}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Adherence to project requirements}{23}{section.4.3}%
+\contentsline {section}{\numberline {4.4}User manual}{23}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Product specification}{25}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Initialization}{25}{subsection.4.5.1}%
+\contentsline {subsubsection}{Client.py}{25}{subsubsection*.12}%
+\contentsline {subsubsection}{Vehicle.py}{26}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {4.5.2}Handshake and listener}{27}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Patch}{30}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}VehiclesHubDatabase}{31}{subsection.4.5.4}%
+\contentsline {chapter}{Bibliography}{32}{subsection.4.5.4}%
