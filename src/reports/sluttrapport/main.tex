@@ -9,6 +9,7 @@
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{pdfpages}
 %----------
 \usepackage{listings}
 \lstset{
@@ -123,13 +124,13 @@
 		},
 		keywordstyle=\color{bluekeywords},
 		stringstyle=\color{otterbrown},
-		emph=[1]{Task, JsonDocument, Vehicle, DataException, IDevice, VehiclesHubDatabase, VehiclesHub, Hub},
+		emph=[1]{Task, JsonDocument, Vehicle, DataException, IDevice, VehiclesHubDatabase, VehiclesHub, Hub, Intersection, HashSet, Dictionary, IVehiclesHubDatabase, Road, IEnumerable},
 		emphstyle=[1]{\color{blue-violet}},
 		emph=[2]{
-			AddClient, Create, GetProperty, ExtractLane, CurrentLane, SetTravelPlan, StartNode, EndNode, Add, Update, Route, Details, Client, WaitForVehicles, Fetch, SendEventToAll, SendAsync, Start, MapHub, Patch, HandleIntersection, HandleEndOfRoute, HandleInsideIntersection,
+			AddClient, Create, GetProperty, ExtractLane, CurrentLane, SetTravelPlan, StartNode, EndNode, Add, Update, Route, Details, Client, WaitForVehicles, Fetch, SendEventToAll, SendAsync, Start, MapHub, Patch, HandleIntersection, HandleEndOfRoute, HandleInsideIntersection, AddRoad, AddLane, ConnectedLanes, ForEach, AddSingleton, Remove, NextVehiclesIn, OnlyFirstIntoNextVehiclesIn
 		},
 		emphstyle=[2]{\color{deepgreen}},
-		emph=[3]{RootElement, Id, Context, ConnectionId, Velocity, Clients, SpeedLimit, All, Clock},
+		emph=[3]{RootElement, Id, Context, ConnectionId, Velocity, Clients, SpeedLimit, All, Clock, _intersection, _vehicles, _lanes, Count, _connectionIds, _vehiclesConnectionId, Length, Services},
 		emphstyle=[3]{\color{cyan}}
 }}
 
@@ -250,6 +251,7 @@
 \date{Last updated:\\ \today}
 
 \begin{document}
+	\includepdf{Tittelside}
 	\maketitle
 	\pagenumbering{gobble}
 	\begin{abstract}
