@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  19 MAY 2022 12:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  19 MAY 2022 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1069,7 +1069,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/succsess_demo.png, id=432, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
-Package pdftex.def Info: figures/succsess_demo.png  used on input line 19.
+Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
 (pdftex.def)             Requested size: 345.0pt x 275.0522pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1077,11 +1077,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) [18] [19 <./figures/demo_crash.png>] [20 <./figures/succsess_demo.png>])
 (chapters/sections/results.tex
 (chapters/sections/subsections/evaluation_of_process.tex)
-(chapters/sections/subsections/possible_improvements.tex))
-(chapters/sections/conclusion.tex
-(chapters/sections/subsections/educational_value.tex [21
+(chapters/sections/subsections/possible_improvements.tex [21
 
-]))) [22]
+]))
+(chapters/sections/conclusion.tex
+(chapters/sections/subsections/educational_value.tex))) [22]
 \openout2 = `chapters/product_documentation.aux'.
 
 
@@ -1181,7 +1181,7 @@ Here is how much of TeX's memory you used:
  43470 multiletter control sequences out of 15000+600000
  483758 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,17n,75p,1342b,5035s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 61i,17n,75p,1296b,5035s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecti1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1198,7 +1198,7 @@ s/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 <C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 r7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on main.pdf (44 pages, 2245750 bytes).
+Output written on main.pdf (44 pages, 2246687 bytes).
 PDF statistics:
  1455 PDF objects out of 1728 (max. 8388607)
  422 named destinations out of 1000 (max. 500000)
