@@ -233,6 +233,18 @@
 \cfoot{Page \thepage\ of \pageref{LastPage}}
 % ------------------------------------------------------------
 % ------------------------------------------------------------
+\usepackage{titlesec}
+
+\titleclass{\part}{top} % make part like a chapter
+\titleformat{\part}
+[display]
+{\centering\normalfont\Huge\bfseries}
+{\vspace{3pt}\vspace{3pt}\MakeUppercase{\partname} \thepart}
+{0pt}
+{\vspace{1pc}\huge\MakeUppercase}
+%
+\titlespacing*{\part}{0pt}{0pt}{20pt}
+%
 \titleformat{\chapter}[display]
   {\normalfont\bfseries}{}{0pt}{\Huge}
 %% ------------------------------------------ %% 
@@ -279,10 +291,16 @@
 	% Husk bare på å inkludere referanser i form av \cite{referanse-navn}
 	% uten parantes, eller (\cite{referanse-navn}) <- med parantes
 	% ------------------------------------------------------------
+	\part{Preliminary}
+	This text is supposed to convey what this part of the report is about.
 	\include{chapters/introductions}
 	%\include{chapters/research_areas}
+	\part{Process Documentation}
+	This text is supposed to convey what this part of the report is about.
 	\include{chapters/process_documentation}
 	\include{chapters/implementation}
+	\part{Product Document}
+	This text is supposed to convey what this part of the report is about.
 	\include{chapters/product_documentation}
 %	\include{chapters/discussion}
 %	\include{chapters/conclusion}
