@@ -30,26 +30,30 @@
 \contentsline {subsection}{\numberline {3.5.2}Calibration of the cars}{16}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Construction of semi physical demonstration}{18}{subsection.3.5.3}%
 \contentsline {section}{\numberline {3.6}Results}{21}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Self evaluation}{21}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Possible improvements}{21}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Conclusion}{22}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Educational Value}{22}{subsection.3.7.1}%
-\contentsline {chapter}{\numberline {4}Product documentation}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Preface}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Program description}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Adherence to project requirements}{25}{section.4.3}%
-\contentsline {section}{\numberline {4.4}User manual}{25}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Product specification}{27}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Initialization}{27}{subsection.4.5.1}%
-\contentsline {subsubsection}{Client.py}{27}{subsubsection*.14}%
-\contentsline {subsubsection}{Vehicle.py}{28}{subsubsection*.15}%
-\contentsline {subsection}{\numberline {4.5.2}Handshake and listener}{29}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Patch}{32}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}VehiclesHubDatabase}{34}{subsection.4.5.4}%
-\contentsline {subsubsection}{Adding vehicles}{36}{subsubsection*.17}%
-\contentsline {subsubsection}{Removing vehicles}{36}{subsubsection*.18}%
-\contentsline {subsubsection}{Updating vehicles}{36}{subsubsection*.19}%
-\contentsline {subsubsection}{Fetching vehicles}{36}{subsubsection*.20}%
-\contentsline {subsubsection}{Get the connection Id of a particular vehicle}{37}{subsubsection*.21}%
-\contentsline {subsubsection}{Find vehicles approaching the intersection}{37}{subsubsection*.22}%
-\contentsline {chapter}{Bibliography}{38}{lstnumber.-32.6}%
+\contentsline {subsection}{\numberline {3.6.1}Data}{21}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Real world scenario}{21}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Possible improvements}{21}{subsection.3.6.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Self evaluation}{23}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Educational Value}{23}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Further work}{24}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Scalability}{24}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Real world application}{25}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Product documentation}{26}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Preface}{26}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Program description}{26}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Adherence to project requirements}{28}{section.5.3}%
+\contentsline {section}{\numberline {5.4}User manual}{28}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Product specification}{30}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Initialization}{30}{subsection.5.5.1}%
+\contentsline {subsubsection}{Client.py}{30}{subsubsection*.14}%
+\contentsline {subsubsection}{Vehicle.py}{31}{subsubsection*.15}%
+\contentsline {subsection}{\numberline {5.5.2}Handshake and listener}{32}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Patch}{35}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}VehiclesHubDatabase}{37}{subsection.5.5.4}%
+\contentsline {subsubsection}{Adding vehicles}{39}{subsubsection*.17}%
+\contentsline {subsubsection}{Removing vehicles}{39}{subsubsection*.18}%
+\contentsline {subsubsection}{Updating vehicles}{39}{subsubsection*.19}%
+\contentsline {subsubsection}{Fetching vehicles}{39}{subsubsection*.20}%
+\contentsline {subsubsection}{Get the connection Id of a particular vehicle}{40}{subsubsection*.21}%
+\contentsline {subsubsection}{Find vehicles approaching the intersection}{40}{subsubsection*.22}%
