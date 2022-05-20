@@ -1,10 +1,17 @@
 \section{Results}
+After finishing the fourth development phase we showed the video snippets we had filmed to our supervisors and the product owner, in addition to giving an in-depth explanation of the outcomes the demonstration showed. They seemed pleased with the product, and the feedback we got was positive. The product owner confirmed that our results adhered to the requriements set.
 
-We observed thoughout multible semi physical demoes, that even if the cars startet at the same distance from an intersection and had the same initial velocity, they would be able to pass the intersection without having to stop. This is because prior to the intersection the server would tell the car that would enter the intersection last to slow down. An example of a successful demo kan be seen in figure 3.6. According to what the server was logging, the car that slowed down prior the the intersection had changed its velocity from 80cm/s so 55c cm/s. The car had then returned to 80cm/s after the other car had passed the intersection.
+The summary of the results from the process was:
 
-If we compare that data to a real world cenario were instead of 80 cm/h the cars would drive in 80 km/h prior to an intersection. In the real world, one of the cars would have to stop before a traffic light while the other could drive past the intersection. This would lead to a velocity change from 80 km/h to 0. In our scenario the car would only have to slow down to 55 km/h.
+A server where multible vehicles can communicate with eachother. The server functions to increase traffic flow, and has responsibility for calculations and decision making. 
 
-Change of velocity can lead to a distruption of traffic flow. We can  therefore conclude that in the specific scenario showed in the semi physical demonstration the server improved traffic flow.   
+A client, in our case the two cars which are able to send information to a server. Theese cars can drive both when connected to the server or not.
 
-\input{chapters/sections/subsections/evaluation_of_process}
+A semi physical demonstration that shows how the system works in an intersection.
+
+A more technical description of how the appications work can be found in the product documentation. 
+
+
+\input{chapters/sections/subsections/data}
+\input{chapters/sections/subsections/real_world_scenario}
 \input{chapters/sections/subsections/possible_improvements}
