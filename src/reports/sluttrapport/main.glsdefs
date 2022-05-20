@@ -1,0 +1,56 @@
+\glsdefs@newdocentry{ai}%
+{%
+name={AI},%
+sort={AI},%
+type={acronym},%
+first={Artificial Intelligence\glsspace (AI)},%
+firstplural={Artificial Intelligence\acrpluralsuffix \glsspace (AI\acrpluralsuffix )},%
+text={AI},%
+plural={AI\acrpluralsuffix },%
+description={Artificial Intelligence},%
+descriptionplural={Artificial Intelligence\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Artificial Intelligence},%
+longplural={Artificial Intelligences},%
+short={AI},%
+shortplural={AIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{iot}%
+{%
+name={IoT},%
+sort={IoT},%
+type={acronym},%
+first={Internet of Things\glsspace (IoT)},%
+firstplural={Internet of Things\acrpluralsuffix \glsspace (IoT\acrpluralsuffix )},%
+text={IoT},%
+plural={IoT\acrpluralsuffix },%
+description={Internet of Things},%
+descriptionplural={Internet of Things\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet of Things},%
+longplural={Internet of Thingss},%
+short={IoT},%
+shortplural={IoTs},%
+counter={page},%
+parent={},%
+%
+}%
+
