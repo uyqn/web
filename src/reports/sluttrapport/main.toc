@@ -36,9 +36,8 @@
 \contentsline {chapter}{\numberline {4}Discussion}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Self evaluation}{23}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Educational Value}{23}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Further work}{24}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Scalability}{24}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Real world application}{25}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.2}Real world application}{24}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Edge computing}{24}{subsection.4.2.1}%
 \contentsline {chapter}{\numberline {5}Product documentation}{26}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Preface}{26}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Program description}{26}{section.5.2}%

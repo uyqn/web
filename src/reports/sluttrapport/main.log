@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  20 MAY 2022 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  20 MAY 2022 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -867,7 +867,7 @@ Package biblatex Info: Reference segment=0 on input line 253.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 253.
-<Tittelside.pdf, id=203, 597.23125pt x 845.1575pt>
+<Tittelside.pdf, id=199, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
 Package pdftex.def Info: Tittelside.pdf  used on input line 254.
@@ -876,7 +876,7 @@ File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
 Package pdftex.def Info: Tittelside.pdf  used on input line 254.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<Tittelside.pdf, id=206, page=1, 597.23125pt x 845.1575pt>
+<Tittelside.pdf, id=202, page=1, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
 Package pdftex.def Info: Tittelside.pdf , page1 used on input line 254.
@@ -997,7 +997,7 @@ OsloMet and Høyskolen
 (chapters/process_documentation.tex
 Chapter 2.
 (chapters/sections/development_method.tex
-<figures/scrum_process.png, id=333, 990.70125pt x 446.66875pt>
+<figures/scrum_process.png, id=328, 990.70125pt x 446.66875pt>
 File: figures/scrum_process.png Graphic file (type png)
 <use figures/scrum_process.png>
 Package pdftex.def Info: figures/scrum_process.png  used on input line 8.
@@ -1008,7 +1008,7 @@ Package pdftex.def Info: figures/scrum_process.png  used on input line 8.
 
 
  <./figures/scrum_process.png>]
-<figures/kanban_screenshot.png, id=341, 1495.5875pt x 858.20625pt>
+<figures/kanban_screenshot.png, id=336, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
 Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 30.
@@ -1044,7 +1044,7 @@ Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
  []
 
 [9]
-<figures/flow_diagram_first.png, id=369, 291.0875pt x 402.50375pt>
+<figures/flow_diagram_first.png, id=364, 291.0875pt x 402.50375pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -1056,7 +1056,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [10] [11 <./figures/flow_diagram_first.png>]
 (chapters/sections/subsections/MoSCoW_method.tex
-<figures/MosCoW_method.png, id=382, 1036.87375pt x 567.11874pt>
+<figures/MosCoW_method.png, id=377, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 9.
@@ -1099,7 +1099,7 @@ LaTeX Warning: Citation 'microsoft_signalr' on page 14 undefined on input line
 
 [14]) (chapters/sections/demo_phase.tex
 (chapters/sections/subsections/building_car.tex [15]
-<figures/two_cars.jpg, id=411, 4047.12pt x 3035.34pt>
+<figures/two_cars.jpg, id=406, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
@@ -1107,7 +1107,7 @@ Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 )
 (chapters/sections/subsections/calibration_of_cars.tex [16 <./figures/two_cars.
 jpg>]) (chapters/sections/subsections/construction_of_demo.tex [17]
-<figures/demo_crash.png, id=430, 427.5975pt x 343.2825pt>
+<figures/demo_crash.png, id=425, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 9.
@@ -1116,7 +1116,7 @@ Package pdftex.def Info: figures/demo_crash.png  used on input line 9.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/succsess_demo.png, id=431, 271.0125pt x 216.05719pt>
+<figures/succsess_demo.png, id=426, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
@@ -1143,18 +1143,17 @@ Chapter 4.
 
 ]))
 (chapters/sections/further_work.tex
-(chapters/sections/subsections/scalability.tex)
-(chapters/sections/subsections/extendability_real_world.tex [24]
+(chapters/sections/subsections/extendability_real_world.tex
 
-LaTeX Warning: Citation 'iot_platforms' on page 25 undefined on input line 5.
+LaTeX Warning: Citation 'iot_platforms' on page 24 undefined on input line 5.
 
-))) [25]
+[24]))) [25]
 \openout2 = `chapters/product_documentation.aux'.
 
  (chapters/product_documentation.tex
 Chapter 5.
 (chapters/sections/preface.tex) (chapters/sections/program_description.tex
-<figures/Flow_diagram_server.png, id=477, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=472, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 5.
@@ -1205,7 +1204,7 @@ rsion=0
 [31]) (chapters/sections/subsections/handshake_and_listener.tex [32] [33]
 [34]) (chapters/sections/subsections/patching.tex [35]) [36]
 (chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=770, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=765, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1225,9 +1224,12 @@ Overfull \hbox (6.51602pt too wide) in paragraph at lines 128--9
 cmtt/m/n/10 OnlyFirstIntoNextVehiclesIn
  []
 
-) [40]
+) [40] [41
 
-LaTeX Warning: Empty bibliography on input line 294.
+
+]
+
+LaTeX Warning: Empty bibliography on input line 302.
 
 
 AED: lastpage setting LastPage
@@ -1238,7 +1240,7 @@ AED: lastpage setting LastPage
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5B3318F9F2009D9979AD9918444D23A0;7584.
+(rerunfilecheck)             Checksum: D9337713ED99719AC7FF1E7FDA21FC4C;7477.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1249,10 +1251,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26161 strings out of 478614
- 463993 string characters out of 2843122
+ 26154 strings out of 478614
+ 463633 string characters out of 2843122
  1382650 words of memory out of 3000000
- 43404 multiletter control sequences out of 15000+600000
+ 43400 multiletter control sequences out of 15000+600000
  483758 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,17n,75p,1296b,5035s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1272,9 +1274,9 @@ s/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 <C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 r7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on main.pdf (46 pages, 2236079 bytes).
+Output written on main.pdf (47 pages, 2235504 bytes).
 PDF statistics:
- 1423 PDF objects out of 1440 (max. 8388607)
+ 1421 PDF objects out of 1440 (max. 8388607)
  418 named destinations out of 1000 (max. 500000)
- 466 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 458 words of extra memory for PDF output out of 10000 (max. 10000000)
 
