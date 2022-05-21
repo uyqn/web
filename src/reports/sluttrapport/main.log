@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,7 +1172,7 @@ Chapter 2.
 <figures/scrum_process.png, id=339, 990.70125pt x 446.66875pt>
 File: figures/scrum_process.png Graphic file (type png)
 <use figures/scrum_process.png>
-Package pdftex.def Info: figures/scrum_process.png  used on input line 9.
+Package pdftex.def Info: figures/scrum_process.png  used on input line 13.
 (pdftex.def)             Requested size: 345.0pt x 155.54579pt.
  [6
 
@@ -1181,7 +1181,7 @@ Package pdftex.def Info: figures/scrum_process.png  used on input line 9.
 <figures/kanban_screenshot.png, id=347, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
-Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 31.
+Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 35.
 (pdftex.def)             Requested size: 345.0pt x 197.97256pt.
 
 
@@ -1492,7 +1492,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  32716 strings out of 478614
  598579 string characters out of 2843122
- 1556079 words of memory out of 3000000
+ 1556080 words of memory out of 3000000
  49735 multiletter control sequences out of 15000+600000
  485308 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1514,9 +1514,9 @@ nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (52 pages, 2195539 bytes).
+Output written on main.pdf (52 pages, 2196987 bytes).
 PDF statistics:
- 1537 PDF objects out of 1728 (max. 8388607)
+ 1542 PDF objects out of 1728 (max. 8388607)
  500 named destinations out of 1000 (max. 500000)
  502 words of extra memory for PDF output out of 10000 (max. 10000000)
 
