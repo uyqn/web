@@ -12,22 +12,17 @@ At this stage, the client would be able to send a PATCH request to the server to
 
 However, a RESTful API server could not perform all the required tasks the group wanted the server to do. Firstly, the server was only able to communicate with one client at a time, i.e., the client that sends a request. What the group wanted was that the server could respond to other clients without a request. In our case, whenever a vehicle sends a PATCH request, the server should be able to inform other vehicles of this event. This is not possible with a RESTful API.
 
-A new solution had to be in place to achieve our goal, so we consulted our supervisors for help. They proposed some solutions for us to research, including long-polling, REST API on the client, Webhooks, and Webscokets. 
+A new solution had to be in place to achieve our goal, so we consulted our supervisors for help. They proposed some solutions for us to research, including long-polling, Webhooks, and Webscokets.
 
-\subsection{Alternative solution 1 - Long-polling}
+\subsection{Alternative solution 1 - Short-polling and long-polling}
 Polling refers to the server pushing resources to the client. There are mainly two types of polling; short- and long-polling. 
 
 When short-polling, a client requests a resource from the server, and the server responds with an empty response if the resource is not available. The client will then send a new request after a short amount of time, and the cycle repeats until the client receives the resource it has requested.
 
 Long-polling is similar to short-polling, but the server does not send anything back until the resource is available. In other words, the client sends a request to the server, and the server holds this request until it has a response available to the client. In our case, we wanted every client to perform a GET request to the server. Then the server holds onto this request until it has further instructions for the requesting client.
 
-However, implementing a method on the server to block the response introduced more complications to the project. With the asynchronous nature of the controllers implemented on the server, it would also mean that the server will consume a lot of the processing power, which also means that the server's performance will have heavily deteriorated.
+\subsection{Alternative solution 2 - Webhooks}
+Webhooks, according to \cite{webhooks}, is a user-defined callback over HTTP. In our case, implementing webhooks to post notifications on clients based on events sent to the server. This was a good contender to solve our issue. However, we found little information on how to utilize webhooks in our project. 
 
-\subsection{Alternative solution 2 - Implement REST API on the client}
-Another solution was to implement the client itself as a REST API server on its own. However, in order to achieve this, each client needed to also send the server its host and port information to the server. Also, the server has to be implemented as a client in order to connect to the vehicles.
-
-\subsection{Alternative solution 3 - Webhooks}
-Webhooks, according to \cite{webhooks}, is a user-defined callback over HTTP. In our case, implementing webhooks to post notifications on clients based on events sent to the server. This was a good contender to solve our issue. However, implementing webhooks includes extensive research into a system the group had never heard of, in addition to scarce information on how to create such a system. The group decided that the time constraint of this project did not justify the time it would take to implement such a system.
-
-\subsection{Alternative solution 4 - Websockets}
+\subsection{Alternative solution 3 - Websockets}
 Websockets is a protocol that provides a bidirectional communication between clients and server by establishing a single TCP connection in both direction \parencite{rfc_websockets}.  
