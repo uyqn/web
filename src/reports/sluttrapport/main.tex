@@ -246,8 +246,6 @@
 %
 \titlespacing*{\part}{0pt}{0pt}{20pt}
 %
-\titleformat{\chapter}[display]
-  {\normalfont\bfseries}{}{0pt}{\Huge}
 %% ------------------------------------------ %% 
 \makeglossaries
 \newacronym{ai}{AI}{Artificial Intelligence}
@@ -266,7 +264,7 @@
 \date{Last updated:\\ \today}
 
 \begin{document}
-%	\includepdf{Tittelside}
+	\includepdf{Tittelside}
 	\maketitle
 	\pagenumbering{gobble}
 	\begin{abstract}
@@ -302,9 +300,9 @@ This is the report of our bachelor thesis at Oslo Metropolitan University, Facul
 	This text is supposed to convey what this part of the report is about.
 	\include{chapters/process_documentation}
 	\include{chapters/implementation}
+	\include{chapters/discussion}
 	\part{Product Document}
 	This text is supposed to convey what this part of the report is about.
-	\include{chapters/discussion}
 	\include{chapters/product_documentation}
 %	\include{chapters/conclusion}
 
@@ -333,12 +331,6 @@ This is the report of our bachelor thesis at Oslo Metropolitan University, Facul
     \printbibliography
     \appendix
     \include{appendices/acronyms} 
-    
-    \begin{figure}[h!]
-    	\centering
-    	\includegraphics[width=1\linewidth]{figures/Sprint_overview}
-    	\caption[Sprint overview]{A overview of our sprints. Each sprint lasted 2 weeks.}
-    	\label{fig:sprintoverview}
-    \end{figure}
+    \include{appendices/sprint_overview}
     
 \end{document}
