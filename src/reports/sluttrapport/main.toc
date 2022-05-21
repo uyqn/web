@@ -10,55 +10,57 @@
 \contentsline {subsection}{\numberline {1.2.1}Project background}{3}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Significance}{3}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Goals and requirements}{3}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Problem statement}{4}{subsection.1.2.4}%
-\contentsline {part}{II\hspace {1em}Process Documentation}{5}{part.2}%
-\contentsline {chapter}{\numberline {2}Work methodology and technology used}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Development method}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Tools and technologies}{8}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Phases}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Phase 1 - Planning and research phase}{10}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Choice of programming languages}{11}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Internet of Things}{11}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Preventing traffic congestions for a one lane road}{11}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Prioritization method}{14}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Phase 2 - REST API and why it did not work with our project}{14}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Alternative solution 1 - Long polling}{15}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Alternative solution 2 - Implement REST API on the client}{16}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Alternative solution 3 - Webhooks}{16}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Phase 3 - Websocket with SignalR}{16}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Implementation of intersections}{17}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Phase 4 - Semi physical demonstration}{18}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Building the car}{18}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {1.2.4}Problem statement}{3}{subsection.1.2.4}%
+\contentsline {part}{II\hspace {1em}Process Documentation}{4}{part.2}%
+\contentsline {chapter}{\numberline {2}Work methodology and technology used}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Development method}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Tools and technologies}{7}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Phases}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Phase 1 - Planning and research phase}{9}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Choice of programming languages}{10}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Internet of Things}{10}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Preventing traffic congestions for a one lane road}{10}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Prioritization method}{13}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Phase 2 - REST API and why it did not work with our project}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Alternative solution 1 - Long polling}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Alternative solution 2 - Implement REST API on the client}{15}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Alternative solution 3 - Webhooks}{15}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Phase 3 - Websocket with SignalR}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Implementation of intersections}{16}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Phase 4 - Semi physical demonstration}{17}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Building the car}{17}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Calibration of the cars}{18}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Construction of semi physical demonstration}{20}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Results}{23}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Data}{23}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Real world scenario}{23}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Possible improvements}{24}{subsection.3.5.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Self evaluation}{25}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Educational Value}{25}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Real world application}{26}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Edge computing}{26}{subsection.4.2.1}%
-\contentsline {part}{III\hspace {1em}Product Document}{28}{part.3}%
-\contentsline {chapter}{\numberline {5}Product documentation}{29}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Preface}{29}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Program description}{29}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Adherence to project requirements}{31}{section.5.3}%
-\contentsline {section}{\numberline {5.4}User manual}{31}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Essential code snippets behind the system}{33}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Initialization}{33}{subsection.5.5.1}%
-\contentsline {subsubsection}{Client.py}{33}{subsubsection*.14}%
-\contentsline {subsubsection}{Vehicle.py}{34}{subsubsection*.15}%
-\contentsline {subsection}{\numberline {5.5.2}Handshake and listener}{35}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Patch}{38}{subsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.5.4}VehiclesHubDatabase}{39}{subsection.5.5.4}%
-\contentsline {subsubsection}{Adding vehicles}{41}{subsubsection*.17}%
-\contentsline {subsubsection}{Removing vehicles}{41}{subsubsection*.18}%
-\contentsline {subsubsection}{Updating vehicles}{42}{subsubsection*.19}%
-\contentsline {subsubsection}{Fetching vehicles}{42}{subsubsection*.20}%
-\contentsline {subsubsection}{Get the connection Id of a particular vehicle}{42}{subsubsection*.21}%
-\contentsline {subsubsection}{Find vehicles approaching the intersection}{42}{subsubsection*.22}%
-\contentsline {subsection}{\numberline {5.5.5}RoutePlanner and SetTravelPlan}{43}{subsection.5.5.5}%
-\contentsline {chapter}{Bibliography}{46}{lstnumber.-36.19}%
+\contentsline {subsection}{\numberline {3.4.3}Construction of semi physical demonstration}{19}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Results}{22}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Data}{22}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Real world scenario}{22}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Possible improvements}{23}{subsection.3.5.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Self evaluation}{24}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Educational Value}{24}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Real world application}{25}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Edge computing and AI}{25}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}System security}{26}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Distribution to the real world application}{26}{subsection.4.2.3}%
+\contentsline {part}{III\hspace {1em}Product Document}{27}{part.3}%
+\contentsline {chapter}{\numberline {5}Product documentation}{28}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Preface}{28}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Program description}{28}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Adherence to project requirements}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.4}User manual}{30}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Essential code snippets behind the system}{32}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Initialization}{32}{subsection.5.5.1}%
+\contentsline {subsubsection}{Client.py}{32}{subsubsection*.14}%
+\contentsline {subsubsection}{Vehicle.py}{33}{subsubsection*.15}%
+\contentsline {subsection}{\numberline {5.5.2}Handshake and listener}{34}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Patch}{37}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}VehiclesHubDatabase}{38}{subsection.5.5.4}%
+\contentsline {subsubsection}{Adding vehicles}{40}{subsubsection*.17}%
+\contentsline {subsubsection}{Removing vehicles}{40}{subsubsection*.18}%
+\contentsline {subsubsection}{Updating vehicles}{41}{subsubsection*.19}%
+\contentsline {subsubsection}{Fetching vehicles}{41}{subsubsection*.20}%
+\contentsline {subsubsection}{Get the connection Id of a particular vehicle}{41}{subsubsection*.21}%
+\contentsline {subsubsection}{Find vehicles approaching the intersection}{41}{subsubsection*.22}%
+\contentsline {subsection}{\numberline {5.5.5}RoutePlanner and SetTravelPlan}{42}{subsection.5.5.5}%
+\contentsline {chapter}{Bibliography}{46}{chapter*.23}%
 \contentsline {chapter}{\numberline {A}Acronyms}{47}{appendix.A}%

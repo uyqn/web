@@ -196,6 +196,42 @@
       \verb https://www.rfc-editor.org/rfc/pdfrfc/rfc6455.txt.pdf
       \endverb
     \endentry
+    \entry{artificial_intelligence}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0f8b695ff7d8e2cd1fcb24a576b29987}{%
+           family={{IBM Cloud Education}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{fullhash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{bibnamehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{authorbibnamehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{authornamehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \strng{authorfullhash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{month}{6}
+      \field{title}{Artificial Intelligence (AI)}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ibm.com/cloud/learn/what-is-artificial-intelligence
+      \endverb
+      \verb{url}
+      \verb http://ibm.com/cloud/learn/what-is-artificial-intelligence
+      \endverb
+    \endentry
     \entry{rest_api}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0f8b695ff7d8e2cd1fcb24a576b29987}{%
@@ -208,6 +244,7 @@
       \strng{authorbibnamehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
       \strng{authornamehash}{0f8b695ff7d8e2cd1fcb24a576b29987}
       \strng{authorfullhash}{0f8b695ff7d8e2cd1fcb24a576b29987}
+      \field{extraname}{2}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
