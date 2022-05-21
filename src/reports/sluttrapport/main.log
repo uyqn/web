@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  22 MAY 2022 00:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,7 +1136,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 ...sical demonstration}{20}{subsection.3.4.3}
+l.36 ...sical demonstration}{19}{subsection.3.4.3}
                                                   % [2
 
 ])
@@ -1262,25 +1262,35 @@ LaTeX Warning: Citation 'iot_analytics' on page 11 undefined on input line 3.
 LaTeX Warning: Citation 'chinese_iov' on page 11 undefined on input line 5.
 
 ) (chapters/sections/subsections/Increasing_trafficflow_for_one_lane_road.tex
-Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
-|[]\T1/cmr/bx/n/12 Preventing traf-fic con-ges-tions for a one lane road| 
+Overfull \hbox (8.14732pt too wide) in paragraph at lines 1--1
+|[]\T1/cmr/bx/n/12 Preventing traf-fic con-ges-tions for a one-lane road| 
  []
 
 
+LaTeX Warning: Citation 'traffic_congestion_pollution' on page 11 undefined on 
+input line 6.
+
+
 LaTeX Warning: Citation 'traffic_congestion' on page 11 undefined on input line
- 4.
+ 8.
+
+
+Overfull \hbox (70.73181pt too wide) in paragraph at lines 3--9
+\T1/cmr/m/n/10 fac-tors can cause traf-fic con-ges-tion, such as: >>>>>>> 96b3a
+6e138da6cbb5d54db95e15739fae12e6ed2
+ []
 
 [11]
-<figures/flow_diagram_first.png, id=445, 226.34563pt x 409.53pt>
+
+LaTeX Warning: Citation 'traffic_shockwave' on page 12 undefined on input line 
+12.
+
+<figures/flow_diagram_first.png, id=447, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
-Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
+Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 22.
 
-(pdftex.def)             Requested size: 345.0pt x 624.21051pt.
-
-
-LaTeX Warning: Float too large for page by 48.21051pt on input line 17.
-
+(pdftex.def)             Requested size: 310.4979pt x 561.79008pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1297,16 +1307,22 @@ r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
 
 LaTeX Warning: Citation 'influxdb' on page 14 undefined on input line 7.
 
+
+Overfull \hbox (36.90567pt too wide) in paragraph at lines 17--17
+|[]\T1/cmr/bx/n/12 Alternative so-lu-tion 1 - Short-polling and long-polling| 
+ []
+
 [14
 
 ]
 
-LaTeX Warning: Citation 'webhooks' on page 15 undefined on input line 30.
+LaTeX Warning: Citation 'webhooks' on page 15 undefined on input line 25.
+
+
+LaTeX Warning: Citation 'rfc_websockets' on page 15 undefined on input line 28.
+
 
 ) (chapters/sections/signalr.tex
-
-LaTeX Warning: Citation 'rfc_websockets' on page 15 undefined on input line 2.
-
 
 LaTeX Warning: Citation 'microsoft_websockets' on page 15 undefined on input li
 ne 2.
@@ -1320,22 +1336,25 @@ LaTeX Warning: Citation 'microsoft_signalr' on page 15 undefined on input line
 4.
 
 [15] [16]) (chapters/sections/demo_phase.tex
-(chapters/sections/subsections/building_car.tex [17]
-<figures/two_cars.jpg, id=479, 4047.12pt x 3035.34pt>
+(chapters/sections/subsections/building_car.tex
+<figures/two_cars.jpg, id=477, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
-)
-(chapters/sections/subsections/calibration_of_cars.tex [18 <./figures/two_cars.
-jpg>]
-<figures/velocity_and_power.png, id=485, 358.84062pt x 215.30438pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (chapters/sections/subsections/calibration_of_cars.tex [17] [18 <./figures/tw
+o_cars.jpg>]
+<figures/velocity_and_power.png, id=488, 358.84062pt x 215.30438pt>
 File: figures/velocity_and_power.png Graphic file (type png)
 <use figures/velocity_and_power.png>
 Package pdftex.def Info: figures/velocity_and_power.png  used on input line 29.
 
 (pdftex.def)             Requested size: 345.0pt x 207.01509pt.
-<figures/function_of_power.png, id=486, 254.45062pt x 218.8175pt>
+<figures/function_of_power.png, id=489, 254.45062pt x 218.8175pt>
 File: figures/function_of_power.png Graphic file (type png)
 <use figures/function_of_power.png>
 Package pdftex.def Info: figures/function_of_power.png  used on input line 38.
@@ -1344,22 +1363,29 @@ Package pdftex.def Info: figures/function_of_power.png  used on input line 38.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./figures/velocity_and_power.png>])
-(chapters/sections/subsections/construction_of_demo.tex [20 <./figures/function
-_of_power.png>]
-<figures/demo_crash.png, id=505, 427.5975pt x 343.2825pt>
+) (chapters/sections/subsections/construction_of_demo.tex [19 <./figures/veloci
+ty_and_power.png>]
+<figures/demo_crash.png, id=501, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
- [21 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=512, 271.0125pt x 216.05719pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./figures/function_of_power.png>]
+<figures/succsess_demo.png, id=508, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
 (pdftex.def)             Requested size: 345.0pt x 275.0522pt.
-) [22 <./figures/succsess_demo.png>]) (chapters/sections/results.tex (chapters/
-sections/subsections/data.tex)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [21 <./figures/demo_crash.png>] [22 <./figures/succsess_demo.png>])
+(chapters/sections/results.tex (chapters/sections/subsections/data.tex)
 (chapters/sections/subsections/real_world_scenario.tex)
 (chapters/sections/subsections/possible_improvements.tex [23
 
@@ -1393,7 +1419,7 @@ LaTeX Warning: Citation 'iot_platforms' on page 26 undefined on input line 5.
  (chapters/product_documentation.tex
 Chapter 5.
 (chapters/sections/preface.tex) (chapters/sections/program_description.tex
-<figures/Flow_diagram_server.png, id=544, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=546, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 5.
@@ -1446,7 +1472,7 @@ rsion=0
 [34]) (chapters/sections/subsections/handshake_and_listener.tex [35] [36]
 [37]) (chapters/sections/subsections/patching.tex [38])
 (chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=811, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=813, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1504,13 +1530,13 @@ Appendix A.
 
  (appendices/sprint_retroperspective.tex
 Appendix B.
-<figures/sprint_retroperspective.png, id=1028, 474.27188pt x 253.94875pt>
+<figures/sprint_retroperspective.png, id=1030, 474.27188pt x 253.94875pt>
 File: figures/sprint_retroperspective.png Graphic file (type png)
 <use figures/sprint_retroperspective.png>
 Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 345.0pt x 184.7378pt.
-<figures/sprint_planning.png, id=1029, 326.72063pt x 152.57pt>
+<figures/sprint_planning.png, id=1031, 326.72063pt x 152.57pt>
 File: figures/sprint_planning.png Graphic file (type png)
 <use figures/sprint_planning.png>
 Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
@@ -1539,7 +1565,7 @@ AED: lastpage setting LastPage
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FC66B19F226D22C57E7D6F2A3141DB61;10521.
+(rerunfilecheck)             Checksum: C9457168034436476D7474C87B139B60;10486.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1552,7 +1578,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  32817 strings out of 478614
  602217 string characters out of 2843122
- 1559399 words of memory out of 3000000
+ 1559493 words of memory out of 3000000
  49816 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1574,9 +1600,9 @@ nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (55 pages, 2395150 bytes).
+Output written on main.pdf (55 pages, 2396727 bytes).
 PDF statistics:
- 1653 PDF objects out of 1728 (max. 8388607)
+ 1658 PDF objects out of 1728 (max. 8388607)
  508 named destinations out of 1000 (max. 500000)
  574 words of extra memory for PDF output out of 10000 (max. 10000000)
 
