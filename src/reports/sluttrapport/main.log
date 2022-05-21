@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -929,11 +929,11 @@ Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 250.
+Package glossaries Info: Writing glossary file main.glo on input line 251.
 \glo@acronym@file=\write6
 \openout6 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 250.
+Package glossaries Info: Writing glossary file main.acn on input line 251.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -945,27 +945,27 @@ LaTeX Warning: Unused global option(s):
 (main.aux (chapters/introductions.aux) (chapters/process_documentation.aux)
 (chapters/implementation.aux) (chapters/discussion.aux)
 (chapters/product_documentation.aux) (appendices/acronyms.aux)
-(appendices/sprint_overview.aux))
+(appendices/sprint_retroperspective.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 266.
-LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1007,7 +1007,7 @@ Dictionary: glossaries-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 266.
+Package hyperref Info: Link coloring ON on input line 267.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-13 v2.48 Cross-referencing by name of section
@@ -1064,53 +1064,53 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 266.
-Package biblatex Info: Reference segment=0 on input line 266.
+Package biblatex Info: Reference section=0 on input line 267.
+Package biblatex Info: Reference segment=0 on input line 267.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 266.
-<Tittelside.pdf, id=235, 597.23125pt x 845.1575pt>
+(lastpage)             ! on input line 267.
+<Tittelside.pdf, id=239, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
-Package pdftex.def Info: Tittelside.pdf  used on input line 267.
+Package pdftex.def Info: Tittelside.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
-Package pdftex.def Info: Tittelside.pdf  used on input line 267.
+Package pdftex.def Info: Tittelside.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<Tittelside.pdf, id=238, page=1, 597.23125pt x 845.1575pt>
+<Tittelside.pdf, id=242, page=1, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 267.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 267.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 267.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 267.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 267.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [1
 
 \openout4 = `main.ist'.
 
  <./Tittelside.pdf>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 269
+LaTeX Font Info:    Trying to load font information for U+msa on input line 270
 .
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 269
+LaTeX Font Info:    Trying to load font information for U+msb on input line 270
 .
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1120,14 +1120,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.269 	\pagenumbering
+l.270 	\pagenumbering
                      {gobble} [1{C:/Users/Ander/AppData/Local/MiKTeX/fonts/map/
 pdftex/pdftex.map}] [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.284 	\tableofcontents
+l.285 	\tableofcontents
                         [1
 
 
@@ -1136,7 +1136,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 ...Real world scenario}{21}{subsection.3.5.2}
+l.36 ...berline {3.5.1}Data}{22}{subsection.3.5.1}
                                                   % [2
 
 ])
@@ -1148,13 +1148,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.287 	\clearpage
+l.288 	\clearpage
                   [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.297 	\include{chapters/introductions}
+l.298 	\include{chapters/introductions}
                                         [1
 
 
@@ -1207,35 +1207,43 @@ Overfull \hbox (9.16351pt too wide) in paragraph at lines 2--3
 
 (chapters/process_documentation.tex
 Chapter 2.
-(chapters/sections/development_method.tex [5
+(chapters/sections/development_method.tex
+
+LaTeX Warning: Citation 'prosjektveilederen' on page 5 undefined on input line 
+10.
+
+[5
 
 
 ]
-<figures/kanban_screenshot.png, id=380, 1495.5875pt x 858.20625pt>
+<figures/kanban_screenshot.png, id=385, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
-Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 23.
+Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 28.
 (pdftex.def)             Requested size: 345.0pt x 197.97256pt.
- [6 <./figures/kanban_screenshot.png>]) (chapters/sections/tools_and_technology
-.tex)) [7]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (chapters/sections/tools_and_technology.tex [6] [7 <./figures/kanban_screensh
+ot.png>])) [8]
 \openout2 = `chapters/implementation.aux'.
 
-
-(chapters/implementation.tex
+ (chapters/implementation.tex
 Chapter 3.
 
-LaTeX Warning: Hyper reference `devmethod' on page 8 undefined on input line 2.
+LaTeX Warning: Hyper reference `devmethod' on page 9 undefined on input line 2.
 
 
 
-LaTeX Warning: Reference `devmethod' on page 8 undefined on input line 2.
+LaTeX Warning: Reference `devmethod' on page 9 undefined on input line 2.
 
 
 Overfull \hbox (21.58893pt too wide) in paragraph at lines 5--11
  [] 
  []
 
-(chapters/sections/pre_project_phase.tex [8
+(chapters/sections/pre_project_phase.tex [9
 
 
 
@@ -1245,18 +1253,18 @@ Overfull \hbox (21.58893pt too wide) in paragraph at lines 5--11
 (chapters/sections/subsections/artificial_intelligence_and_Internet_of_things.t
 ex
 
-LaTeX Warning: Citation 'iot_analytics' on page 9 undefined on input line 3.
+LaTeX Warning: Citation 'iot_analytics' on page 10 undefined on input line 3.
 
 
-LaTeX Warning: Citation 'chinese_iov' on page 9 undefined on input line 5.
+LaTeX Warning: Citation 'chinese_iov' on page 10 undefined on input line 5.
 
 ) (chapters/sections/subsections/Increasing_trafficflow_for_one_lane_road.tex
 Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/12 Preventing traf-fic con-ges-tions for a one lane road| 
  []
 
-[9]
-<figures/flow_diagram_first.png, id=401, 226.34563pt x 409.53pt>
+[10]
+<figures/flow_diagram_first.png, id=410, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -1269,9 +1277,9 @@ LaTeX Warning: Float too large for page by 48.21051pt on input line 17.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [10] [11 <./figures/flow_diagram_first.png>]
+) [11] [12 <./figures/flow_diagram_first.png>]
 (chapters/sections/subsections/MoSCoW_method.tex
-<figures/MosCoW_method.png, id=412, 1036.87375pt x 567.11874pt>
+<figures/MosCoW_method.png, id=421, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 11.
@@ -1279,7 +1287,7 @@ Package pdftex.def Info: figures/MosCoW_method.png  used on input line 11.
 ))
 (chapters/sections/rest_api.tex
 
-LaTeX Warning: Citation 'rest_api' on page 12 undefined on input line 5.
+LaTeX Warning: Citation 'rest_api' on page 13 undefined on input line 5.
 
 
 Overfull \hbox (2.00815pt too wide) in paragraph at lines 5--6
@@ -1287,35 +1295,35 @@ Overfull \hbox (2.00815pt too wide) in paragraph at lines 5--6
 r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
  []
 
-[12
+[13
 
  <./figures/MosCoW_method.png>]
 
-LaTeX Warning: Citation 'influxdb' on page 13 undefined on input line 7.
+LaTeX Warning: Citation 'influxdb' on page 14 undefined on input line 7.
 
-[13]
+[14]
 
-LaTeX Warning: Citation 'webhooks' on page 14 undefined on input line 30.
+LaTeX Warning: Citation 'webhooks' on page 15 undefined on input line 30.
 
 ) (chapters/sections/signalr.tex
 
-LaTeX Warning: Citation 'rfc_websockets' on page 14 undefined on input line 2.
+LaTeX Warning: Citation 'rfc_websockets' on page 15 undefined on input line 2.
 
 
-LaTeX Warning: Citation 'microsoft_websockets' on page 14 undefined on input li
+LaTeX Warning: Citation 'microsoft_websockets' on page 15 undefined on input li
 ne 2.
 
 
-LaTeX Warning: Citation 'microsoft_signalr' on page 14 undefined on input line 
+LaTeX Warning: Citation 'microsoft_signalr' on page 15 undefined on input line 
 4.
 
 
-LaTeX Warning: Citation 'microsoft_signalr' on page 14 undefined on input line 
+LaTeX Warning: Citation 'microsoft_signalr' on page 15 undefined on input line 
 4.
 
-[14] [15]) (chapters/sections/demo_phase.tex
+[15] [16]) (chapters/sections/demo_phase.tex
 (chapters/sections/subsections/building_car.tex
-<figures/two_cars.jpg, id=437, 4047.12pt x 3035.34pt>
+<figures/two_cars.jpg, id=446, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
@@ -1324,33 +1332,33 @@ Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (chapters/sections/subsections/calibration_of_cars.tex [16] [17 <./figures/tw
-o_cars.jpg>]) (chapters/sections/subsections/construction_of_demo.tex [18]
-<figures/demo_crash.png, id=458, 427.5975pt x 343.2825pt>
+) (chapters/sections/subsections/calibration_of_cars.tex [17] [18 <./figures/tw
+o_cars.jpg>]) (chapters/sections/subsections/construction_of_demo.tex [19]
+<figures/demo_crash.png, id=468, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
 
-[19 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=466, 271.0125pt x 216.05719pt>
+[20 <./figures/demo_crash.png>]
+<figures/succsess_demo.png, id=475, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
 (pdftex.def)             Requested size: 345.0pt x 275.0522pt.
-) [20 <./figures/succsess_demo.png>])
+) [21 <./figures/succsess_demo.png>])
 (chapters/sections/results.tex (chapters/sections/subsections/data.tex)
 (chapters/sections/subsections/real_world_scenario.tex)
-(chapters/sections/subsections/possible_improvements.tex [21
+(chapters/sections/subsections/possible_improvements.tex [22
 
-]))) [22]
+]))) [23]
 \openout2 = `chapters/discussion.aux'.
 
 
 (chapters/discussion.tex
 Chapter 4.
 (chapters/sections/self_evaluation.tex
-(chapters/sections/subsections/educational_value.tex [23
+(chapters/sections/subsections/educational_value.tex [24
 
 
 
@@ -1359,11 +1367,11 @@ Chapter 4.
 (chapters/sections/further_work.tex
 (chapters/sections/subsections/extendability_real_world.tex
 
-LaTeX Warning: Citation 'iot_platforms' on page 24 undefined on input line 5.
+LaTeX Warning: Citation 'iot_platforms' on page 25 undefined on input line 5.
 
-[24]) (chapters/sections/subsections/system_security.tex)
+[25]) (chapters/sections/subsections/system_security.tex)
 (chapters/section/subsection/contribution_to_the_realworld_application.tex)))
-[25] [26
+[26] [27
 
 
 
@@ -1373,7 +1381,7 @@ LaTeX Warning: Citation 'iot_platforms' on page 24 undefined on input line 5.
  (chapters/product_documentation.tex
 Chapter 5.
 (chapters/sections/preface.tex) (chapters/sections/program_description.tex
-<figures/Flow_diagram_server.png, id=498, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=507, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 5.
@@ -1386,10 +1394,10 @@ LaTeX Warning: Float too large for page by 1.49129pt on input line 8.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [27
+) [28
 
 
-] [28 <./figures/Flow_diagram_server.png>]
+] [29 <./figures/Flow_diagram_server.png>]
 (chapters/sections/adherence_to_requirements.tex)
 (chapters/sections/server_diagram.tex) (chapters/sections/user_manual.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
@@ -1398,9 +1406,9 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[29
+[30
 
-]) (chapters/sections/product_specification.tex [30]
+]) (chapters/sections/product_specification.tex [31]
 Overfull \hbox (5.2584pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/14.4 Essential code snip-pets be-hind the sys-tem| 
  []
@@ -1409,7 +1417,7 @@ Overfull \hbox (5.2584pt too wide) in paragraph at lines 1--1
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[31]
+[32]
 Overfull \hbox (6.66412pt too wide) in paragraph at lines 46--47
 [][]\T1/cmtt/m/n/10 await Clients.Client(Context.ConnectionId).SendAsync("disco
 nnect");
@@ -1423,10 +1431,10 @@ Overfull \hbox (1.4154pt too wide) in paragraph at lines 49--50
 rsion=0
  []
 
-[32]) (chapters/sections/subsections/handshake_and_listener.tex [33] [34]
-[35]) (chapters/sections/subsections/patching.tex [36])
+[33]) (chapters/sections/subsections/handshake_and_listener.tex [34] [35]
+[36]) (chapters/sections/subsections/patching.tex [37])
 (chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=764, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=774, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1436,65 +1444,74 @@ Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37] [38 <./figures/intersection_concept.png>]
+[38] [39 <./figures/intersection_concept.png>]
 Overfull \hbox (45.4953pt too wide) in paragraph at lines 58--59
 []\T1/cmr/m/n/10 It is also worth to men-tion some of the core func-tion-al-i-t
 ies of [][]\T1/cmtt/m/n/10 VehiclesHubDatabase[]\T1/cmr/m/n/10 : 
  []
 
-[39]) (chapters/sections/subsections/route_planner.tex
+[40]) (chapters/sections/subsections/route_planner.tex
 Overfull \hbox (6.51602pt too wide) in paragraph at lines 128--1
 \T1/cmr/m/n/10 cle clos-est to the in-ter-sec-tion. The lat-ter method [][]\T1/
 cmtt/m/n/10 OnlyFirstIntoNextVehiclesIn
  []
 
-[40] [41]
+[41] [42]
 Overfull \hbox (8.21005pt too wide) in paragraph at lines 58--59
 [][]\T1/cmtt/m/n/10 endLane []\T1/cmr/m/n/10 or un-til all the [][]\T1/cmtt/m/n
 /10 Intersection[]\T1/cmr/m/n/10 s are ex-hausted. In the end, [][]\T1/cmtt/m/n
 /10 SetTravelPlan
  []
 
-[42]))) [43]
+[43]))) [44]
 
-LaTeX Warning: Citation 'artificial_intelligence' on page 44 undefined on input
- line 321.
+LaTeX Warning: Citation 'artificial_intelligence' on page 45 undefined on input
+ line 322.
 
 
-LaTeX Warning: Citation 'chinese_iov' on page 44 undefined on input line 325.
+LaTeX Warning: Citation 'chinese_iov' on page 45 undefined on input line 326.
 
-[44
+[45
 
 
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 331.
+LaTeX Warning: Empty bibliography on input line 332.
 
 \openout2 = `appendices/acronyms.aux'.
 
 (appendices/acronyms.tex
 Appendix A.
-) [45
-
-
-
-]
-\openout2 = `appendices/sprint_overview.aux'.
-
- (appendices/sprint_overview.tex
-Appendix B.
-<figures/Sprint_overview.png, id=982, 358.84062pt x 273.02pt>
-File: figures/Sprint_overview.png Graphic file (type png)
-<use figures/Sprint_overview.png>
-Package pdftex.def Info: figures/Sprint_overview.png  used on input line 4.
-(pdftex.def)             Requested size: 345.0pt x 262.50865pt.
 ) [46
 
 
 
+]
+\openout2 = `appendices/sprint_retroperspective.aux'.
 
- <./figures/Sprint_overview.png>]
+ (appendices/sprint_retroperspective.tex
+Appendix B.
+<figures/sprint_retroperspective.png, id=991, 474.27188pt x 253.94875pt>
+File: figures/sprint_retroperspective.png Graphic file (type png)
+<use figures/sprint_retroperspective.png>
+Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
+e 5.
+(pdftex.def)             Requested size: 345.0pt x 184.7378pt.
+<figures/sprint_planning.png, id=992, 326.72063pt x 152.57pt>
+File: figures/sprint_planning.png Graphic file (type png)
+<use figures/sprint_planning.png>
+Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
+(pdftex.def)             Requested size: 345.0pt x 161.10649pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [47
+
+
+
+
+ <./figures/sprint_retroperspective.png>] [48 <./figures/sprint_planning.png>]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1505,12 +1522,12 @@ AED: lastpage setting LastPage
 (main.aux (chapters/introductions.aux) (chapters/process_documentation.aux)
 (chapters/implementation.aux) (chapters/discussion.aux)
 (chapters/product_documentation.aux) (appendices/acronyms.aux)
-(appendices/sprint_overview.aux))
+(appendices/sprint_retroperspective.aux))
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5B845A9813C1B4A1FC11C1A0346F209B;10006.
+(rerunfilecheck)             Checksum: 0C7FAD4ED510CA34026344A53075A0EE;10164.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1521,10 +1538,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32757 strings out of 478614
- 600340 string characters out of 2843122
- 1558958 words of memory out of 3000000
- 49767 multiletter control sequences out of 15000+600000
+ 32774 strings out of 478614
+ 601064 string characters out of 2843122
+ 1559076 words of memory out of 3000000
+ 49780 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,17n,117p,1296b,5162s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1545,9 +1562,9 @@ nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (52 pages, 2300366 bytes).
+Output written on main.pdf (54 pages, 2280243 bytes).
 PDF statistics:
- 1595 PDF objects out of 1728 (max. 8388607)
- 500 named destinations out of 1000 (max. 500000)
- 530 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1611 PDF objects out of 1728 (max. 8388607)
+ 504 named destinations out of 1000 (max. 500000)
+ 543 words of extra memory for PDF output out of 10000 (max. 10000000)
 
