@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,23 +1210,26 @@ Chapter 2.
 (chapters/sections/development_method.tex
 
 LaTeX Warning: Citation 'prosjektveilederen' on page 5 undefined on input line 
-10.
+9.
 
 [5
 
 
 ]
-<figures/kanban_screenshot.png, id=385, 1495.5875pt x 858.20625pt>
+<figures/Sprint_overview.png, id=387, 358.84062pt x 273.02pt>
+File: figures/Sprint_overview.png Graphic file (type png)
+<use figures/Sprint_overview.png>
+Package pdftex.def Info: figures/Sprint_overview.png  used on input line 17.
+(pdftex.def)             Requested size: 345.0pt x 262.50865pt.
+ [6 <./figures/Sprint_overview.png>]
+<figures/kanban_screenshot.png, id=395, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
-Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 28.
+Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 32.
 (pdftex.def)             Requested size: 345.0pt x 197.97256pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (chapters/sections/tools_and_technology.tex [6] [7 <./figures/kanban_screensh
-ot.png>])) [8]
+)
+(chapters/sections/tools_and_technology.tex [7 <./figures/kanban_screenshot.png
+>])) [8]
 \openout2 = `chapters/implementation.aux'.
 
  (chapters/implementation.tex
@@ -1264,7 +1267,7 @@ Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
  []
 
 [10]
-<figures/flow_diagram_first.png, id=410, 226.34563pt x 409.53pt>
+<figures/flow_diagram_first.png, id=415, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -1279,7 +1282,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [11] [12 <./figures/flow_diagram_first.png>]
 (chapters/sections/subsections/MoSCoW_method.tex
-<figures/MosCoW_method.png, id=421, 1036.87375pt x 567.11874pt>
+<figures/MosCoW_method.png, id=426, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 11.
@@ -1323,7 +1326,7 @@ LaTeX Warning: Citation 'microsoft_signalr' on page 15 undefined on input line
 
 [15] [16]) (chapters/sections/demo_phase.tex
 (chapters/sections/subsections/building_car.tex
-<figures/two_cars.jpg, id=446, 4047.12pt x 3035.34pt>
+<figures/two_cars.jpg, id=451, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
@@ -1334,14 +1337,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (chapters/sections/subsections/calibration_of_cars.tex [17] [18 <./figures/tw
 o_cars.jpg>]) (chapters/sections/subsections/construction_of_demo.tex [19]
-<figures/demo_crash.png, id=468, 427.5975pt x 343.2825pt>
+<figures/demo_crash.png, id=473, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
 
 [20 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=475, 271.0125pt x 216.05719pt>
+<figures/succsess_demo.png, id=480, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
@@ -1381,7 +1384,7 @@ LaTeX Warning: Citation 'iot_platforms' on page 25 undefined on input line 5.
  (chapters/product_documentation.tex
 Chapter 5.
 (chapters/sections/preface.tex) (chapters/sections/program_description.tex
-<figures/Flow_diagram_server.png, id=507, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=512, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 5.
@@ -1434,7 +1437,7 @@ rsion=0
 [33]) (chapters/sections/subsections/handshake_and_listener.tex [34] [35]
 [36]) (chapters/sections/subsections/patching.tex [37])
 (chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=774, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=779, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1492,13 +1495,13 @@ Appendix A.
 
  (appendices/sprint_retroperspective.tex
 Appendix B.
-<figures/sprint_retroperspective.png, id=991, 474.27188pt x 253.94875pt>
+<figures/sprint_retroperspective.png, id=996, 474.27188pt x 253.94875pt>
 File: figures/sprint_retroperspective.png Graphic file (type png)
 <use figures/sprint_retroperspective.png>
 Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 345.0pt x 184.7378pt.
-<figures/sprint_planning.png, id=992, 326.72063pt x 152.57pt>
+<figures/sprint_planning.png, id=997, 326.72063pt x 152.57pt>
 File: figures/sprint_planning.png Graphic file (type png)
 <use figures/sprint_planning.png>
 Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
@@ -1527,7 +1530,7 @@ AED: lastpage setting LastPage
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0C7FAD4ED510CA34026344A53075A0EE;10164.
+(rerunfilecheck)             Checksum: 4459DF7428EACA6FDCDE8E4480C9FB3F;10164.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1538,10 +1541,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32774 strings out of 478614
- 601064 string characters out of 2843122
- 1559076 words of memory out of 3000000
- 49780 multiletter control sequences out of 15000+600000
+ 32787 strings out of 478614
+ 601437 string characters out of 2843122
+ 1559123 words of memory out of 3000000
+ 49791 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,17n,117p,1296b,5162s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1562,9 +1565,9 @@ nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (54 pages, 2280243 bytes).
+Output written on main.pdf (54 pages, 2364726 bytes).
 PDF statistics:
- 1611 PDF objects out of 1728 (max. 8388607)
- 504 named destinations out of 1000 (max. 500000)
- 543 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1618 PDF objects out of 1728 (max. 8388607)
+ 505 named destinations out of 1000 (max. 500000)
+ 548 words of extra memory for PDF output out of 10000 (max. 10000000)
 
