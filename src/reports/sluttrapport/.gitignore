@@ -7,3 +7,7 @@
 *.run.xml
 *.synctex.gz
 *.toc
+*.acn
+*.bcf
+*.glo
+*.ist
