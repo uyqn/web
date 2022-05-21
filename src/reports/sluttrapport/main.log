@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1230,7 +1230,7 @@ Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 38.
  [7 <./figures/kanban_screenshot.png>])
 (chapters/sections/tools_and_technology.tex)
 (chapters/sections/MoSCoW_method.tex [8]
-<figures/MosCoW_method.png, id=414, 1036.87375pt x 567.11874pt>
+<figures/MosCoW_method.png, id=416, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 15.
@@ -1274,7 +1274,7 @@ Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
  []
 
 [11]
-<figures/flow_diagram_first.png, id=429, 226.34563pt x 409.53pt>
+<figures/flow_diagram_first.png, id=435, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -1324,7 +1324,7 @@ LaTeX Warning: Citation 'microsoft_signalr' on page 15 undefined on input line
 
 [15] [16]) (chapters/sections/demo_phase.tex
 (chapters/sections/subsections/building_car.tex [17]
-<figures/two_cars.jpg, id=462, 4047.12pt x 3035.34pt>
+<figures/two_cars.jpg, id=468, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
@@ -1332,13 +1332,13 @@ Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 )
 (chapters/sections/subsections/calibration_of_cars.tex [18 <./figures/two_cars.
 jpg>]) (chapters/sections/subsections/construction_of_demo.tex [19]
-<figures/demo_crash.png, id=480, 427.5975pt x 343.2825pt>
+<figures/demo_crash.png, id=486, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
  [20 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=487, 271.0125pt x 216.05719pt>
+<figures/succsess_demo.png, id=493, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
@@ -1378,7 +1378,7 @@ LaTeX Warning: Citation 'iot_platforms' on page 25 undefined on input line 5.
  (chapters/product_documentation.tex
 Chapter 5.
 (chapters/sections/preface.tex) (chapters/sections/program_description.tex
-<figures/Flow_diagram_server.png, id=519, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=525, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 5.
@@ -1431,7 +1431,7 @@ rsion=0
 [33]) (chapters/sections/subsections/handshake_and_listener.tex [34] [35]
 [36]) (chapters/sections/subsections/patching.tex [37])
 (chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=786, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=792, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1489,13 +1489,13 @@ Appendix A.
 
  (appendices/sprint_retroperspective.tex
 Appendix B.
-<figures/sprint_retroperspective.png, id=1003, 474.27188pt x 253.94875pt>
+<figures/sprint_retroperspective.png, id=1009, 474.27188pt x 253.94875pt>
 File: figures/sprint_retroperspective.png Graphic file (type png)
 <use figures/sprint_retroperspective.png>
 Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 345.0pt x 184.7378pt.
-<figures/sprint_planning.png, id=1004, 326.72063pt x 152.57pt>
+<figures/sprint_planning.png, id=1010, 326.72063pt x 152.57pt>
 File: figures/sprint_planning.png Graphic file (type png)
 <use figures/sprint_planning.png>
 Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
@@ -1559,9 +1559,9 @@ nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (54 pages, 2366483 bytes).
+Output written on main.pdf (54 pages, 2367714 bytes).
 PDF statistics:
- 1626 PDF objects out of 1728 (max. 8388607)
+ 1632 PDF objects out of 1728 (max. 8388607)
  506 named destinations out of 1000 (max. 500000)
  556 words of extra memory for PDF output out of 10000 (max. 10000000)
 
