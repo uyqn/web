@@ -64,3 +64,4 @@
 \contentsline {subsection}{\numberline {5.5.5}RoutePlanner and SetTravelPlan}{42}{subsection.5.5.5}%
 \contentsline {chapter}{Bibliography}{46}{chapter*.23}%
 \contentsline {chapter}{\numberline {A}Acronyms}{47}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Sprint overview}{48}{appendix.B}%
