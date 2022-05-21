@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 10:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1201,7 +1201,7 @@ LaTeX Warning: Hyper reference `devmethod' on page 10 undefined on input line 2
 LaTeX Warning: Reference `devmethod' on page 10 undefined on input line 2.
 
 
-Overfull \hbox (12.14679pt too wide) in paragraph at lines 5--11
+Overfull \hbox (21.58893pt too wide) in paragraph at lines 5--11
  [] 
  []
 
@@ -1226,12 +1226,15 @@ Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
  []
 
 [11]
-<figures/flow_diagram_first.png, id=371, 291.0875pt x 402.50375pt>
+<figures/flow_diagram_first.png, id=371, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
 
-(pdftex.def)             Requested size: 345.0pt x 477.08762pt.
+(pdftex.def)             Requested size: 345.0pt x 624.21051pt.
+
+
+LaTeX Warning: Float too large for page by 48.21051pt on input line 17.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1241,7 +1244,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/MosCoW_method.png, id=382, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
-Package pdftex.def Info: figures/MosCoW_method.png  used on input line 8.
+Package pdftex.def Info: figures/MosCoW_method.png  used on input line 11.
 (pdftex.def)             Requested size: 345.0pt x 188.69875pt.
 ))
 (chapters/sections/rest_api.tex
@@ -1291,7 +1294,7 @@ Overfull \hbox (331.58286pt too wide) in paragraph at lines 18--20
 ============================================== 
  []
 
-) (chapters/sections/demo_phase.tex [17]
+[17]) (chapters/sections/demo_phase.tex
 (chapters/sections/subsections/building_car.tex
 <figures/two_cars.jpg, id=407, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
@@ -1303,27 +1306,20 @@ Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (chapters/sections/subsections/calibration_of_cars.tex [18] [19 <./figures/tw
-o_cars.jpg>]) (chapters/sections/subsections/construction_of_demo.tex
-<figures/demo_crash.png, id=420, 427.5975pt x 343.2825pt>
+o_cars.jpg>]) (chapters/sections/subsections/construction_of_demo.tex [20]
+<figures/demo_crash.png, id=429, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20]
-<figures/succsess_demo.png, id=430, 271.0125pt x 216.05719pt>
+[21 <./figures/demo_crash.png>]
+<figures/succsess_demo.png, id=436, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
 (pdftex.def)             Requested size: 345.0pt x 275.0522pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [21 <./figures/demo_crash.png>] [22 <./figures/succsess_demo.png>])
+) [22 <./figures/succsess_demo.png>])
 (chapters/sections/results.tex (chapters/sections/subsections/data.tex)
 (chapters/sections/subsections/real_world_scenario.tex)
 (chapters/sections/subsections/possible_improvements.tex [23
@@ -1514,7 +1510,7 @@ nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (52 pages, 2196987 bytes).
+Output written on main.pdf (52 pages, 2194759 bytes).
 PDF statistics:
  1542 PDF objects out of 1728 (max. 8388607)
  500 named destinations out of 1000 (max. 500000)

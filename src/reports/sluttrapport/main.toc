@@ -29,7 +29,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Implementation of intersections}{17}{subsection.3.3.1}%
 \contentsline {section}{\numberline {3.4}Phase 4 - Semi physical demonstration}{18}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Building the car}{18}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Calibration of the cars}{18}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.2}Calibration of the cars}{19}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Construction of semi physical demonstration}{20}{subsection.3.4.3}%
 \contentsline {section}{\numberline {3.5}Results}{23}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Data}{23}{subsection.3.5.1}%
