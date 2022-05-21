@@ -1,0 +1,89 @@
+\subsection{RoutePlanner and SetTravelPlan}
+\verb|RoutePlanner|  is a class that determines and keep track of the \verb|Vehicle|'s journey. \verb|RoutePlanner| saves segments of lanes and intersections as nodes in a linked list:
+\begin{csharp}
+public class RoutePlanner
+{
+	private LinkedList<IRoadComponent> _visitedNodes = new();
+	private LinkedList<IRoadComponent> _travelPlan = new();
+	...
+}
+\end{csharp}
+The variable \verb|_travelPlan| stores all the nodes that \verb|Vehicle| is going to traverse through in succession. Whenever \verb|Vehicle| has traversed the whole length of a node, the node is then moved to the tail of \verb|_visitedNodes|. Thus, provides an easy way to keep track of the whereabout of \verb|Vehicle| at all times.
+
+During the handshake, described in \hyperref[handshake]{\ref{handshake} Handshake and listener}, \verb|Vehicle| builds the \verb|_travelPlan| through its \verb|SetTravelPlan| method:
+\begin{csharp}
+public class Vehicle : IDevice
+{
+	...
+	public void SetTravelPlan(Lane startLane, Lane? endLane = null)
+	{
+		var reversed = startLane.Reversed;
+		var startNode = startLane.Node();
+		var intersections = 
+			reversed ? 
+				startLane.CurrentRoad()?.Intersections.OrderByDescending(kvp => kvp.Key) : 
+				startLane.CurrentRoad()?.Intersections.OrderBy(kvp => kvp.Key);
+		...
+	}
+	...
+}
+\end{csharp}
+By taking in the \verb*|startLane| and \verb*|endLane|, representing where \verb*|Vehicle| should start and end its journey, it first segments the \verb*|startLane| into a \verb*|LaneNode| and then find all the intersections on this current \verb*|Lane|, and order them chronologically depending of the lane is \verb*|Reversed| or not. \verb|SetTravelPlan| will further on iterate through all the \verb*|Intersections| and append a \verb|LaneNode| and an \verb|IntersectionNode| to \verb|RoutePlanner| for each \verb*|Intersection|.
+\begin{csharp}
+public class Vehicle : IDevice
+{
+	...
+	public void SetTravelPlan(Lane startLane, Lane? endLane = null)
+	{
+		...
+		var prevPos = reversed ? startLane.Length : 0.0;
+		Intersection? intersectionConnectedToEndLane = null;
+		
+		if (intersections != null)
+			foreach (var (position, intersection) in intersections)
+			{
+				startNode.Length = Math.Abs((int) (prevPos - position - (reversed ? intersection.Length : 0)));
+				_route.AddComponent(startNode).AddComponent(intersection.Node());
+				prevPos = position + (reversed ? 0 : intersection.Length);
+				if (endLane == null) continue;
+				if (!intersection.ConnectedRoads.ContainsKey(endLane.CurrentRoad() ?? new Road())) continue;
+				intersectionConnectedToEndLane = intersection;
+				break;
+			}
+		...
+	}
+	...
+}
+\end{csharp}
+The above loop will iterate until one of the \verb*|Intersection| is connected to the \verb*|endLane| or until all the \verb*|Intersection|s are exhausted. In the end, \verb*|SetTravelPlan| will append the last segment of \verb*|startLane| or the remaining segment of \verb*|endLane| should \verb*|endLane| either be defined, and connected to one of \verb*|startLane|s intersections, or is equal to \verb*|startLane|.
+
+The main reason for creating \verb*|RoutePlanner| in this project was mainly to answer the following questions:
+\begin{itemize}
+	\item Is \verb*|Vehicle| currently inside an intersection?
+	\item Is \verb*|Vehicle| currently on a lane?
+	\item Which intersection is the next intersection for this \verb*|Vehicle|?
+	\item How far is \verb*|Vehicle| away from the next intersection?
+\end{itemize}
+By using \verb*|RoutePlanner| we were able to answer the questions above with these following implementations respectively:
+\begin{csharp}
+public class Vehicle : IDevice
+{
+	...
+	public bool InIntersection() => 
+		_route.CurrentNode()?.Value is IntersectionNode;
+	public bool OnRoad() => 
+		_route.CurrentNode()?.Value is RoadNode or LaneNode;
+	public IntersectionNode? NextIntersection() =>
+		OnRoad() ? _route.NextNode()?.Value as IntersectionNode : null;
+	public double ToNextIntersection()
+	{
+		if (InIntersection())
+			return 0;
+		if (OnRoad() && NextIntersection() != null)
+			return Math.Abs(Position - _route.DistanceWithCurrentNode);
+		return -1;
+	}
+	...
+}
+\end{csharp}
+

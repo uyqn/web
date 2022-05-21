@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{pdfpages}
+\usepackage[acronym]{glossaries}
 %----------
 \usepackage{listings}
 \lstset{
@@ -124,13 +125,13 @@
 		},
 		keywordstyle=\color{bluekeywords},
 		stringstyle=\color{otterbrown},
-		emph=[1]{Task, JsonDocument, Vehicle, DataException, IDevice, VehiclesHubDatabase, VehiclesHub, Hub, Intersection, HashSet, Dictionary, IVehiclesHubDatabase, Road, IEnumerable},
+		emph=[1]{Task, JsonDocument, Vehicle, DataException, IDevice, VehiclesHubDatabase, VehiclesHub, Hub, Intersection, HashSet, Dictionary, IVehiclesHubDatabase, Road, IEnumerable, LinkedList, IRoadComponent, RoutePlanner, Lane, Math, IntersectionNode, RoadNode, LaneNode},
 		emphstyle=[1]{\color{blue-violet}},
 		emph=[2]{
-			AddClient, Create, GetProperty, ExtractLane, CurrentLane, SetTravelPlan, StartNode, EndNode, Add, Update, Route, Details, Client, WaitForVehicles, Fetch, SendEventToAll, SendAsync, Start, MapHub, Patch, HandleIntersection, HandleEndOfRoute, HandleInsideIntersection, AddRoad, AddLane, ConnectedLanes, ForEach, AddSingleton, Remove, NextVehiclesIn, OnlyFirstIntoNextVehiclesIn
+			AddClient, Create, GetProperty, ExtractLane, CurrentLane, SetTravelPlan, StartNode, EndNode, Add, Update, Route, Details, Client, WaitForVehicles, Fetch, SendEventToAll, SendAsync, Start, MapHub, Patch, HandleIntersection, HandleEndOfRoute, HandleInsideIntersection, AddRoad, AddLane, ConnectedLanes, ForEach, AddSingleton, Remove, NextVehiclesIn, OnlyFirstIntoNextVehiclesIn, Node, CurrentRoad, OrderByDescending, OrderBy, Abs, AddComponent, ContainsKey, InIntersection, OnRoad, ToNextIntersection, CurrentNode, NextNode, NextIntersection
 		},
 		emphstyle=[2]{\color{deepgreen}},
-		emph=[3]{RootElement, Id, Context, ConnectionId, Velocity, Clients, SpeedLimit, All, Clock, _intersection, _vehicles, _lanes, Count, _connectionIds, _vehiclesConnectionId, Length, Services},
+		emph=[3]{RootElement, Id, Context, ConnectionId, Velocity, Clients, SpeedLimit, All, Clock, _intersection, _vehicles, _lanes, Count, _connectionIds, _vehiclesConnectionId, Length, Services, _visitedNodes, _travelPlan, Intersections, Key, Reversed, ConnectedRoads, Value, Position, _route, DistanceWithCurrentNode},
 		emphstyle=[3]{\color{cyan}}
 }}
 
@@ -230,13 +231,27 @@
 \chead{Final report}
 \rhead{Group 23}
 \usepackage{lastpage}
-\cfoot{Page \thepage\ of \pageref{LastPage}}
+\cfoot{Page \thepage}
 % ------------------------------------------------------------
 % ------------------------------------------------------------
+\usepackage{titlesec}
+
+\titleclass{\part}{top} % make part like a chapter
+\titleformat{\part}
+[display]
+{\centering\normalfont\Huge\bfseries}
+{\vspace{3pt}\vspace{3pt}\MakeUppercase{\partname} \thepart}
+{0pt}
+{\vspace{1pc}\huge\MakeUppercase}
+%
+\titlespacing*{\part}{0pt}{0pt}{20pt}
+%
 \titleformat{\chapter}[display]
   {\normalfont\bfseries}{}{0pt}{\Huge}
 %% ------------------------------------------ %% 
-
+\makeglossaries
+\newacronym{ai}{AI}{Artificial Intelligence}
+\newacronym{iot}{IoT}{Internet of Things}
 % ------------------------------------------------------------
 \title
 {
@@ -251,7 +266,7 @@
 \date{Last updated:\\ \today}
 
 \begin{document}
-	\includepdf{Tittelside}
+%	\includepdf{Tittelside}
 	\maketitle
 	\pagenumbering{gobble}
 	\begin{abstract}
@@ -259,7 +274,7 @@
 	\end{abstract}
 	\clearpage
 	\chapter*{Preface}
-	This is the report of our bachelor thesis at Oslo Metropolitan University, Faculty of Technology, Art and Design. Our project was done for Accenture, and lasted from January 2022 to May 2022. We have tried to develop a solution for traffic management with self-driving cars and server communication. A physical demonstration of our proposed solution is done with the use of a Raspberry Pi computer working as a car. In this project we have documented the functionality of our system, and our process of making it. 
+This is the report of our bachelor thesis at Oslo Metropolitan University, Faculty of Technology, Art and Design. We tried to develop a solution for traffic management with self-driving cars and server communication. Our project was done for Accenture and lasted from January 2022 to May 2022. In this project, we documented the functionality and process of making it. We physically demonstrated our proposed solution with a Raspberry Pi computer working as a car. 
 	
 	The report is split into 7 chapters. Introduction, research areas, process documentation, implementation, results, discussion and conclusion. At the end we have added a Moscow analysis, sprint overview and our project journal as appendices. Technical terms are in appendix for those with less technical knowledge. (Kan kanskje droppe dette)
 	
@@ -279,23 +294,29 @@
 	% Husk bare på å inkludere referanser i form av \cite{referanse-navn}
 	% uten parantes, eller (\cite{referanse-navn}) <- med parantes
 	% ------------------------------------------------------------
+	\part{Preliminary}
+	This text is supposed to convey what this part of the report is about.
 	\include{chapters/introductions}
 	%\include{chapters/research_areas}
+	\part{Process Documentation}
+	This text is supposed to convey what this part of the report is about.
 	\include{chapters/process_documentation}
 	\include{chapters/implementation}
+	\part{Product Document}
+	This text is supposed to convey what this part of the report is about.
 	\include{chapters/discussion}
 	\include{chapters/product_documentation}
 %	\include{chapters/conclusion}
 
 	
 	% ------------------------------------------------------------
-	\chapter*{Acronyms}
-	
-	AI - Artificial intelligence
-	
-	IoT - Internet of things
-	
-	IoV - Internet of vehicles
+%	\clearpage
+%	
+%	\printglossary[type=\acronymtype]
+%	
+%	\printglossary
+%	
+%	\clearpage
 	
 	\chapter*{Glossary}
 	
@@ -310,4 +331,6 @@
 	\clearpage
     \addcontentsline{toc}{chapter}{Bibliography}
     \printbibliography
+    \appendix
+    \include{appendices/acronyms}
 \end{document}
