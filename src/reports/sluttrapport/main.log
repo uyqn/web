@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  21 MAY 2022 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,24 +1228,32 @@ File: figures/kanban_screenshot.png Graphic file (type png)
 Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 38.
 (pdftex.def)             Requested size: 345.0pt x 197.97256pt.
  [7 <./figures/kanban_screenshot.png>])
-(chapters/sections/tools_and_technology.tex)) [8]
+(chapters/sections/tools_and_technology.tex)
+(chapters/sections/MoSCoW_method.tex [8]
+<figures/MosCoW_method.png, id=414, 1036.87375pt x 567.11874pt>
+File: figures/MosCoW_method.png Graphic file (type png)
+<use figures/MosCoW_method.png>
+Package pdftex.def Info: figures/MosCoW_method.png  used on input line 15.
+(pdftex.def)             Requested size: 345.0pt x 188.69875pt.
+)) [9 <./figures/MosCoW_method.png>]
 \openout2 = `chapters/implementation.aux'.
 
- (chapters/implementation.tex
+
+(chapters/implementation.tex
 Chapter 3.
 
-LaTeX Warning: Hyper reference `devmethod' on page 9 undefined on input line 2.
+LaTeX Warning: Hyper reference `devmethod' on page 10 undefined on input line 2
+.
 
 
-
-LaTeX Warning: Reference `devmethod' on page 9 undefined on input line 2.
+LaTeX Warning: Reference `devmethod' on page 10 undefined on input line 2.
 
 
 Overfull \hbox (21.58893pt too wide) in paragraph at lines 5--11
  [] 
  []
 
-(chapters/sections/pre_project_phase.tex [9
+(chapters/sections/pre_project_phase.tex [10
 
 
 
@@ -1255,18 +1263,18 @@ Overfull \hbox (21.58893pt too wide) in paragraph at lines 5--11
 (chapters/sections/subsections/artificial_intelligence_and_Internet_of_things.t
 ex
 
-LaTeX Warning: Citation 'iot_analytics' on page 10 undefined on input line 3.
+LaTeX Warning: Citation 'iot_analytics' on page 11 undefined on input line 3.
 
 
-LaTeX Warning: Citation 'chinese_iov' on page 10 undefined on input line 5.
+LaTeX Warning: Citation 'chinese_iov' on page 11 undefined on input line 5.
 
 ) (chapters/sections/subsections/Increasing_trafficflow_for_one_lane_road.tex
 Overfull \hbox (6.64769pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/12 Preventing traf-fic con-ges-tions for a one lane road| 
  []
 
-[10]
-<figures/flow_diagram_first.png, id=422, 226.34563pt x 409.53pt>
+[11]
+<figures/flow_diagram_first.png, id=429, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -1279,17 +1287,7 @@ LaTeX Warning: Float too large for page by 48.21051pt on input line 17.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [11] [12 <./figures/flow_diagram_first.png>]
-(chapters/sections/subsections/MoSCoW_method.tex
-<figures/MosCoW_method.png, id=433, 1036.87375pt x 567.11874pt>
-File: figures/MosCoW_method.png Graphic file (type png)
-<use figures/MosCoW_method.png>
-Package pdftex.def Info: figures/MosCoW_method.png  used on input line 15.
-(pdftex.def)             Requested size: 345.0pt x 188.69875pt.
-))
-(chapters/sections/rest_api.tex [13
-
- <./figures/MosCoW_method.png>]
+) [12] [13 <./figures/flow_diagram_first.png>]) (chapters/sections/rest_api.tex
 
 LaTeX Warning: Citation 'rest_api' on page 14 undefined on input line 5.
 
@@ -1302,7 +1300,9 @@ r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
 
 LaTeX Warning: Citation 'influxdb' on page 14 undefined on input line 7.
 
-[14]
+[14
+
+]
 
 LaTeX Warning: Citation 'webhooks' on page 15 undefined on input line 30.
 
@@ -1323,25 +1323,21 @@ LaTeX Warning: Citation 'microsoft_signalr' on page 15 undefined on input line
 4.
 
 [15] [16]) (chapters/sections/demo_phase.tex
-(chapters/sections/subsections/building_car.tex
-<figures/two_cars.jpg, id=458, 4047.12pt x 3035.34pt>
+(chapters/sections/subsections/building_car.tex [17]
+<figures/two_cars.jpg, id=462, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (chapters/sections/subsections/calibration_of_cars.tex [17] [18 <./figures/tw
-o_cars.jpg>]) (chapters/sections/subsections/construction_of_demo.tex [19]
+)
+(chapters/sections/subsections/calibration_of_cars.tex [18 <./figures/two_cars.
+jpg>]) (chapters/sections/subsections/construction_of_demo.tex [19]
 <figures/demo_crash.png, id=480, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
-
-[20 <./figures/demo_crash.png>]
+ [20 <./figures/demo_crash.png>]
 <figures/succsess_demo.png, id=487, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
@@ -1528,7 +1524,7 @@ AED: lastpage setting LastPage
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7F96475542ED62E986A67F63A376CB5B;10340.
+(rerunfilecheck)             Checksum: 9E782C6B69BE0BA198C9DE9297D81015;10333.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1540,7 +1536,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  32789 strings out of 478614
- 601471 string characters out of 2843122
+ 601401 string characters out of 2843122
  1559123 words of memory out of 3000000
  49792 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
@@ -1563,7 +1559,7 @@ nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (54 pages, 2366454 bytes).
+Output written on main.pdf (54 pages, 2366483 bytes).
 PDF statistics:
  1626 PDF objects out of 1728 (max. 8388607)
  506 named destinations out of 1000 (max. 500000)
