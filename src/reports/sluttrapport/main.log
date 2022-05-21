@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  21 MAY 2022 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  21 MAY 2022 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,10 +1224,7 @@ File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
 
-(pdftex.def)             Requested size: 345.0pt x 624.21051pt.
-
-
-LaTeX Warning: Float too large for page by 48.21051pt on input line 17.
+(pdftex.def)             Requested size: 310.4979pt x 561.79008pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1244,7 +1241,7 @@ r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
 ]) (./chapters/sections/signalr.tex [15] [16])
 (./chapters/sections/demo_phase.tex
 (./chapters/sections/subsections/building_car.tex [17]
-<figures/two_cars.jpg, id=506, 4047.12pt x 3035.34pt>
+<figures/two_cars.jpg, id=507, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
@@ -1252,14 +1249,14 @@ Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 )
 (./chapters/sections/subsections/calibration_of_cars.tex [18 <./figures/two_car
 s.jpg>]) (./chapters/sections/subsections/construction_of_demo.tex [19]
-<figures/demo_crash.png, id=524, 427.5975pt x 343.2825pt>
+<figures/demo_crash.png, id=525, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
 
 [20 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=531, 271.0125pt x 216.05719pt>
+<figures/succsess_demo.png, id=532, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
@@ -1296,7 +1293,7 @@ Chapter 4.
  (./chapters/product_documentation.tex
 Chapter 5.
 (./chapters/sections/preface.tex) (./chapters/sections/program_description.tex
-<figures/Flow_diagram_server.png, id=565, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=566, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 5.
@@ -1348,7 +1345,7 @@ rsion=0
 [33]) (./chapters/sections/subsections/handshake_and_listener.tex [34] [35]
 [36]) (./chapters/sections/subsections/patching.tex [37])
 (./chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=835, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=836, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1397,13 +1394,13 @@ Appendix A.
 
  (./appendices/sprint_retroperspective.tex
 Appendix B.
-<figures/sprint_retroperspective.png, id=1094, 474.27188pt x 253.94875pt>
+<figures/sprint_retroperspective.png, id=1095, 474.27188pt x 253.94875pt>
 File: figures/sprint_retroperspective.png Graphic file (type png)
 <use figures/sprint_retroperspective.png>
 Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 345.0pt x 184.7378pt.
-<figures/sprint_planning.png, id=1095, 326.72063pt x 152.57pt>
+<figures/sprint_planning.png, id=1096, 326.72063pt x 152.57pt>
 File: figures/sprint_planning.png Graphic file (type png)
 <use figures/sprint_planning.png>
 Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
@@ -1428,15 +1425,25 @@ AED: lastpage setting LastPage
 (./chapters/process_documentation.aux) (./chapters/implementation.aux)
 (./chapters/discussion.aux) (./chapters/product_documentation.aux)
 (./appendices/acronyms.aux) (./appendices/sprint_retroperspective.aux))
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FC66B19F226D22C57E7D6F2A3141DB61;10521.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: FC66B19F226D22C57E7D6F2A3141DB61;10521
+(rerunfilecheck)             After:  E618EDA97E24FC37B5D3B42EE54B2BCC;10770.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32941 strings out of 478238
- 596627 string characters out of 5843941
+ 32942 strings out of 478238
+ 596643 string characters out of 5843941
  1556097 words of memory out of 5000000
  50003 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
@@ -1458,10 +1465,10 @@ e/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
 22/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2022
 /texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2022/t
 exmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (56 pages, 2335950 bytes).
+Output written on main.pdf (56 pages, 2335981 bytes).
 PDF statistics:
- 1284 PDF objects out of 1440 (max. 8388607)
- 1147 compressed objects within 12 object streams
- 526 named destinations out of 1000 (max. 500000)
+ 1285 PDF objects out of 1440 (max. 8388607)
+ 1148 compressed objects within 12 object streams
+ 527 named destinations out of 1000 (max. 500000)
  564 words of extra memory for PDF output out of 10000 (max. 10000000)
 
