@@ -1,9 +1,11 @@
 \subsection{Calibration of the cars}
-When the server, vehicles and client were implemented, and the second vehicle built, we did some testing to figure out how the car’s behaved when given directions by the server. In this test the vehicles were given a specific velocity and driving distance by the server. When the vehicles arrived at their destination the server would tell them to stop. The car’s drove in a straight line.
+After building a second Raspberry Pi vehicle, we did some testing to figure out how the vehicle behaved together with the server when approaching an intersection. In this test, the vehicles were given a specific velocity and distance by the server. When the vehicles arrived at their destination, the server would tell them to stop and terminate their connection.
 
-The vehicles were able to send information, and respond correctly to the servers commands. We also observed that the vehicles drove a different length for each velocity given even though the length was the same. This is because the velocity given to the vehicles is the amount of power going into the car’s motors, not the actual velocity of the car’s. We wanted the demo to be accurate so our group did some further testing where we wrote down the results. 
+The vehicles were able to send information and respond correctly to the server's commands. We also observed that the vehicles drove a different length for each velocity given even though the length was the same. The unexpected behavior stems from the assumption that the outputting velocity is the same as the inputting power to the car's motors. The demonstration depends on the car's ability to input the correct amount of power to drive at specific speeds instructed by the server. Thus, the group started to measure the distance and time the cars would drive, given intervals of power to determine the relationship between power and velocity.
 
-\begin{table}
+The measurement setup is as follows: The server instructs the cars to drive with a given power, which is what the server believed to be the velocity. After a time, the server will stop the car. The group then measured the distance the car had traveled. Given the measured distance and the time given by the server, the real velocity was obtained by dividing distance by time. \hyperref[tab:calibration]{Table \ref{tab:calibration}} shows all the recorded measurements with this set up.
+
+\begin{table}[h!]
 	\begin{center}
 		\begin{tabular}{rrrr}
 			\hline
@@ -18,11 +20,12 @@ The vehicles were able to send information, and respond correctly to the servers
 			100 & 286 & 3.62 & 79.01 \\
 			\hline
 		\end{tabular}
-		\caption{Test text}
+		\caption{Measurements taken to determine the relationship between power and velocity. Units were provided to the different parameters, while the power unit was unknown.}
+		\label{tab:calibration}
 	\end{center}
 \end{table}
 
-The data Power was the velocity given by the server. Velocity was the actual velocity in our testing, which is length divided by time. As you can see the velocity was not the same as the power. We then made a graph to visualize the two values. The $y$-axis was the velocity while the $x$-axis is the power.
+We then made a graph in Excel by plotting our data with velocity on the $y$-axis and power on the $x$-axis as shown in \figref{fig:graphvelpow}.
 
 \begin{figure}[h!]
 		\centering
@@ -31,17 +34,15 @@ The data Power was the velocity given by the server. Velocity was the actual vel
 	\label{fig:graphvelpow}
 \end{figure}
 
-We observed that the correlation between power and velocity seemed linear. This means we could make a specific formula that describes the correlation between the two values. We used linear regression to figure out this formula:
+From \figref{fig:graphvelpow}, it appears that the power and velocity were linearly correlated. Hence, using linear regression, we obtained an approximate relationship between power and velocity. \figref{fig:functionofpower} shows the result of the linear regression performed by Excel using the same dataset in \hyperref[tab:calibration]{Table \ref{tab:calibration}}.
 
+\clearpage
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/function_of_power}
-	\caption{Graph of velocity as a function of power with linear regression}
+	\caption{Graph of velocity as a function of power with linear regression in Excel}
 	\label{fig:functionofpower}
 \end{figure}
 
-
-The formula we ended up with was as follows: $v(P) = 0.4516\cdot P + 36.189$, where $P$ is power and $v$ is velocity, with a mean square error of $R^2=0.9653$. When we coded the formula into the vehicles we did another set of testing. We observed that the vehicles drove more or less the same distance for each power given. If we wanted an even more accurate formula we could have tuned the formula with the test results from our new test. Although the results were not hundred percent accurate, we concluded it was accurate enough for our demonstration. 
-
-To test the solution we have worked on, we made a physical demonstration with two cars that meet at an intersection, as part of the product documentation. We want to test that a combination of a centralized communication system and artificial intelligence can improve traffic flow. What we wanted to observe was if the velocity of the vehicles were not drasticly changed and therefore not distrupting the traffic flow.
+From \figref{fig:functionofpower}, the relationship between velocity and power is as follows: $v(P) = 0.4516\cdot P + 36.189$, where $P$ is power and $v$ is velocity, with a goodness-of-fit measure of $R^2=0.9653$. We inserted the relationship into the vehicle and performed a new test to confirm the relationship. We observed that the vehicles drove more or less the correct distance for the desired velocity. Although the distance has some variance in the new tests, we concluded it was accurate enough for our demonstration. If, however, a more accurate formula is desired, then the test can be performed with smaller power intervals.
 
