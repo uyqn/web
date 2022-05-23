@@ -46,7 +46,7 @@ class Client:
 Values in this dictionary are references to functions in this class and is used to invoke certain behaviours by the server. For instance, \newline\verb|await Clients.Client(Context.ConnectionId).SendAsync("disconnect");| from the server will call \verb|def disconnect(self)| in the client. 
 
 \subsubsection{Vehicle.py}
-The vehicle class is supposed to contain all the data and methods of the vehicle. Furthermore, \verb|class Vehicle(Client)| inherits the client class which enables \verb|Vehicle| to perform all the necessary operations to establish connection upon initiation. An important remark is that \verb|Client| performs the negotiation to the server using endpoint \newline \verb|{self.__class__.__name__.lower()}sHub/negotiate?negotiateVersion=0| meaning that through inheritence and initialization of \verb|Vehicle|, the subclass negotiates with the endpoint  \verb|vehiclesHub/negotiate?negotiateVersion=0|, which is mapped in \verb|Program.cs| with
+The vehicle class contains all the data and methods of the vehicle. Furthermore, \verb|class Vehicle(Client)| inherits the client class which enables \verb|Vehicle| to perform all the necessary operations to establish connection upon initiation. An important remark is that \verb|Client| performs the negotiation to the server using endpoint \newline \verb|{self.__class__.__name__.lower()}sHub/negotiate?negotiateVersion=0| meaning that through inheritence and initialization of \verb|Vehicle|, the subclass negotiates with the endpoint  \verb|vehiclesHub/negotiate?negotiateVersion=0|, which is mapped in \verb|Program.cs| with
 \begin{csharp}
 ...
 app.MapHub<VehiclesHub>("/vehiclesHub");
