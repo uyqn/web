@@ -8,9 +8,9 @@ public class RoutePlanner
 	...
 }
 \end{csharp}
-The variable \verb|_travelPlan| stores all the nodes that \verb|Vehicle| is going to traverse through in succession. Whenever \verb|Vehicle| has traversed the whole length of a node, the node is then moved to the tail of \verb|_visitedNodes|. Thus, provides an easy way to keep track of the whereabout of \verb|Vehicle| at all times.
+The variable \verb|_travelPlan| stores all the nodes that \verb|Vehicle| will traverse through in succession. Whenever \verb|Vehicle| has traversed the whole length of a node, the node moves to the tail of \verb|_visitedNodes|. Thus, it provides an easy way to keep track of the \verb|Vehicle|'s whereabouts.
 
-During the handshake, described in \hyperref[handshake]{\ref{handshake} Handshake and listener}, \verb|Vehicle| builds the \verb|_travelPlan| through its \verb|SetTravelPlan| method:
+During the handshake, described in \secref{handshake}, \verb|Vehicle| builds the \verb|_travelPlan| through its \verb|SetTravelPlan| method:
 \begin{csharp}
 public class Vehicle : IDevice
 {
@@ -64,7 +64,7 @@ The main reason for creating \verb*|RoutePlanner| in this project was mainly to 
 	\item Which intersection is the next intersection for this \verb*|Vehicle|?
 	\item How far is \verb*|Vehicle| away from the next intersection?
 \end{itemize}
-By using \verb*|RoutePlanner| we were able to answer the questions above with these following implementations respectively:
+By using \verb*|RoutePlanner|, we were able to answer the questions above with the following implementations respectively:
 \begin{csharp}
 public class Vehicle : IDevice
 {

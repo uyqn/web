@@ -1,5 +1,5 @@
 \subsection{Patch}
-After initialization and handshake elaborated in \hyperref[initialization]{\ref{initialization} Initialization} and \hyperref[handshake]{\ref{handshake} Handshake and listener} respectively, the Raspberry Pi vehicles starts to drive into an intersection simultaneously. Throughout the journey the cars are continuously patching to the server, by calling the client's \verb|async def send\_patch| method.
+After initialization and handshake elaborated in \secref{initialization} and \secref{handshake} respectively, the Raspberry Pi vehicles start to drive into an intersection simultaneously. Throughout the journey, the cars are continuously patching to the server by calling the client's \verb|async def send\_patch| method.
 
 \begin{python}
 class Client:
@@ -11,10 +11,10 @@ class Client:
 			await asyncio.sleep(self.__delay)
 \end{python}
 
-As seen above \pythoninline{send\_patch} calls the \pythoninline{async def send_invocation} method, which communicates the vehicle's current information by invoking \newline
+As seen above \verb|send_patch| calls the \verb|async def send_invocation| method, which communicates the vehicle's current information by invoking \newline
 \verb|public async Task Patch| on \verb|VehiclesHub|.
 
-The patch method on \verb|VehiclesHub| is responsible for handling the behaviour, specifically adjusting the velocity of individual vehicles:
+The patch method on \verb|VehiclesHub| is responsible for handling the behavior, explicitly adjusting the velocity of individual vehicles:
 \begin{csharp}
 public partial class VehiclesHub : Hub
 {
@@ -28,7 +28,7 @@ public partial class VehiclesHub : Hub
 	}
 }
 \end{csharp}
-The snippet above shows that the method first creates a new vehicle using the information provided by the \verb|Client|. However, since this new vehicle does not contain all the information, such as the travel plan, the method first update the existing vehicle in the database in order to refresh the vehicle with the available information. It then fetch the same vehicle that was stored in the handshake, mentioned in \hyperref[handshake]{\ref{handshake} Handshake and listener}. Assuming that the vehicle has been successfully retrieved it will then handle this vehicle accordingly:
+The snippet above shows that the method first creates a new vehicle using the information provided by the \verb|Client|. However, since this new vehicle does not contain all the information, such as the travel plan, the method first updates the existing vehicle in the database to refresh the vehicle with the available information. It then fetches the exact vehicle that was stored in the handshake, mentioned in \secref{handshake}. When the vehicle is successfully retrieved, it will then handle this vehicle accordingly:
 \begin{csharp}
 public partial class VehiclesHub : Hub
 {
@@ -43,4 +43,4 @@ public partial class VehiclesHub : Hub
 	}
 }
 \end{csharp}
-Shortly summarized \verb|HandleIntersection| is responsible to adjust the velocity of every vehicle approaching the intersection to avoid collisions. Furthermore, \verb|HandleInsideIntersection| increases the speed to \verb|VehiclesHubDatabase| defined \verb|SpeedLimit|. Lastly, \verb|HandleEndOfRoute| ensure that any vehicles that has completed their journey, defined during the handshake, terminates their connection with the server.
+Shortly summarized \verb|HandleIntersection| is responsible for adjusting the velocity of every vehicle approaching the intersection to avoid collisions. Furthermore, \verb|HandleInsideIntersection| increases the speed to \verb|VehiclesHubDatabase| defined \verb|SpeedLimit|. Lastly, \verb|HandleEndOfRoute| ensures that any vehicle that has completed its journey, defined during the handshake, terminates its connection with the server.

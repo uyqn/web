@@ -6,30 +6,30 @@ async def main():
 	client = Vehicle()
 	...
 \end{python}
-then the client's listen method can be called:
+then the client's \verb|listen| method can be called:
 \begin{python}
 async def main():
 	...
 	listener = asyncio.create_task(client.listen())
 	...
 \end{python}
-The listener method is responsible handling responses and requests from the server. Hence, it is required to run concurrently as the vehicle continuously sends data to the server.
+The listener method is responsible for handling responses and requests from the server. Hence, it must run concurrently as the vehicle continuously sends data to the server.
 
 When the listener is called, the client performs the following code:
 \begin{python}
 class Client:
-	...
+...
 	async def listen(self):
-		async with websockets.connect(self.websocket_uri) as websocket:
-			self.__websocket = websocket
-			await self.__handshake()
-			await self.__listen()
-	...
+	async with websockets.connect(self.websocket_uri) as websocket:
+		self.__websocket = websocket
+		await self.__handshake()
+		await self.__listen()
+...
 \end{python}
-As shown above, the method first opens a websocket connection using the stored uri and stores this as a private variable for later use. Then, a handshake with the server is performed:
+The method first opens a WebSocket connection using the stored URI and stores this as a private variable. Then, a handshake with the server is performed:
 \begin{python}
 class Client:
-	...
+...
 	async def __handshake(self, protocol: str = "json", version: int = 1):
 		data = self.signalr_encode_message({"protocol": protocol, "version": version})
 		await self.__websocket.send(data)
@@ -38,10 +38,10 @@ class Client:
 			print(response)
 		else:
 			await self.send_non_blocking("AddClient", self.properties)
-	...
+...
 \end{python}
 
-The code above describes the handshake process between the client and the server. First, the client informs the server of the protocols that it will use throughout its lifetime. Then, it also informs the server to store the client, in this case the vehicle, to the server using the defined properties.
+The code above describes the handshake process between the client and the server. First, the client informs the server of the protocols it will use throughout its lifetime. Then, it stores the client, in this case, the vehicle, to the server using the defined properties.
 
 Further elaboration, the client invokes the method
 \begin{csharp}
@@ -86,9 +86,9 @@ using the static method defined by the Vehicle model. In addition, it assigns th
 }
 \end{json}
 
-Using the information provided above the vehicle's current lane is also assigned to keep track on which lane the vehicle is driving on. The vehicle is then added to the database, i.e. \verb|public class VehiclesHubDatabase|, together with its connection id \verb|Context.ConnectionId| for easy retrieval.
+Furthermore, the vehicle's current lane is also assigned to track which lane the vehicle is driving on. Then, \verb|public class VehiclesHubDatabase| adds the \verb|Vehicle|, together with its connection id \verb|Context.ConnectionId| for easy retrieval.
 
-Furthermore, for the sake of the demo the server is also instructed to wait for a second vehicle to connect before allowing the vehicles to drive
+Moreover, for the sake of the demo, the server is also instructed to wait for a second vehicle to connect before allowing the vehicles to drive
 \begin{csharp}
 public partial class VehiclesHub : Hub
 {
@@ -104,4 +104,4 @@ public partial class VehiclesHub : Hub
 	...
 }
 \end{csharp}
-by first setting the velocity of the vehicle to zero, updating the new velocity in the database and also adjusting the velocity of the client to zero. Lastly, it calls the \verb|WaitForVehicles| method which will adjust every client's velocity to the defined \verb|SpeedLimit| in \verb|VehiclesHubDatabase|.
+by first setting the vehicle's velocity to zero, updating the new velocity in the database, and adjusting the velocity of the client to zero. Lastly, it calls the \verb|WaitForVehicles| method, which will adjust every client's velocity to the defined \verb|SpeedLimit| in \verb|VehiclesHubDatabase|.
