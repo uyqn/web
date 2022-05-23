@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  23 MAY 2022 20:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  23 MAY 2022 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -921,23 +921,20 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
-)) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.st
-y
-Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
-)
+))
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 252.
-\glo@acronym@file=\write6
-\openout6 = `main.acn'.
-
-Package glossaries Info: Writing glossary file main.acn on input line 252.
+Package glossaries Info: Writing glossary file main.glo on input line 228.
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
+
 
 LaTeX Warning: Unused global option(s):
     [14pt].
@@ -948,24 +945,24 @@ LaTeX Warning: Unused global option(s):
 (appendices/acronyms.aux) (appendices/sprint_retroperspective.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 268.
-LaTeX Font Info:    ... okay on input line 268.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 268.
-LaTeX Font Info:    ... okay on input line 268.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 268.
-LaTeX Font Info:    ... okay on input line 268.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 268.
-LaTeX Font Info:    ... okay on input line 268.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 268.
-LaTeX Font Info:    ... okay on input line 268.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 268.
-LaTeX Font Info:    ... okay on input line 268.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 268.
-LaTeX Font Info:    ... okay on input line 268.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 268.
-LaTeX Font Info:    ... okay on input line 268.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 268.
-LaTeX Font Info:    ... okay on input line 268.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 267.
+LaTeX Font Info:    ... okay on input line 267.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1007,7 +1004,7 @@ Dictionary: glossaries-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 268.
+Package hyperref Info: Link coloring ON on input line 267.
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-13 v2.48 Cross-referencing by name of section
@@ -1021,8 +1018,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count479
 ) (main.out) (main.out)
-\@outlinefile=\write7
-\openout7 = `main.out'.
+\@outlinefile=\write6
+\openout6 = `main.out'.
 
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
@@ -1064,53 +1061,53 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 268.
-Package biblatex Info: Reference segment=0 on input line 268.
+Package biblatex Info: Reference section=0 on input line 267.
+Package biblatex Info: Reference segment=0 on input line 267.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 268.
-<Tittelside.pdf, id=238, 597.23125pt x 845.1575pt>
+(lastpage)             ! on input line 267.
+<Tittelside.pdf, id=246, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
-Package pdftex.def Info: Tittelside.pdf  used on input line 269.
+Package pdftex.def Info: Tittelside.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
-Package pdftex.def Info: Tittelside.pdf  used on input line 269.
+Package pdftex.def Info: Tittelside.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<Tittelside.pdf, id=241, page=1, 597.23125pt x 845.1575pt>
+<Tittelside.pdf, id=249, page=1, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 269.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 269.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 269.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 269.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
-Package pdftex.def Info: Tittelside.pdf , page1 used on input line 269.
+Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [1
 
 \openout4 = `main.ist'.
 
  <./Tittelside.pdf>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 271
+LaTeX Font Info:    Trying to load font information for U+msa on input line 270
 .
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 271
+LaTeX Font Info:    Trying to load font information for U+msb on input line 270
 .
 
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1120,31 +1117,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.271 	\pagenumbering
+l.270 	\pagenumbering
                      {gobble} [1{C:/Users/Ander/AppData/Local/MiKTeX/fonts/map/
 pdftex/pdftex.map}] (main.toc [1
 
 ])
-\tf@toc=\write8
-\openout8 = `main.toc'.
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.275 	\clearpage
+l.274 	\clearpage
                   [2]
 
 LaTeX Warning: Citation 'traffic_shockwave' on page 1 undefined on input line 2
-87.
+86.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.288 	\clearpage
+l.287 	\clearpage
                   [1
 
 
@@ -1206,13 +1203,13 @@ LaTeX Warning: Citation 'prosjektveilederen' on page 7 undefined on input line
 
 
 ]
-<figures/Sprint_overview.png, id=383, 358.84062pt x 273.02pt>
+<figures/Sprint_overview.png, id=393, 358.84062pt x 273.02pt>
 File: figures/Sprint_overview.png Graphic file (type png)
 <use figures/Sprint_overview.png>
 Package pdftex.def Info: figures/Sprint_overview.png  used on input line 15.
 (pdftex.def)             Requested size: 345.0pt x 262.50865pt.
  [8 <./figures/Sprint_overview.png>]
-<figures/kanban_screenshot.png, id=393, 1495.5875pt x 858.20625pt>
+<figures/kanban_screenshot.png, id=403, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
 Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 36.
@@ -1220,7 +1217,7 @@ Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 36.
 )
 (chapters/sections/tools_and_technology.tex [9 <./figures/kanban_screenshot.png
 >]) (chapters/sections/MoSCoW_method.tex [10]
-<figures/MosCoW_method.png, id=407, 1036.87375pt x 567.11874pt>
+<figures/MosCoW_method.png, id=417, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 15.
@@ -1275,7 +1272,7 @@ LaTeX Warning: Citation 'traffic_shockwave' on page 13 undefined on input line
 7.
 
 [13]
-<figures/flow_diagram_first.png, id=431, 226.34563pt x 409.53pt>
+<figures/flow_diagram_first.png, id=441, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -1356,27 +1353,32 @@ LaTeX Warning: Reference `sec:traffic_congestion' on page 18 undefined on input
 LaTeX Warning: Citation 'prev_project' on page 19 undefined on input line 2.
 
 [19]
-<figures/two_cars.jpg, id=501, 4047.12pt x 3035.34pt>
+<figures/two_cars.jpg, id=511, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
 ) (chapters/sections/subsections/calibration_of_cars.tex [20 <./figures/two_car
 s.jpg>]
-<figures/velocity_and_power.png, id=511, 358.84062pt x 215.30438pt>
+<figures/velocity_and_power.png, id=521, 358.84062pt x 215.30438pt>
 File: figures/velocity_and_power.png Graphic file (type png)
 <use figures/velocity_and_power.png>
 Package pdftex.def Info: figures/velocity_and_power.png  used on input line 32.
 
 (pdftex.def)             Requested size: 345.0pt x 207.01509pt.
  [21 <./figures/velocity_and_power.png>]
-<figures/function_of_power.png, id=528, 254.45062pt x 218.8175pt>
+<figures/function_of_power.png, id=538, 254.45062pt x 218.8175pt>
 File: figures/function_of_power.png Graphic file (type png)
 <use figures/function_of_power.png>
 Package pdftex.def Info: figures/function_of_power.png  used on input line 42.
 (pdftex.def)             Requested size: 345.0pt x 296.6997pt.
-)
-(chapters/sections/subsections/construction_of_demo.tex
+
+Overfull \hbox (0.2008pt too wide) in paragraph at lines 47--48
+[]\T1/cmr/m/n/10 From [][]Fig-ure [][]3.4[][][][], the re-la-tion-ship be-tween
+ ve-loc-ity and power is as fol-lows: 
+ []
+
+) (chapters/sections/subsections/construction_of_demo.tex
 
 LaTeX Warning: Hyper reference `sec:traffic_congestion' on page 22 undefined on
  input line 2.
@@ -1392,13 +1394,13 @@ LaTeX Warning: Reference `sec:traffic_congestion' on page 22 undefined on input
 [22
 
  <./figures/function_of_power.png>]
-<figures/demo_crash.png, id=541, 427.5975pt x 343.2825pt>
+<figures/demo_crash.png, id=552, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 10.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
  [23 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=550, 271.0125pt x 216.05719pt>
+<figures/succsess_demo.png, id=561, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
@@ -1449,7 +1451,7 @@ LaTeX Warning: Citation 'iot_risk' on page 28 undefined on input line 2.
 
  (chapters/product_documentation.tex
 Chapter 5.
-<figures/Flow_diagram_server.png, id=605, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=616, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 7.
@@ -1498,7 +1500,7 @@ rsion=0
 [33]) (chapters/sections/subsections/handshake_and_listener.tex [34] [35]
 [36]) (chapters/sections/subsections/patching.tex [37])
 (chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=824, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=835, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1536,42 +1538,39 @@ Overfull \hbox (8.21005pt too wide) in paragraph at lines 58--59
 
 [43]))) [44]
 
-LaTeX Warning: Citation 'artificial_intelligence' on page 45 undefined on input
- line 330.
-
-
-LaTeX Warning: Citation 'chinese_iov' on page 45 undefined on input line 334.
-
-[45
-
-
-
-]
-
-LaTeX Warning: Empty bibliography on input line 338.
+LaTeX Warning: Empty bibliography on input line 321.
 
 \openout2 = `appendices/user_manual.aux'.
 
 (appendices/user_manual.tex
 Appendix A.
-[46
+[45
 
 
 
-] [47]
-<figures/alt_intersection_config.png, id=1105, 735.74875pt x 741.77126pt>
+
+
+] [46]
+<figures/alt_intersection_config.png, id=1111, 735.74875pt x 741.77126pt>
 File: figures/alt_intersection_config.png Graphic file (type png)
 <use figures/alt_intersection_config.png>
 Package pdftex.def Info: figures/alt_intersection_config.png  used on input lin
 e 88.
 (pdftex.def)             Requested size: 345.0pt x 347.82893pt.
-) [48 <./figures/alt_intersection_config.png>] [49]
+) [47 <./figures/alt_intersection_config.png>] [48]
 \openout2 = `appendices/acronyms.aux'.
 
 
 (appendices/acronyms.tex
 Appendix B.
-) [50
+
+LaTeX Warning: Citation 'artificial_intelligence' on page 49 undefined on input
+ line 3.
+
+
+LaTeX Warning: Citation 'chinese_iov' on page 49 undefined on input line 9.
+
+) [49
 
 
 
@@ -1581,13 +1580,13 @@ Appendix B.
 
  (appendices/sprint_retroperspective.tex
 Appendix C.
-<figures/sprint_retroperspective.png, id=1127, 474.27188pt x 253.94875pt>
+<figures/sprint_retroperspective.png, id=1133, 474.27188pt x 253.94875pt>
 File: figures/sprint_retroperspective.png Graphic file (type png)
 <use figures/sprint_retroperspective.png>
 Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 345.0pt x 184.7378pt.
-<figures/sprint_planning.png, id=1128, 326.72063pt x 152.57pt>
+<figures/sprint_planning.png, id=1134, 326.72063pt x 152.57pt>
 File: figures/sprint_planning.png Graphic file (type png)
 <use figures/sprint_planning.png>
 Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
@@ -1595,12 +1594,12 @@ Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [51
+) [50
 
 
 
 
- <./figures/sprint_retroperspective.png>] [52 <./figures/sprint_planning.png>]
+ <./figures/sprint_retroperspective.png>] [51 <./figures/sprint_planning.png>]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1616,7 +1615,7 @@ AED: lastpage setting LastPage
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 869A670F6C7D7ECCFC752A9761BC2F21;10340.
+(rerunfilecheck)             Checksum: 187110FD29DFCCC5089BD0F10A8711AC;10628.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1627,10 +1626,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32860 strings out of 478614
- 602159 string characters out of 2843122
- 1564860 words of memory out of 3000000
- 49867 multiletter control sequences out of 15000+600000
+ 32825 strings out of 478614
+ 601666 string characters out of 2843122
+ 1564400 words of memory out of 3000000
+ 49832 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,17n,117p,1195b,5162s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1651,9 +1650,9 @@ nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (56 pages, 2421111 bytes).
+Output written on main.pdf (55 pages, 2423556 bytes).
 PDF statistics:
- 1743 PDF objects out of 2073 (max. 8388607)
- 518 named destinations out of 1000 (max. 500000)
- 563 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1753 PDF objects out of 2073 (max. 8388607)
+ 519 named destinations out of 1000 (max. 500000)
+ 579 words of extra memory for PDF output out of 10000 (max. 10000000)
 
