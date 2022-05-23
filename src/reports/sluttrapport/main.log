@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  23 MAY 2022 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  23 MAY 2022 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1181,10 +1181,19 @@ $50.3 bil-lion ([]).
 (chapters/sections/subsections/project_background.tex [4
 
 
-])
-(chapters/sections/subsections/significance.tex)
+]
+
+LaTeX Warning: Citation 'centralized' on page 5 undefined on input line 7.
+
+
+Overfull \hbox (72.11844pt too wide) in paragraph at lines 4--9
+\T1/cmr/m/n/10 server refers to the cen-tral-ized server. >>>>>>> 25b319f51b923
+b37e8529592d475816fa75ec4dd 
+ []
+
+) (chapters/sections/subsections/significance.tex)
 (chapters/sections/subsections/goals_and_requirements.tex)
-(chapters/sections/subsections/problem_statement.tex))) [5] [6
+(chapters/sections/subsections/problem_statement.tex [5]))) [6] [7
 
 
 
@@ -1196,33 +1205,33 @@ $50.3 bil-lion ([]).
 Chapter 2.
 (chapters/sections/development_method.tex
 
-LaTeX Warning: Citation 'prosjektveilederen' on page 7 undefined on input line 
+LaTeX Warning: Citation 'prosjektveilederen' on page 8 undefined on input line 
 9.
 
-[7
+[8
 
 
 ]
-<figures/Sprint_overview.png, id=393, 358.84062pt x 273.02pt>
+<figures/Sprint_overview.png, id=397, 358.84062pt x 273.02pt>
 File: figures/Sprint_overview.png Graphic file (type png)
 <use figures/Sprint_overview.png>
 Package pdftex.def Info: figures/Sprint_overview.png  used on input line 15.
 (pdftex.def)             Requested size: 345.0pt x 262.50865pt.
- [8 <./figures/Sprint_overview.png>]
-<figures/kanban_screenshot.png, id=403, 1495.5875pt x 858.20625pt>
+ [9 <./figures/Sprint_overview.png>]
+<figures/kanban_screenshot.png, id=408, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
 Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 36.
 (pdftex.def)             Requested size: 345.0pt x 197.97256pt.
 )
-(chapters/sections/tools_and_technology.tex [9 <./figures/kanban_screenshot.png
->]) (chapters/sections/MoSCoW_method.tex [10]
-<figures/MosCoW_method.png, id=417, 1036.87375pt x 567.11874pt>
+(chapters/sections/tools_and_technology.tex [10 <./figures/kanban_screenshot.pn
+g>]) (chapters/sections/MoSCoW_method.tex [11]
+<figures/MosCoW_method.png, id=421, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 15.
 (pdftex.def)             Requested size: 345.0pt x 188.69875pt.
-)) [11 <./figures/MosCoW_method.png>]
+)) [12 <./figures/MosCoW_method.png>]
 \openout2 = `chapters/implementation.aux'.
 
  (chapters/implementation.tex
@@ -1232,7 +1241,7 @@ Overfull \hbox (21.58893pt too wide) in paragraph at lines 5--11
  [] 
  []
 
-(chapters/sections/pre_project_phase.tex [12
+(chapters/sections/pre_project_phase.tex [13
 
 
 
@@ -1240,19 +1249,19 @@ Overfull \hbox (21.58893pt too wide) in paragraph at lines 5--11
 ]
 (chapters/sections/subsections/programming_language.tex
 
-LaTeX Warning: Citation 'dotnet' on page 13 undefined on input line 2.
+LaTeX Warning: Citation 'dotnet' on page 14 undefined on input line 2.
 
 
-LaTeX Warning: Citation 'csharp' on page 13 undefined on input line 2.
+LaTeX Warning: Citation 'csharp' on page 14 undefined on input line 2.
 
 )
 (chapters/sections/subsections/artificial_intelligence_and_Internet_of_things.t
 ex
 
-LaTeX Warning: Citation 'iot_analytics' on page 13 undefined on input line 3.
+LaTeX Warning: Citation 'iot_analytics' on page 14 undefined on input line 3.
 
 
-LaTeX Warning: Citation 'chinese_iov' on page 13 undefined on input line 5.
+LaTeX Warning: Citation 'chinese_iov' on page 14 undefined on input line 5.
 
 ) (chapters/sections/subsections/Increasing_trafficflow_for_one_lane_road.tex
 Overfull \hbox (8.14732pt too wide) in paragraph at lines 1--1
@@ -1260,19 +1269,19 @@ Overfull \hbox (8.14732pt too wide) in paragraph at lines 1--1
  []
 
 
-LaTeX Warning: Citation 'traffic_congestion_pollution' on page 13 undefined on 
+LaTeX Warning: Citation 'traffic_congestion_pollution' on page 14 undefined on 
 input line 3.
 
 
-LaTeX Warning: Citation 'traffic_congestion' on page 13 undefined on input line
+LaTeX Warning: Citation 'traffic_congestion' on page 14 undefined on input line
  3.
 
 
-LaTeX Warning: Citation 'traffic_shockwave' on page 13 undefined on input line 
+LaTeX Warning: Citation 'traffic_shockwave' on page 14 undefined on input line 
 7.
 
-[13]
-<figures/flow_diagram_first.png, id=441, 226.34563pt x 409.53pt>
+[14]
+<figures/flow_diagram_first.png, id=445, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -1282,9 +1291,9 @@ Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [14] [15 <./figures/flow_diagram_first.png>]) (chapters/sections/rest_api.tex
+) [15] [16 <./figures/flow_diagram_first.png>]) (chapters/sections/rest_api.tex
 
-LaTeX Warning: Citation 'rest_api' on page 16 undefined on input line 5.
+LaTeX Warning: Citation 'rest_api' on page 17 undefined on input line 5.
 
 
 Overfull \hbox (2.00815pt too wide) in paragraph at lines 5--6
@@ -1293,9 +1302,9 @@ r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
  []
 
 
-LaTeX Warning: Citation 'influxdb' on page 16 undefined on input line 7.
+LaTeX Warning: Citation 'influxdb' on page 17 undefined on input line 7.
 
-[16
+[17
 
 ]
 Overfull \hbox (36.90567pt too wide) in paragraph at lines 17--17
@@ -1303,71 +1312,71 @@ Overfull \hbox (36.90567pt too wide) in paragraph at lines 17--17
  []
 
 
-LaTeX Warning: Citation 'webhooks' on page 17 undefined on input line 25.
+LaTeX Warning: Citation 'webhooks' on page 18 undefined on input line 25.
 
 
-LaTeX Warning: Citation 'rfc_websockets' on page 17 undefined on input line 28.
+LaTeX Warning: Citation 'rfc_websockets' on page 18 undefined on input line 28.
 
 
 ) (chapters/sections/signalr.tex
 
-LaTeX Warning: Citation 'microsoft_websockets' on page 17 undefined on input li
+LaTeX Warning: Citation 'microsoft_websockets' on page 18 undefined on input li
 ne 2.
 
 
-LaTeX Warning: Citation 'microsoft_signalr' on page 17 undefined on input line 
+LaTeX Warning: Citation 'microsoft_signalr' on page 18 undefined on input line 
 4.
 
 
-LaTeX Warning: Citation 'microsoft_signalr' on page 17 undefined on input line 
+LaTeX Warning: Citation 'microsoft_signalr' on page 18 undefined on input line 
 4.
 
-[17]
+[18]
 
-LaTeX Warning: Hyper reference `sec:traffic_congestion' on page 18 undefined on
+LaTeX Warning: Hyper reference `sec:traffic_congestion' on page 19 undefined on
  input line 11.
 
 
-LaTeX Warning: Reference `sec:traffic_congestion' on page 18 undefined on input
+LaTeX Warning: Reference `sec:traffic_congestion' on page 19 undefined on input
  line 11.
 
 
-LaTeX Warning: Reference `sec:traffic_congestion' on page 18 undefined on input
+LaTeX Warning: Reference `sec:traffic_congestion' on page 19 undefined on input
  line 11.
 
 
-LaTeX Warning: Hyper reference `sec:traffic_congestion' on page 18 undefined on
+LaTeX Warning: Hyper reference `sec:traffic_congestion' on page 19 undefined on
  input line 15.
 
 
-LaTeX Warning: Reference `sec:traffic_congestion' on page 18 undefined on input
+LaTeX Warning: Reference `sec:traffic_congestion' on page 19 undefined on input
  line 15.
 
 
-LaTeX Warning: Reference `sec:traffic_congestion' on page 18 undefined on input
+LaTeX Warning: Reference `sec:traffic_congestion' on page 19 undefined on input
  line 15.
 
-[18]) (chapters/sections/demo_phase.tex
+[19]) (chapters/sections/demo_phase.tex
 (chapters/sections/subsections/building_car.tex
 
-LaTeX Warning: Citation 'prev_project' on page 19 undefined on input line 2.
+LaTeX Warning: Citation 'prev_project' on page 20 undefined on input line 2.
 
-[19]
-<figures/two_cars.jpg, id=511, 4047.12pt x 3035.34pt>
+[20]
+<figures/two_cars.jpg, id=515, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
-) (chapters/sections/subsections/calibration_of_cars.tex [20 <./figures/two_car
+) (chapters/sections/subsections/calibration_of_cars.tex [21 <./figures/two_car
 s.jpg>]
-<figures/velocity_and_power.png, id=521, 358.84062pt x 215.30438pt>
+<figures/velocity_and_power.png, id=526, 358.84062pt x 215.30438pt>
 File: figures/velocity_and_power.png Graphic file (type png)
 <use figures/velocity_and_power.png>
 Package pdftex.def Info: figures/velocity_and_power.png  used on input line 32.
 
 (pdftex.def)             Requested size: 345.0pt x 207.01509pt.
- [21 <./figures/velocity_and_power.png>]
-<figures/function_of_power.png, id=538, 254.45062pt x 218.8175pt>
+ [22 <./figures/velocity_and_power.png>]
+<figures/function_of_power.png, id=542, 254.45062pt x 218.8175pt>
 File: figures/function_of_power.png Graphic file (type png)
 <use figures/function_of_power.png>
 Package pdftex.def Info: figures/function_of_power.png  used on input line 42.
@@ -1380,69 +1389,69 @@ Overfull \hbox (0.2008pt too wide) in paragraph at lines 47--48
 
 ) (chapters/sections/subsections/construction_of_demo.tex
 
-LaTeX Warning: Hyper reference `sec:traffic_congestion' on page 22 undefined on
+LaTeX Warning: Hyper reference `sec:traffic_congestion' on page 23 undefined on
  input line 2.
 
 
-LaTeX Warning: Reference `sec:traffic_congestion' on page 22 undefined on input
+LaTeX Warning: Reference `sec:traffic_congestion' on page 23 undefined on input
  line 2.
 
 
-LaTeX Warning: Reference `sec:traffic_congestion' on page 22 undefined on input
+LaTeX Warning: Reference `sec:traffic_congestion' on page 23 undefined on input
  line 2.
 
-[22
+[23
 
  <./figures/function_of_power.png>]
-<figures/demo_crash.png, id=552, 427.5975pt x 343.2825pt>
+<figures/demo_crash.png, id=556, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 10.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
- [23 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=561, 271.0125pt x 216.05719pt>
+ [24 <./figures/demo_crash.png>]
+<figures/succsess_demo.png, id=565, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
 (pdftex.def)             Requested size: 345.0pt x 275.0522pt.
 )
-[24 <./figures/succsess_demo.png>]))
+[25 <./figures/succsess_demo.png>]))
 \openout2 = `chapters/conclusion.aux'.
 
  (chapters/conclusion.tex
 Chapter 4.
 
-LaTeX Warning: Hyper reference `sec:traffic_congestion' on page 25 undefined on
+LaTeX Warning: Hyper reference `sec:traffic_congestion' on page 26 undefined on
  input line 3.
 
 
-LaTeX Warning: Reference `sec:traffic_congestion' on page 25 undefined on input
+LaTeX Warning: Reference `sec:traffic_congestion' on page 26 undefined on input
  line 3.
 
 
-LaTeX Warning: Reference `sec:traffic_congestion' on page 25 undefined on input
+LaTeX Warning: Reference `sec:traffic_congestion' on page 26 undefined on input
  line 3.
 
 (chapters/sections/subsections/real_world_scenario.tex)
-(chapters/sections/subsections/possible_improvements.tex [25
+(chapters/sections/subsections/possible_improvements.tex [26
 
 
 
 
 
 ])
-(chapters/sections/self_evaluation.tex [26]
+(chapters/sections/self_evaluation.tex [27]
 (chapters/sections/subsections/educational_value.tex))
 (chapters/sections/further_work.tex
-(chapters/sections/subsections/extendability_real_world.tex [27]
+(chapters/sections/subsections/extendability_real_world.tex [28]
 
-LaTeX Warning: Citation 'iot_platforms' on page 28 undefined on input line 4.
+LaTeX Warning: Citation 'iot_platforms' on page 29 undefined on input line 4.
 
 ) (chapters/sections/subsections/system_security.tex
 
-LaTeX Warning: Citation 'iot_risk' on page 28 undefined on input line 2.
+LaTeX Warning: Citation 'iot_risk' on page 29 undefined on input line 2.
 
-))) [28] [29
+))) [29] [30
 
 
 
@@ -1451,7 +1460,7 @@ LaTeX Warning: Citation 'iot_risk' on page 28 undefined on input line 2.
 
  (chapters/product_documentation.tex
 Chapter 5.
-<figures/Flow_diagram_server.png, id=616, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=620, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 7.
@@ -1463,10 +1472,10 @@ LaTeX Warning: Float too large for page by 1.49129pt on input line 10.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30
+[31
 
 
-] [31 <./figures/Flow_diagram_server.png>]
+] [32 <./figures/Flow_diagram_server.png>]
 (chapters/sections/product_specification.tex
 Overfull \hbox (5.2584pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/14.4 Essential code snip-pets be-hind the sys-tem| 
@@ -1481,7 +1490,7 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[32
+[33
 
 ]
 Overfull \hbox (6.66412pt too wide) in paragraph at lines 46--47
@@ -1497,10 +1506,10 @@ Overfull \hbox (1.4154pt too wide) in paragraph at lines 49--50
 rsion=0
  []
 
-[33]) (chapters/sections/subsections/handshake_and_listener.tex [34] [35]
-[36]) (chapters/sections/subsections/patching.tex [37])
+[34]) (chapters/sections/subsections/handshake_and_listener.tex [35] [36]
+[37]) (chapters/sections/subsections/patching.tex [38])
 (chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=835, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=839, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1510,33 +1519,33 @@ Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[38] [39 <./figures/intersection_concept.png>]
+[39] [40 <./figures/intersection_concept.png>]
 Overfull \hbox (45.4953pt too wide) in paragraph at lines 58--59
 []\T1/cmr/m/n/10 It is also worth to men-tion some of the core func-tion-al-i-t
 ies of [][]\T1/cmtt/m/n/10 VehiclesHubDatabase[]\T1/cmr/m/n/10 : 
  []
 
-[40]) (chapters/sections/subsections/route_planner.tex
+[41]) (chapters/sections/subsections/route_planner.tex
 Overfull \hbox (6.51602pt too wide) in paragraph at lines 128--1
 \T1/cmr/m/n/10 cle clos-est to the in-ter-sec-tion. The lat-ter method [][]\T1/
 cmtt/m/n/10 OnlyFirstIntoNextVehiclesIn
  []
 
-[41]
+[42]
 Overfull \hbox (2.2763pt too wide) in paragraph at lines 11--12
 \T1/cmr/m/n/10 The vari-able [][]\T1/cmtt/m/n/10 _travelPlan []\T1/cmr/m/n/10 s
 tores all the nodes that [][]\T1/cmtt/m/n/10 Vehicle []\T1/cmr/m/n/10 will tra-
 verse through
  []
 
-[42]
+[43]
 Overfull \hbox (8.21005pt too wide) in paragraph at lines 58--59
 [][]\T1/cmtt/m/n/10 endLane []\T1/cmr/m/n/10 or un-til all the [][]\T1/cmtt/m/n
 /10 Intersection[]\T1/cmr/m/n/10 s are ex-hausted. In the end, [][]\T1/cmtt/m/n
 /10 SetTravelPlan
  []
 
-[43]))) [44]
+[44]))) [45]
 
 LaTeX Warning: Empty bibliography on input line 321.
 
@@ -1544,33 +1553,33 @@ LaTeX Warning: Empty bibliography on input line 321.
 
 (appendices/user_manual.tex
 Appendix A.
-[45
+[46
 
 
 
 
 
-] [46]
-<figures/alt_intersection_config.png, id=1111, 735.74875pt x 741.77126pt>
+] [47]
+<figures/alt_intersection_config.png, id=1115, 735.74875pt x 741.77126pt>
 File: figures/alt_intersection_config.png Graphic file (type png)
 <use figures/alt_intersection_config.png>
 Package pdftex.def Info: figures/alt_intersection_config.png  used on input lin
 e 88.
 (pdftex.def)             Requested size: 345.0pt x 347.82893pt.
-) [47 <./figures/alt_intersection_config.png>] [48]
+) [48 <./figures/alt_intersection_config.png>] [49]
 \openout2 = `appendices/acronyms.aux'.
 
 
 (appendices/acronyms.tex
 Appendix B.
 
-LaTeX Warning: Citation 'artificial_intelligence' on page 49 undefined on input
+LaTeX Warning: Citation 'artificial_intelligence' on page 50 undefined on input
  line 3.
 
 
-LaTeX Warning: Citation 'chinese_iov' on page 49 undefined on input line 9.
+LaTeX Warning: Citation 'chinese_iov' on page 50 undefined on input line 9.
 
-) [49
+) [50
 
 
 
@@ -1580,13 +1589,13 @@ LaTeX Warning: Citation 'chinese_iov' on page 49 undefined on input line 9.
 
  (appendices/sprint_retroperspective.tex
 Appendix C.
-<figures/sprint_retroperspective.png, id=1133, 474.27188pt x 253.94875pt>
+<figures/sprint_retroperspective.png, id=1137, 474.27188pt x 253.94875pt>
 File: figures/sprint_retroperspective.png Graphic file (type png)
 <use figures/sprint_retroperspective.png>
 Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 345.0pt x 184.7378pt.
-<figures/sprint_planning.png, id=1134, 326.72063pt x 152.57pt>
+<figures/sprint_planning.png, id=1138, 326.72063pt x 152.57pt>
 File: figures/sprint_planning.png Graphic file (type png)
 <use figures/sprint_planning.png>
 Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
@@ -1594,12 +1603,12 @@ Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [50
+) [51
 
 
 
 
- <./figures/sprint_retroperspective.png>] [51 <./figures/sprint_planning.png>]
+ <./figures/sprint_retroperspective.png>] [52 <./figures/sprint_planning.png>]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1626,9 +1635,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32825 strings out of 478614
- 601666 string characters out of 2843122
- 1564400 words of memory out of 3000000
+ 32826 strings out of 478614
+ 601673 string characters out of 2843122
+ 1564425 words of memory out of 3000000
  49832 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1650,9 +1659,9 @@ nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (55 pages, 2423556 bytes).
+Output written on main.pdf (56 pages, 2426568 bytes).
 PDF statistics:
- 1753 PDF objects out of 2073 (max. 8388607)
- 519 named destinations out of 1000 (max. 500000)
+ 1763 PDF objects out of 2073 (max. 8388607)
+ 520 named destinations out of 1000 (max. 500000)
  579 words of extra memory for PDF output out of 10000 (max. 10000000)
 
