@@ -10,7 +10,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{pdfpages}
-\usepackage[acronym]{glossaries}
+\usepackage{glossaries}
 %----------
 \usepackage{listings}
 \lstset{
@@ -224,7 +224,8 @@
 \DeclareLanguageMapping{english}{english-apa}
 \addbibresource{bibliography.bib}
 % ------------------------------------------------------------
-
+\newacronym{IoT}{IoT}{Internet of things}
+\makeglossaries
 % ------------------------------------------------------------
 % Side formatering
 \lhead{DATA3900}
@@ -235,6 +236,7 @@
 % ------------------------------------------------------------
 \newcommand{\figref}[1]{\hyperref[#1]{Figure \ref{#1}}}
 \newcommand{\secref}[1]{\hyperref[#1]{\ref{#1} \nameref{#1}}}
+\newcommand{\equationref}[1]{\hyperref[#1]{equation \eqref{#1}}}
 % ------------------------------------------------------------
 \usepackage{titlesec}
 
@@ -249,9 +251,6 @@
 \titlespacing*{\part}{0pt}{0pt}{20pt}
 %
 %% ------------------------------------------ %% 
-\makeglossaries
-\newacronym{ai}{AI}{Artificial Intelligence}
-\newacronym{iot}{IoT}{Internet of Things}
 % ------------------------------------------------------------
 \title
 {
@@ -316,23 +315,7 @@
 %	\include{chapters/conclusion}
 
 	
-	% ------------------------------------------------------------
-%	\clearpage
-%	
-%	\printglossary[type=\acronymtype]
-%	
-%	\printglossary
-%	
-%	\clearpage
-	
-	\chapter*{Glossary}
-	
-	\textbf{Artificial intelligence} - A field which combines computer science and robust datasets to enable problem solving (\cite{artificial_intelligence}).
-	
-	\textbf{Internet of Things} - 
-	
-	\textbf{Internet of Vehicles} - An IoV system is a distributed system for wireless communication and information exchange between vehicles through agreed-upon communication protocols \parencite{chinese_iov}.
-	
+	% -----------------------------------------------------------
 	\clearpage
     \addcontentsline{toc}{chapter}{Bibliography}
     \printbibliography
