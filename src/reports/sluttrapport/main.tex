@@ -269,20 +269,6 @@
 	\includepdf{Tittelside}
 	\maketitle
 	\pagenumbering{gobble}
-	\begin{abstract}
-		A summary of the project, including the result that the group reached.
-	\end{abstract}
-	\clearpage
-	\chapter*{Preface}
-This is the report of our bachelor thesis at Oslo Metropolitan University, Faculty of Technology, Art and Design. We tried to develop a solution for traffic management with self-driving cars and server communication. Our project was created for Accenture and lasted from January 2022 to May 2022. In this project, we documented the functionality and process of making it. We physically demonstrated our proposed solution with a Raspberry Pi computer working as a car. 
-	
-	The report is split into seven chapters—introduction, research areas, process documentation, implementation, results, discussion, and conclusion. We have added a Moscow analysis, sprint overview, and our project journal as appendices. Technical terms are in the appendix for those with less technical knowledge. (Kan kanskje droppe dette)
-	
-	We would like to thank everyone that has contributed to our project. We would especially like to thank:
-	\begin{itemize}
-		\item Ivar Fauske Aasen, Solfrid Johansen and Benjamin Vallestad, representatives from Accenture.
-		\item Dr. Jianhua Zhang, internal supervisor at OsloMet.
-	\end{itemize}
 	\tableofcontents
 	% \listoffigures <- utkommenter dersom vi har figurer
 	% \listoftables <- utkommenter dersom vi har tabeller
@@ -294,18 +280,38 @@ This is the report of our bachelor thesis at Oslo Metropolitan University, Facul
 	% Husk bare på å inkludere referanser i form av \cite{referanse-navn}
 	% uten parantes, eller (\cite{referanse-navn}) <- med parantes
 	% ------------------------------------------------------------
+	\addcontentsline{toc}{part}{Abstract}
+	\part*{Abstract}
+	In 2020 a group of students from Høyskolen Kristiania developed self-driving cars with Raspberry Pi for Accenture. This year, our group was tasked to extend their project and consider how traffic flow can be improved with autonomous cars and centralized communication systems. Consequently, our group developed a client-server program where the existing Raspberry Pi vehicles communicate with a server to improve traffic flow at an intersection.
+	
+	Traffic lights control intersections today to prevent accidents. However, the process of stopping vehicles and accelerating vehicles is a by-product of traffic congestion \parencite{traffic_shockwave}. Hence, this project concludes, through demonstrations, shows that a centralized server can indeed improve traffic flow by adjusting the vehicles' speed accordingly.
+	\clearpage
+	
+	\addcontentsline{toc}{part}{Preface}
+	\part*{Preface}
+	This is the report of our bachelor thesis at Oslo Metropolitan University, Faculty of Technology, Art and Design. We tried to develop a solution for traffic management with self-driving cars and server communication. Our project was created for Accenture and lasted from January 2022 to May 2022. In this project, we documented the functionality and process of making it. We physically demonstrated our proposed solution with a Raspberry Pi computer working as a car. 
+	
+	This report is split into three parts: First, an introductory part where the project is introduced. Then process documentation, where we elaborate on this project's details and process. Lastly, product documentation about the code that made this project successful.
+	
+	We would like to thank everyone that has contributed to our project. We would especially like to thank:
+	\begin{itemize}
+		\item Ivar Austin Fauske, Solfrid Johansen and Benjamin Vallestad, representatives from Accenture.
+		\item Dr. Jianhua Zhang, internal supervisor at OsloMet.
+	\end{itemize}
 	\part{Preliminary}
-	This text is supposed to convey what this part of the report is about.
+	This part serves as an introduction to the project. Throughout this part of the report, we will introduce this project's contributing members and clients. Additionally, we will elaborate on the goals and requirements that surround our project and introduce the research and development question this project explores.
+	
 	\include{chapters/introductions}
 	%\include{chapters/research_areas}
 	\part{Process Documentation}
-	This text is supposed to convey what this part of the report is about.
+	The process documentation involves the technicality of the project. This part of the report elaborates on the challenges and solutions that the group has explored. Moreover, it details how the group has worked and what the group did to make this project a success.
+	
 	\include{chapters/process_documentation}
 	\include{chapters/implementation}
 	\include{chapters/conclusion}
 	% \include{chapters/discussion}
 	\part{Product Document}
-	This text is supposed to convey what this part of the report is about.
+	The product documentation is a technical description of the product. The reader of this documentation is assumed to have a technical background. The resulting product of the project is a semi-physical demonstration. Hence, no user interfaces have been developed for this project. Thus, this part serves as a detailed explanation of the code running in the background. 
 	\include{chapters/product_documentation}
 %	\include{chapters/conclusion}
 
@@ -323,16 +329,15 @@ This is the report of our bachelor thesis at Oslo Metropolitan University, Facul
 	
 	\textbf{Artificial intelligence} - A field which combines computer science and robust datasets to enable problem solving (\cite{artificial_intelligence}).
 	
-	\textbf{Internet of Things} -
+	\textbf{Internet of Things} - 
 	
 	\textbf{Internet of Vehicles} - An IoV system is a distributed system for wireless communication and information exchange between vehicles through agreed-upon communication protocols \parencite{chinese_iov}.
-	
-	
 	
 	\clearpage
     \addcontentsline{toc}{chapter}{Bibliography}
     \printbibliography
     \appendix
+    \include{appendices/user_manual}
     \include{appendices/acronyms}
     \include{appendices/sprint_retroperspective}
     

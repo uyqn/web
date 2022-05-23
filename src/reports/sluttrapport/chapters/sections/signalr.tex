@@ -1,4 +1,4 @@
-\section{Phase 3 - Websocket with SignalR}\label{phase3}
+\section{Phase 3 - WebSocket with SignalR}\label{phase3}
 After extensive research on how to solve the two-way communication discussed in \secref{phase2}, the group agreed that WebSockets would be an excellent solution to our problem. Using WebSockets, both client and server can transfer data whenever they see fit. However, \cite{microsoft_websockets} discourages developers from implementing raw WebSockets for most applications and recommends using SignalR instead.
 
 ASP.NET SignalR is a library that at the top layer provides real-time communication using WebSockets while also providing other transport methods such as long-polling as fallback \parencite{microsoft_signalr}. Furthermore, SignalR API supports \emph{remote procedure calls} (RPC) using hubs, meaning we can invoke subroutines on the client from the server and vice versa \parencite{microsoft_signalr}.
