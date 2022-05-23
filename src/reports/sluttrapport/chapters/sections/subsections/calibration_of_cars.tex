@@ -1,5 +1,5 @@
 \subsection{Calibration of the cars}
-After building a second Raspberry Pi vehicle, we did some testing to figure out how the vehicle behaved together with the server when approaching an intersection. In this test, the vehicles were given a specific velocity and distance by the server. When the vehicles arrived at their destination, the server would tell them to stop and terminate their connection.
+After building a second Raspberry Pi vehicle, we did some testing to figure out how the vehicles behaved together with the server when approaching an intersection. In this test, the vehicles were given a specific velocity and distance by the server. When the vehicles arrived at their destination, the server would tell them to stop and terminate their connection.
 
 The vehicles were able to send information and respond correctly to the server's commands. We also observed that the vehicles drove a different length for each velocity given even though the length was the same. The unexpected behavior stems from the assumption that the outputting velocity is the same as the inputting power to the car's motors. The demonstration depends on the car's ability to input the correct amount of power to drive at specific speeds instructed by the server. Thus, the group started to measure the distance and time the cars would drive, given intervals of power to determine the relationship between power and velocity.
 
@@ -9,7 +9,7 @@ The measurement setup is as follows: The server instructs the cars to drive with
 	\begin{center}
 		\begin{tabular}{rrrr}
 			\hline
-			Power (?) & Length (cm) & Time (s) & Velocity (cm/s) \\
+			Power & Length (cm) & Time (s) & Velocity (cm/s) \\
 			\hline
 			40 & 467 & 8.98 & 52.00 \\
 			50 & 425 & 7.28 & 58.38 \\

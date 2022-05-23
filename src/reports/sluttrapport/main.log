@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  23 MAY 2022 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  23 MAY 2022 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1044,20 +1044,13 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./main.bbl
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'prev_project':
-(biblatex)                - Overwriting field 'year' with year value from field
- 'date' for entry 'prev_project'.
-
-)
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 268.
 Package biblatex Info: Reference segment=0 on input line 268.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 268.
-<Tittelside.pdf, id=233, 597.23125pt x 845.1575pt>
+<Tittelside.pdf, id=240, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
 Package pdftex.def Info: Tittelside.pdf  used on input line 269.
@@ -1066,7 +1059,7 @@ File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
 Package pdftex.def Info: Tittelside.pdf  used on input line 269.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<Tittelside.pdf, id=236, page=1, 597.23125pt x 845.1575pt>
+<Tittelside.pdf, id=243, page=1, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
 Package pdftex.def Info: Tittelside.pdf , page1 used on input line 269.
@@ -1110,22 +1103,7 @@ been already used, duplicate ignored
                    \relax 
 l.271 	\pagenumbering
                      {gobble} [1{/usr/local/texlive/2022/texmf-var/fonts/map/pd
-ftex/updmap/pdftex.map}] [1]
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.288 	\tableofcontents
-                        [1
-
-
-] (./main.toc
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.35 ...bration of the cars}{18}{subsection.3.4.2}
-                                                  % [2
+ftex/updmap/pdftex.map}] (./main.toc [1
 
 ])
 \tf@toc=\write8
@@ -1136,15 +1114,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.291 	\clearpage
-                  [3]
+l.275 	\clearpage
+                  [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.302 	\include{chapters/introductions}
-                                        [1
+l.288 	\clearpage
+                  [1
 
+
+] [2
+
+
+] [3
 
 ]
 \openout2 = `chapters/introductions.aux'.
@@ -1157,18 +1140,13 @@ Chapter 1.
 (./chapters/sections/subsections/supervisors.tex)
 (./chapters/sections/subsections/client.tex))
 (./chapters/sections/project_description.tex
-(./chapters/sections/subsections/project_background.tex
-Overfull \hbox (9.16351pt too wide) in paragraph at lines 2--3
-\T1/cmr/m/n/10 Accenture has, over the years, of-fered fi-nal year stu-dents at
- OsloMet and Høyskolen
- []
-
-[2
+(./chapters/sections/subsections/project_background.tex [4
 
 
-]) (./chapters/sections/subsections/significance.tex)
+])
+(./chapters/sections/subsections/significance.tex)
 (./chapters/sections/subsections/goals_and_requirements.tex)
-(./chapters/sections/subsections/problem_statement.tex))) [3] [4
+(./chapters/sections/subsections/problem_statement.tex))) [5] [6
 
 
 
@@ -1178,41 +1156,39 @@ Overfull \hbox (9.16351pt too wide) in paragraph at lines 2--3
 
 (./chapters/process_documentation.tex
 Chapter 2.
-(./chapters/sections/development_method.tex [5
+(./chapters/sections/development_method.tex [7
 
 
 ]
-<figures/Sprint_overview.png, id=385, 358.84062pt x 273.02pt>
+<figures/Sprint_overview.png, id=394, 358.84062pt x 273.02pt>
 File: figures/Sprint_overview.png Graphic file (type png)
 <use figures/Sprint_overview.png>
-Package pdftex.def Info: figures/Sprint_overview.png  used on input line 17.
+Package pdftex.def Info: figures/Sprint_overview.png  used on input line 15.
 (pdftex.def)             Requested size: 345.0pt x 262.50865pt.
- [6 <./figures/Sprint_overview.png>]
-<figures/kanban_screenshot.png, id=395, 1495.5875pt x 858.20625pt>
+ [8 <./figures/Sprint_overview.png>]
+<figures/kanban_screenshot.png, id=404, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
-Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 38.
+Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 36.
 (pdftex.def)             Requested size: 345.0pt x 197.97256pt.
- [7 <./figures/kanban_screenshot.png>])
-(./chapters/sections/tools_and_technology.tex)
-(./chapters/sections/MoSCoW_method.tex [8]
-<figures/MosCoW_method.png, id=409, 1036.87375pt x 567.11874pt>
+) (./chapters/sections/tools_and_technology.tex [9 <./figures/kanban_screenshot
+.png>]) (./chapters/sections/MoSCoW_method.tex [10]
+<figures/MosCoW_method.png, id=418, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 15.
 (pdftex.def)             Requested size: 345.0pt x 188.69875pt.
-)) [9 <./figures/MosCoW_method.png>]
+)) [11 <./figures/MosCoW_method.png>]
 \openout2 = `chapters/implementation.aux'.
 
-
-(./chapters/implementation.tex
+ (./chapters/implementation.tex
 Chapter 3.
 
 Overfull \hbox (21.58893pt too wide) in paragraph at lines 5--11
  [] 
  []
 
-(./chapters/sections/pre_project_phase.tex [10
+(./chapters/sections/pre_project_phase.tex [12
 
 
 
@@ -1226,87 +1202,87 @@ Overfull \hbox (8.14732pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/12 Preventing traf-fic con-ges-tions for a one-lane road| 
  []
 
-[11]
-<figures/flow_diagram_first.png, id=442, 226.34563pt x 409.53pt>
+[13]
+<figures/flow_diagram_first.png, id=455, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
-Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 15.
+Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 13.
 
 (pdftex.def)             Requested size: 310.4979pt x 561.79008pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [12] [13 <./figures/flow_diagram_first.png>])
+) [14] [15 <./figures/flow_diagram_first.png>])
 (./chapters/sections/rest_api.tex
 Overfull \hbox (2.00815pt too wide) in paragraph at lines 5--6
 []\T1/cmr/m/it/10 Representational state trans-fer \T1/cmr/m/n/10 (REST) \T1/cm
 r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
  []
 
-[14
+[16
 
 ]
 Overfull \hbox (36.90567pt too wide) in paragraph at lines 17--17
 |[]\T1/cmr/bx/n/12 Alternative so-lu-tion 1 - Short-polling and long-polling| 
  []
 
-) (./chapters/sections/signalr.tex [15] [16])
+) (./chapters/sections/signalr.tex [17] [18])
 (./chapters/sections/demo_phase.tex
-(./chapters/sections/subsections/building_car.tex [17]
-<figures/two_cars.jpg, id=517, 4047.12pt x 3035.34pt>
+(./chapters/sections/subsections/building_car.tex [19]
+<figures/two_cars.jpg, id=549, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
 )
-(./chapters/sections/subsections/calibration_of_cars.tex [18 <./figures/two_car
+(./chapters/sections/subsections/calibration_of_cars.tex [20 <./figures/two_car
 s.jpg>]
-<figures/velocity_and_power.png, id=527, 358.84062pt x 215.30438pt>
+<figures/velocity_and_power.png, id=559, 358.84062pt x 215.30438pt>
 File: figures/velocity_and_power.png Graphic file (type png)
 <use figures/velocity_and_power.png>
 Package pdftex.def Info: figures/velocity_and_power.png  used on input line 32.
 
 (pdftex.def)             Requested size: 345.0pt x 207.01509pt.
- [19 <./figures/velocity_and_power.png>]
-<figures/function_of_power.png, id=544, 254.45062pt x 218.8175pt>
+ [21 <./figures/velocity_and_power.png>]
+<figures/function_of_power.png, id=577, 254.45062pt x 218.8175pt>
 File: figures/function_of_power.png Graphic file (type png)
 <use figures/function_of_power.png>
 Package pdftex.def Info: figures/function_of_power.png  used on input line 42.
 (pdftex.def)             Requested size: 345.0pt x 296.6997pt.
 )
-(./chapters/sections/subsections/construction_of_demo.tex [20
+(./chapters/sections/subsections/construction_of_demo.tex [22
 
  <./figures/function_of_power.png>]
-<figures/demo_crash.png, id=561, 427.5975pt x 343.2825pt>
+<figures/demo_crash.png, id=594, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 10.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
- [21 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=570, 271.0125pt x 216.05719pt>
+ [23 <./figures/demo_crash.png>]
+<figures/succsess_demo.png, id=603, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
 (pdftex.def)             Requested size: 345.0pt x 275.0522pt.
-) [22 <./figures/succsess_demo.png>]))
+) [24 <./figures/succsess_demo.png>]))
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 4.
 (./chapters/sections/subsections/real_world_scenario.tex)
-(./chapters/sections/subsections/possible_improvements.tex [23
+(./chapters/sections/subsections/possible_improvements.tex [25
 
 
 
 
 
 ])
-(./chapters/sections/self_evaluation.tex [24]
+(./chapters/sections/self_evaluation.tex [26]
 (./chapters/sections/subsections/educational_value.tex))
 (./chapters/sections/further_work.tex
-(./chapters/sections/subsections/extendability_real_world.tex [25])
-(./chapters/sections/subsections/system_security.tex))) [26] [27
+(./chapters/sections/subsections/extendability_real_world.tex [27])
+(./chapters/sections/subsections/system_security.tex))) [28] [29
 
 
 
@@ -1316,7 +1292,7 @@ Chapter 4.
 
 (./chapters/product_documentation.tex
 Chapter 5.
-<figures/Flow_diagram_server.png, id=635, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=667, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 7.
@@ -1328,10 +1304,10 @@ LaTeX Warning: Float too large for page by 1.49129pt on input line 10.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28
+[30
 
 
-] [29 <./figures/Flow_diagram_server.png>]
+] [31 <./figures/Flow_diagram_server.png>]
 (./chapters/sections/product_specification.tex
 Overfull \hbox (5.2584pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/14.4 Essential code snip-pets be-hind the sys-tem| 
@@ -1345,7 +1321,7 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 (./chapters/sections/subsections/initialization.tex
 (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [30
+) [32
 
 ]
 Overfull \hbox (6.66412pt too wide) in paragraph at lines 46--47
@@ -1361,10 +1337,10 @@ Overfull \hbox (1.4154pt too wide) in paragraph at lines 49--50
 rsion=0
  []
 
-[31]) (./chapters/sections/subsections/handshake_and_listener.tex [32] [33]
-[34]) (./chapters/sections/subsections/patching.tex [35])
+[33]) (./chapters/sections/subsections/handshake_and_listener.tex [34] [35]
+[36]) (./chapters/sections/subsections/patching.tex [37])
 (./chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=856, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=888, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1374,61 +1350,61 @@ Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36] [37 <./figures/intersection_concept.png>]
+[38] [39 <./figures/intersection_concept.png>]
 Overfull \hbox (45.4953pt too wide) in paragraph at lines 58--59
 []\T1/cmr/m/n/10 It is also worth to men-tion some of the core func-tion-al-i-t
 ies of [][]\T1/cmtt/m/n/10 VehiclesHubDatabase[]\T1/cmr/m/n/10 : 
  []
 
-[38]) (./chapters/sections/subsections/route_planner.tex
+[40]) (./chapters/sections/subsections/route_planner.tex
 Overfull \hbox (6.51602pt too wide) in paragraph at lines 128--1
 \T1/cmr/m/n/10 cle clos-est to the in-ter-sec-tion. The lat-ter method [][]\T1/
 cmtt/m/n/10 OnlyFirstIntoNextVehiclesIn
  []
 
-[39]
+[41]
 Overfull \hbox (2.2763pt too wide) in paragraph at lines 11--12
 \T1/cmr/m/n/10 The vari-able [][]\T1/cmtt/m/n/10 _travelPlan []\T1/cmr/m/n/10 s
 tores all the nodes that [][]\T1/cmtt/m/n/10 Vehicle []\T1/cmr/m/n/10 will tra-
 verse through
  []
 
-[40]
+[42]
 Overfull \hbox (8.21005pt too wide) in paragraph at lines 58--59
 [][]\T1/cmtt/m/n/10 endLane []\T1/cmr/m/n/10 or un-til all the [][]\T1/cmtt/m/n
 /10 Intersection[]\T1/cmr/m/n/10 s are ex-hausted. In the end, [][]\T1/cmtt/m/n
 /10 SetTravelPlan
  []
 
-[41]))) [42] [43
+[43]))) [44] [45
 
 
 
-] [44
+] [46
 
 
-] [45]
+] [47]
 \openout2 = `appendices/user_manual.aux'.
 
  (./appendices/user_manual.tex
 Appendix A.
-[46
+[48
 
 
-] [47]
-<figures/alt_intersection_config.png, id=1181, 735.74875pt x 741.77126pt>
+] [49]
+<figures/alt_intersection_config.png, id=1218, 735.74875pt x 741.77126pt>
 File: figures/alt_intersection_config.png Graphic file (type png)
 <use figures/alt_intersection_config.png>
 Package pdftex.def Info: figures/alt_intersection_config.png  used on input lin
 e 88.
 (pdftex.def)             Requested size: 345.0pt x 347.82893pt.
-) [48 <./figures/alt_intersection_config.png>] [49]
+) [50 <./figures/alt_intersection_config.png>] [51]
 \openout2 = `appendices/acronyms.aux'.
 
 
 (./appendices/acronyms.tex
 Appendix B.
-) [50
+) [52
 
 
 
@@ -1438,13 +1414,13 @@ Appendix B.
 
  (./appendices/sprint_retroperspective.tex
 Appendix C.
-<figures/sprint_retroperspective.png, id=1205, 474.27188pt x 253.94875pt>
+<figures/sprint_retroperspective.png, id=1241, 474.27188pt x 253.94875pt>
 File: figures/sprint_retroperspective.png Graphic file (type png)
 <use figures/sprint_retroperspective.png>
 Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 345.0pt x 184.7378pt.
-<figures/sprint_planning.png, id=1206, 326.72063pt x 152.57pt>
+<figures/sprint_planning.png, id=1242, 326.72063pt x 152.57pt>
 File: figures/sprint_planning.png Graphic file (type png)
 <use figures/sprint_planning.png>
 Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
@@ -1452,12 +1428,12 @@ Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [51
+) [53
 
 
 
 
- <./figures/sprint_retroperspective.png>] [52 <./figures/sprint_planning.png>]
+ <./figures/sprint_retroperspective.png>] [54 <./figures/sprint_planning.png>]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1471,16 +1447,16 @@ AED: lastpage setting LastPage
 (./appendices/user_manual.aux) (./appendices/acronyms.aux)
 (./appendices/sprint_retroperspective.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8B9B1612CBCBB6B702FC4CB3948F6329;10173.
+(rerunfilecheck)             Checksum: 869A670F6C7D7ECCFC752A9761BC2F21;10340.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33026 strings out of 478238
- 598335 string characters out of 5843941
- 1561539 words of memory out of 5000000
- 50089 multiletter control sequences out of 15000+600000
+ 33049 strings out of 478238
+ 598845 string characters out of 5843941
+ 1561871 words of memory out of 5000000
+ 50107 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,17n,117p,1193b,5162s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1500,10 +1476,10 @@ e/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
 22/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2022
 /texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2022/t
 exmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (58 pages, 2373099 bytes).
+Output written on main.pdf (58 pages, 2375756 bytes).
 PDF statistics:
- 1396 PDF objects out of 1440 (max. 8388607)
- 1252 compressed objects within 13 object streams
- 538 named destinations out of 1000 (max. 500000)
- 547 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1434 PDF objects out of 1440 (max. 8388607)
+ 1290 compressed objects within 13 object streams
+ 541 named destinations out of 1000 (max. 500000)
+ 563 words of extra memory for PDF output out of 10000 (max. 10000000)
 
