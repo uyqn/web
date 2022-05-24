@@ -1,4 +1,4 @@
-\subsection{Construction of semi physical demonstration}\label{sec:demo}
+\subsection{Construction of semi-physical simulations}\label{sec:demo}
 We wanted to test that a centralized communication system and artificial intelligence could improve traffic flow. In order to test the solution, we made a semi physical simulation where two cars approach an intersection simultaneously. We wanted to observe if the velocity of the vehicles were not drastically changed and, therefore, decreased the shockwave effect described in \secref{sec:traffic_congestion}.
 
 We found a space at Accenture that was big enough to build the track. The power input on the Raspberry Pi vehicles is limited to a number between 40 and 100.  Since the server would adjust the vehicle's speed to avoid a collision, the intersection had to be at least 130cm away from the starting point. Otherwise, the server would adjust the vehicle's speed outside the equivalent power limits. Furthermore, the server prevented cars from driving before at least two vehicles have established a connection. Hence, both vehicles would start their journey simultaneously. We also placed the vehicles at the same distance from the intersection on their respective roads. Given these initial conditions, both vehicles were supposed to collide without the server's intervention. We also made the server log the velocity sent to the cars to track how much the cars' velocities changed.
@@ -7,7 +7,7 @@ Making the demo one hundred percent accurate was not possible in our circumstanc
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/demo_crash}
+	\includegraphics[width=0.9\linewidth]{figures/demo_crash}
 	\caption{Here, we can observe the two cars colliding in the intersection. One of the cars started about 5 centimeters further behind the other car and started a few milliseconds later, resulting in a collision. Meanwhile, the server assumed they started simultaneously at the same distance from the intersection. In addition, the lengths of the vehicles were not accounted for.}
 	\label{fig:crashdemo}
 \end{figure}
@@ -18,7 +18,7 @@ When both vehicles had connected to the server, the cars would drive with an ini
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/succsess_demo}
+	\includegraphics[width=0.9\linewidth]{figures/succsess_demo}
 	\caption[Successful demo]{Here is an image of a successful simulation. The car to the left has just passed the intersection, marked as a square with white tape. The car furthest up is, therefore, about to adjust back to its original velocity. Here we can observe that the server prevents a collision.}
 	\label{fig:successdemo}
 \end{figure}
