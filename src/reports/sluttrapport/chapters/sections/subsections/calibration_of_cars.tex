@@ -30,17 +30,17 @@ We then made a graph in Excel by plotting our data with velocity on the $y$-axis
 \begin{figure}[h!]
 		\centering
 	\includegraphics[width=1\linewidth]{figures/velocity_and_power}
-	\caption[Graph of velocity as function of power]{Graph of velocity as a function of power.}
+	\caption[Graph of velocity as function of power]{Graph of velocity as a function of power}
 	\label{fig:graphvelpow}
 \end{figure}
 
-From \figref{fig:graphvelpow}, it appears that the power and velocity were linearly correlated. Hence, using linear regression, we obtained an approximate relationship between power and velocity. \figref{fig:functionofpower} shows the result of the linear regression performed by Excel using the dataset from \hyperref[tab:calibration]{Table \ref{tab:calibration}}.
+From \figref{fig:graphvelpow}, it appears that the power and velocity were linearly correlated. Hence, using linear regression, we obtained an approximate relationship between power and velocity. \figref{fig:functionofpower} shows the result of the linear regression performed by Excel using the same dataset in \hyperref[tab:calibration]{Table \ref{tab:calibration}}.
 
 \clearpage
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1\linewidth]{figures/function_of_power}
-	\caption{Graph of velocity as a function of power with linear regression in Excel. The $x$-axis shows the Power and the $y$-axis shows the velocity.}
+	\caption{Graph of velocity as a function of power with linear regression in Excel. The x-axis shows the Power and the y-axis shows the velocity}
 	\label{fig:functionofpower}
 \end{figure}
 
@@ -50,5 +50,5 @@ From \figref{fig:functionofpower}, the relationship between velocity and power i
 	v(P) = 0.4516\cdot P + 36.189\label{eq:vprelationship}
 \end{equation}
 
-where $P$ is power and $v$ is velocity, with a goodness-of-fit measure of $R^2=0.9653$. We inserted the relationship into the vehicle and performed a new test to confirm the relationship. We observed that the vehicles drove more or less the correct distance for the desired velocity. Although the distance has some variance in the new tests, we concluded it was accurate enough for our demonstration. If, however, a more accurate formula is desired, then the test can be performed with smaller power intervals.
+where $P$ is power and $v$ is velocity, with a goodness-of-fit measure of $R^2=0.9653$.  We inserted the relationship into the vehicle and performed a new test to confirm the relationship. We observed that the vehicles drove more or less the correct distance for the desired velocity. Although the distance has some variance in the new tests, we concluded it was accurate enough for our demonstration. If, however, a more accurate formula is desired, then the test can be performed with smaller power intervals.
 

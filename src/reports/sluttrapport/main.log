@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  24 MAY 2022 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  24 MAY 2022 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**./main.tex
+(main.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-04-10>
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/report.cls
+L3 programming layer <2022-05-04>
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -24,58 +24,64 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2022/02/26 3.73 The Babel package
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/04/30 3.74 The Babel package
 \babel@savecnt=\count194
 \U@D=\dimen139
-\l@unhyphenated=\language87
+\l@unhyphenated=\language79
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count195
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 105.
+(babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 108.
-))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+(babel)             (\language73). Reported on input line 108.
+)) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen140
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen141
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
 \inf@bad=\count196
@@ -116,43 +122,42 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/polynom/polynom.sty
+)) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/polynom\polynom.sty
 Package: polynom 2017/07/17 0.19 (CH,HA)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
 \pld@currstage=\count274
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/parskip/parskip.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-
-(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count275
-))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
+)) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
+y
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box52
 \beforetitleunit=\skip52
@@ -163,9 +168,8 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidth=\dimen151
 \titlewidthlast=\dimen152
 \titlewidthfirst=\dimen153
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/05/10 v4.0.2 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip54
 \f@nch@O@elh=\skip55
@@ -176,28 +180,27 @@ rs
 \f@nch@O@erf=\skip60
 \f@nch@O@olf=\skip61
 \f@nch@O@orf=\skip62
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count276
 \float@exts=\toks25
@@ -205,13 +208,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks26
 \@floatcapt=\box54
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count277
 \calc@Bcount=\count278
@@ -224,15 +227,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count279
 \calc@Cskip=\skip65
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen158
 \ESO@tempdimb=\dimen159
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
@@ -250,7 +253,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 \AM@pageheight=\dimen161
 \AM@fboxrule=\dimen162
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/pppdftex.def
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count280
@@ -261,50 +264,51 @@ File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count282
 \AM@templatesizebox=\box56
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossar
+ies.sty
 Package: glossaries 2021/11/01 v4.49 (NLCT)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks29
 \XKV@tempa@toks=\toks30
 )
 \XKV@depth=\count283
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2021/10/15 v2.07 (NLCT)
 \@glsmfirst=\toks31
 \@glsmrest=\toks32
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/xfor/xfor.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/datatool/datatool-base.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.
+sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/substr/substr.sty
+ (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count284
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/datatool/datatool-fp.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.st
+y
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp.sty
+ (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/defpattern.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count285
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-basic.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count286
 \FP@xia=\count287
@@ -316,32 +320,32 @@ Package: fp-basic 1996/05/13
 \FP@regs=\count293
 \FP@times=\count294
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-addons.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-snap.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
 Package: fp-snap 1995/04/05
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-exp.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
 Package: fp-exp 1995/04/03
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-trigo.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
 Package: fp-trigo 1995/04/14
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-pas.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
 Package: fp-pas 1994/08/29
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-random.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count295
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-eqn.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-upn.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
 Package: fp-upn 1996/10/21
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-eval.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks33
@@ -354,19 +358,21 @@ Package: fp-eval 1995/04/03
 \dtl@codeB=\count301
 \@dtl@foreach@level=\count302
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/base/glossaries-compat
-ible-307.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossar
+ies-compatible-307.sty
 Package: glossaries-compatible-307 2021/11/01 v4.49 (NLCT)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tracklang/tracklang.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/tracklang/tracklang.tex))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.t
+ex))
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries-english/glossaries-eng
-lish.ldf
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
+saries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
 \gls@level=\count303
@@ -377,19 +383,20 @@ File: glossaries-english.ldf 2014/11/23 v1.0
 \glsshorttok=\toks37
 \glslongtok=\toks38
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
-av.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-hypernav.sty
 Package: glossary-hypernav 2021/11/01 v4.49 (NLCT)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
-ty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-list.sty
 Package: glossary-list 2021/11/01 v4.49 (NLCT)
 \glslistdottedwidth=\skip68
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
-ty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-long.sty
 Package: glossary-long 2021/11/01 v4.49 (NLCT)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
+
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip69
 \LTright=\skip70
@@ -411,10 +418,12 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \glsdescwidth=\skip73
 \glspagelistwidth=\skip74
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-super.
-sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-super.sty
 Package: glossary-super 2021/11/01 v4.49 (NLCT)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/supertabular/supertabular.sty
+
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabul
+ar.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count309
 \ST@wd=\dimen164
@@ -432,11 +441,12 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \ST@dimen=\dimen173
 \ST@pbox=\box62
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
-ty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-tree.sty
 Package: glossary-tree 2021/11/01 v4.49 (NLCT)
 \glstreeindent=\skip78
-)) (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
+))
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count310
 \lst@gtempboxa=\box63
 \lst@token=\toks40
@@ -450,26 +460,25 @@ Package: glossary-tree 2021/11/01 v4.49 (NLCT)
 \lst@lineno=\count315
 \lst@maxwidth=\dimen177
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count316
 \lst@skipnumbers=\count317
 \lst@framebox=\box64
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 2
 3.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/t1txtt.fd
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@tempdima=\dimen178
 \captionmargin=\dimen179
@@ -487,97 +496,100 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-05-13 v7.00o Hypertext links for LaTeX
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen186
 \Hy@linkcounter=\count320
 \Hy@pagecounter=\count321
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-05-13 v7.00o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count322
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+ (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-05-13 v7.00o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4137.
-Package hyperref Info: Link nesting OFF on input line 4142.
-Package hyperref Info: Hyper index ON on input line 4145.
-Package hyperref Info: Plain pages OFF on input line 4152.
-Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Hyper figures OFF on input line 4142.
+Package hyperref Info: Link nesting OFF on input line 4147.
+Package hyperref Info: Hyper index ON on input line 4150.
+Package hyperref Info: Plain pages OFF on input line 4157.
+Package hyperref Info: Backreferencing OFF on input line 4162.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4390.
+Package hyperref Info: Bookmarks ON on input line 4395.
 \c@Hy@tempcnt=\count323
-LaTeX Info: Redefining \url on input line 4749.
+LaTeX Info: Redefining \url on input line 4742.
 \XeTeXLinkMargin=\dimen187
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count324
 \Field@Width=\dimen188
 \Fld@charsize=\dimen189
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
+Package hyperref Info: Hyper figures OFF on input line 6020.
+Package hyperref Info: Link nesting OFF on input line 6025.
+Package hyperref Info: Hyper index ON on input line 6028.
+Package hyperref Info: backreferencing OFF on input line 6035.
+Package hyperref Info: Link coloring OFF on input line 6040.
+Package hyperref Info: Link coloring with OCG OFF on input line 6045.
+Package hyperref Info: PDF/A mode OFF on input line 6050.
 LaTeX Info: Redefining \ref on input line 6097.
-LaTeX Info: Redefining \pageref on input line 6101.
+LaTeX Info: Redefining \pageref on input line 6097.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -586,11 +598,10 @@ package with kernel methods
 \c@Hfootnote=\count327
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-05-13 v7.00o Hyperref driver for pdfTeX
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
@@ -598,10 +609,12 @@ with kernel methods
 \Fld@listcount=\count328
 \c@bookmark@seq@number=\count329
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -610,14 +623,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip79
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 218.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
+
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count330
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 \c@tabx@nest=\count331
@@ -672,20 +686,20 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibhang=\skip87
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language88
+\blx@langwohyphens=\language80
 \c@mincomprange=\count373
 \c@maxcomprange=\count374
 \c@mincompwidth=\count375
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.dbx
 File: apa.dbx 2021/12/24 v9.15 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -785,13 +799,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
+ (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 \c@textcitecount=\count454
 \c@textcitetotal=\count455
@@ -809,13 +822,13 @@ File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+ (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.bbx
 File: apa.bbx 2021/12/24 v9.15 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count463
 \c@bbx:relatedtotal=\count464
@@ -838,7 +851,7 @@ Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
 )
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+ (C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.cbx
 File: apa.cbx 2021/12/24 v9.15 APA biblatex citation style
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
@@ -862,33 +875,35 @@ Package biblatex Info: Redefining '\textcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-04-10 L3 programming layer (loader) 
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-05-04 L3 programming layer (loader) 
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count465
 \l__pdf_internal_box=\box65
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2022-04-10 L3 programming layer (loader) 
+(biblatex)             2022-05-04 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
 Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@reset=\count466
 \csq@gtype=\count467
@@ -898,13 +913,13 @@ Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@tshold=\count471
 \csq@ltx@everypar=\toks41
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 ))
 \glswrite=\write4
@@ -912,8 +927,7 @@ File: csquotes.cfg
 \openout5 = `main.glo'.
 
 Package glossaries Info: Writing glossary file main.glo on input line 228.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/lastpage/lastpage.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
 )
 Package csquotes Info: Checking for multilingual support...
@@ -925,11 +939,10 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./main.aux (./chapters/introductions.aux)
-(./chapters/process_documentation.aux) (./chapters/implementation.aux)
-(./chapters/conclusion.aux) (./chapters/product_documentation.aux)
-(./appendices/user_manual.aux) (./appendices/acronyms.aux)
-(./appendices/sprint_retroperspective.aux))
+(main.aux (chapters/introductions.aux) (chapters/process_documentation.aux)
+(chapters/implementation.aux) (chapters/conclusion.aux)
+(chapters/product_documentation.aux) (appendices/user_manual.aux)
+(appendices/acronyms.aux) (appendices/sprint_retroperspective.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 267.
@@ -951,7 +964,8 @@ LaTeX Font Info:    ... okay on input line 267.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 267.
 LaTeX Font Info:    ... okay on input line 267.
 
-(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count472
 \scratchdimen=\dimen190
@@ -964,22 +978,27 @@ LaTeX Font Info:    ... okay on input line 267.
 \MPnumerator=\count476
 \makeMPintoPDFobject=\count477
 \everyMPtoPDFconversion=\toks43
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+)
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
+saries-dictionary-English.dict
+Dictionary: glossaries-dictionary, Language: English 
 )
 \c@lstlisting=\count478
 Package caption Info: Begin \AtBeginDocument code.
@@ -987,50 +1006,51 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 267.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-13 v2.48 Cross-referencing by name of section
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
-ty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count479
-)
-LaTeX Info: Redefining \ref on input line 267.
-LaTeX Info: Redefining \pageref on input line 267.
-LaTeX Info: Redefining \nameref on input line 267.
- (./main.out) (./main.out)
+) (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-ap
+a.lbx
 File: english-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x
 File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\american-a
+pa.lbx
 File: american-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.l
+bx
 File: american.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x
 File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 ))))
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1040,14 +1060,13 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-
-(./main.bbl)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 267.
 Package biblatex Info: Reference segment=0 on input line 267.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 267.
-<Tittelside.pdf, id=248, 597.23125pt x 845.1575pt>
+<Tittelside.pdf, id=246, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
 Package pdftex.def Info: Tittelside.pdf  used on input line 268.
@@ -1056,7 +1075,7 @@ File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf>
 Package pdftex.def Info: Tittelside.pdf  used on input line 268.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<Tittelside.pdf, id=251, page=1, 597.23125pt x 845.1575pt>
+<Tittelside.pdf, id=249, page=1, 597.23125pt x 845.1575pt>
 File: Tittelside.pdf Graphic file (type pdf)
 <use Tittelside.pdf, page 1>
 Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
@@ -1085,13 +1104,13 @@ Package pdftex.def Info: Tittelside.pdf , page1 used on input line 268.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 270
 .
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 270
 .
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1099,8 +1118,8 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.270 	\pagenumbering
-                     {gobble} [1{/usr/local/texlive/2022/texmf-var/fonts/map/pd
-ftex/updmap/pdftex.map}] (./main.toc [1
+                     {gobble} [1{C:/Users/Ander/AppData/Local/MiKTeX/fonts/map/
+pdftex/pdftex.map}] (main.toc [1
 
 ])
 \tf@toc=\write7
@@ -1113,6 +1132,11 @@ een already used, duplicate ignored
                    \relax 
 l.274 	\clearpage
                   [2]
+
+LaTeX Warning: Citation 'traffic_shockwave' on page 1 undefined on input line 2
+86.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1129,21 +1153,41 @@ l.287 	\clearpage
 ]
 \openout2 = `chapters/introductions.aux'.
 
- (./chapters/introductions.tex
+ (chapters/introductions.tex
 Chapter 1.
-(./chapters/sections/stakeholders.tex
-(./chapters/sections/subsections/students.tex)
-(./chapters/sections/subsections/product_owner.tex)
-(./chapters/sections/subsections/supervisors.tex)
-(./chapters/sections/subsections/client.tex))
-(./chapters/sections/project_description.tex
-(./chapters/sections/subsections/project_background.tex [4
+(chapters/sections/stakeholders.tex (chapters/sections/subsections/students.tex
+) (chapters/sections/subsections/product_owner.tex)
+(chapters/sections/subsections/supervisors.tex)
+(chapters/sections/subsections/client.tex
+
+LaTeX Warning: Citation 'accenture_earning_report_2021' on page 4 undefined on 
+input line 4.
 
 
-])
-(./chapters/sections/subsections/significance.tex)
-(./chapters/sections/subsections/goals_and_requirements.tex)
-(./chapters/sections/subsections/problem_statement.tex))) [5] [6
+LaTeX Warning: Citation 'accenture_about' on page 4 undefined on input line 4.
+
+
+Overfull \hbox (30.11673pt too wide) in paragraph at lines 4--5
+\T1/cmr/m/n/10 in-ter-na-tion-ally, of which 1000 work in Nor-way ([]).
+ []
+
+
+Overfull \hbox (80.27847pt too wide) in paragraph at lines 4--5
+\T1/cmr/m/n/10 In 2021, Ac-cen-ture gen-er-ated a rev-enue of ap-prox-i-mately 
+$50.3 bil-lion ([]). 
+ []
+
+)) (chapters/sections/project_description.tex
+(chapters/sections/subsections/project_background.tex [4
+
+
+]
+
+LaTeX Warning: Citation 'centralized' on page 5 undefined on input line 4.
+
+) (chapters/sections/subsections/significance.tex)
+(chapters/sections/subsections/goals_and_requirements.tex)
+(chapters/sections/subsections/problem_statement.tex))) [5] [6
 
 
 
@@ -1151,26 +1195,32 @@ Chapter 1.
 \openout2 = `chapters/process_documentation.aux'.
 
 
-(./chapters/process_documentation.tex
+(chapters/process_documentation.tex
 Chapter 2.
-(./chapters/sections/development_method.tex [7
+(chapters/sections/development_method.tex
+
+LaTeX Warning: Citation 'prosjektveilederen' on page 7 undefined on input line 
+9.
+
+[7
 
 
 ]
-<figures/Sprint_overview.png, id=406, 358.84062pt x 273.02pt>
+<figures/Sprint_overview.png, id=393, 358.84062pt x 273.02pt>
 File: figures/Sprint_overview.png Graphic file (type png)
 <use figures/Sprint_overview.png>
 Package pdftex.def Info: figures/Sprint_overview.png  used on input line 15.
 (pdftex.def)             Requested size: 345.0pt x 262.50865pt.
  [8 <./figures/Sprint_overview.png>]
-<figures/kanban_screenshot.png, id=416, 1495.5875pt x 858.20625pt>
+<figures/kanban_screenshot.png, id=403, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
 Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 36.
 (pdftex.def)             Requested size: 345.0pt x 197.97256pt.
-) (./chapters/sections/tools_and_technology.tex [9 <./figures/kanban_screenshot
-.png>]) (./chapters/sections/MoSCoW_method.tex [10]
-<figures/MosCoW_method.png, id=430, 1036.87375pt x 567.11874pt>
+)
+(chapters/sections/tools_and_technology.tex [9 <./figures/kanban_screenshot.png
+>]) (chapters/sections/MoSCoW_method.tex [10]
+<figures/MosCoW_method.png, id=417, 1036.87375pt x 567.11874pt>
 File: figures/MosCoW_method.png Graphic file (type png)
 <use figures/MosCoW_method.png>
 Package pdftex.def Info: figures/MosCoW_method.png  used on input line 15.
@@ -1178,29 +1228,54 @@ Package pdftex.def Info: figures/MosCoW_method.png  used on input line 15.
 )) [11 <./figures/MosCoW_method.png>]
 \openout2 = `chapters/implementation.aux'.
 
- (./chapters/implementation.tex
+ (chapters/implementation.tex
 Chapter 3.
 
 Overfull \hbox (21.58893pt too wide) in paragraph at lines 5--11
  [] 
  []
 
-(./chapters/sections/pre_project_phase.tex [12
+(chapters/sections/pre_project_phase.tex [12
 
 
 
 
 ]
-(./chapters/sections/subsections/programming_language.tex)
-(./chapters/sections/subsections/artificial_intelligence_and_Internet_of_things
-.tex)
-(./chapters/sections/subsections/Increasing_trafficflow_for_one_lane_road.tex
+(chapters/sections/subsections/programming_language.tex
+
+LaTeX Warning: Citation 'dotnet' on page 13 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'csharp' on page 13 undefined on input line 2.
+
+)
+(chapters/sections/subsections/artificial_intelligence_and_Internet_of_things.t
+ex
+
+LaTeX Warning: Citation 'iot_analytics' on page 13 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'chinese_iov' on page 13 undefined on input line 5.
+
+) (chapters/sections/subsections/Increasing_trafficflow_for_one_lane_road.tex
 Overfull \hbox (8.14732pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/12 Preventing traf-fic con-ges-tions for a one-lane road| 
  []
 
+
+LaTeX Warning: Citation 'traffic_congestion_pollution' on page 13 undefined on 
+input line 3.
+
+
+LaTeX Warning: Citation 'traffic_congestion' on page 13 undefined on input line
+ 3.
+
+
+LaTeX Warning: Citation 'traffic_shockwave' on page 13 undefined on input line 
+7.
+
 [13]
-<figures/flow_diagram_first.png, id=468, 226.34563pt x 409.53pt>
+<figures/flow_diagram_first.png, id=441, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -1210,12 +1285,18 @@ Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [14] [15 <./figures/flow_diagram_first.png>])
-(./chapters/sections/rest_api.tex
+) [14] [15 <./figures/flow_diagram_first.png>]) (chapters/sections/rest_api.tex
+
+LaTeX Warning: Citation 'rest_api' on page 16 undefined on input line 5.
+
+
 Overfull \hbox (2.00815pt too wide) in paragraph at lines 5--6
 []\T1/cmr/m/it/10 Representational state trans-fer \T1/cmr/m/n/10 (REST) \T1/cm
 r/m/it/10 ap-pli-ca-tion pro-gram-ming in-ter-face \T1/cmr/m/n/10 (API)
  []
+
+
+LaTeX Warning: Citation 'influxdb' on page 16 undefined on input line 7.
 
 [16
 
@@ -1224,25 +1305,50 @@ Overfull \hbox (36.90567pt too wide) in paragraph at lines 17--17
 |[]\T1/cmr/bx/n/12 Alternative so-lu-tion 1 - Short-polling and long-polling| 
  []
 
-) (./chapters/sections/signalr.tex [17] [18])
-(./chapters/sections/demo_phase.tex
-(./chapters/sections/subsections/building_car.tex [19]
-<figures/two_cars.jpg, id=563, 4047.12pt x 3035.34pt>
+
+LaTeX Warning: Citation 'webhooks' on page 17 undefined on input line 25.
+
+
+LaTeX Warning: Citation 'rfc_websockets' on page 17 undefined on input line 28.
+
+
+) (chapters/sections/signalr.tex
+
+LaTeX Warning: Citation 'microsoft_websockets' on page 17 undefined on input li
+ne 2.
+
+
+LaTeX Warning: Citation 'microsoft_signalr' on page 17 undefined on input line 
+4.
+
+
+LaTeX Warning: Citation 'microsoft_signalr' on page 17 undefined on input line 
+4.
+
+[17] [18]) (chapters/sections/demo_phase.tex
+
+LaTeX Warning: Citation 'Chen2019' on page 19 undefined on input line 2.
+
+(chapters/sections/subsections/building_car.tex
+
+LaTeX Warning: Citation 'prev_project' on page 19 undefined on input line 2.
+
+[19]
+<figures/two_cars.jpg, id=519, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 (pdftex.def)             Requested size: 310.4979pt x 232.87433pt.
-)
-(./chapters/sections/subsections/calibration_of_cars.tex [20 <./figures/two_car
+) (chapters/sections/subsections/calibration_of_cars.tex [20 <./figures/two_car
 s.jpg>]
-<figures/velocity_and_power.png, id=573, 358.84062pt x 215.30438pt>
+<figures/velocity_and_power.png, id=529, 358.84062pt x 215.30438pt>
 File: figures/velocity_and_power.png Graphic file (type png)
 <use figures/velocity_and_power.png>
 Package pdftex.def Info: figures/velocity_and_power.png  used on input line 32.
 
 (pdftex.def)             Requested size: 345.0pt x 207.01509pt.
  [21 <./figures/velocity_and_power.png>]
-<figures/function_of_power.png, id=591, 254.45062pt x 218.8175pt>
+<figures/function_of_power.png, id=546, 254.45062pt x 218.8175pt>
 File: figures/function_of_power.png Graphic file (type png)
 <use figures/function_of_power.png>
 Package pdftex.def Info: figures/function_of_power.png  used on input line 42.
@@ -1253,16 +1359,16 @@ Overfull \hbox (0.2008pt too wide) in paragraph at lines 47--48
  ve-loc-ity and power is as fol-lows: 
  []
 
-) (./chapters/sections/subsections/construction_of_demo.tex [22
+) (chapters/sections/subsections/construction_of_demo.tex [22
 
  <./figures/function_of_power.png>]
-<figures/demo_crash.png, id=610, 427.5975pt x 343.2825pt>
+<figures/demo_crash.png, id=564, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 10.
 (pdftex.def)             Requested size: 345.0pt x 276.973pt.
  [23 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=619, 271.0125pt x 216.05719pt>
+<figures/succsess_demo.png, id=573, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
@@ -1270,31 +1376,37 @@ Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
 ) [24 <./figures/succsess_demo.png>]))
 \openout2 = `chapters/conclusion.aux'.
 
- (./chapters/conclusion.tex
+ (chapters/conclusion.tex
 Chapter 4.
-(./chapters/sections/subsections/real_world_scenario.tex)
-(./chapters/sections/subsections/possible_improvements.tex [25
+(chapters/sections/subsections/real_world_scenario.tex)
+(chapters/sections/subsections/possible_improvements.tex [25
 
 
 
 
 
 ])
-(./chapters/sections/self_evaluation.tex [26]
-(./chapters/sections/subsections/educational_value.tex))
-(./chapters/sections/further_work.tex
-(./chapters/sections/subsections/extendability_real_world.tex [27])
-(./chapters/sections/subsections/system_security.tex))) [28] [29
+(chapters/sections/self_evaluation.tex [26]
+(chapters/sections/subsections/educational_value.tex))
+(chapters/sections/further_work.tex
+(chapters/sections/subsections/extendability_real_world.tex [27]
+
+LaTeX Warning: Citation 'iot_platforms' on page 28 undefined on input line 4.
+
+) (chapters/sections/subsections/system_security.tex
+
+LaTeX Warning: Citation 'iot_risk' on page 28 undefined on input line 2.
+
+))) [28] [29
 
 
 
 ]
 \openout2 = `chapters/product_documentation.aux'.
 
-
-(./chapters/product_documentation.tex
+ (chapters/product_documentation.tex
 Chapter 5.
-<figures/Flow_diagram_server.png, id=683, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=633, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 7.
@@ -1310,20 +1422,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ] [31 <./figures/Flow_diagram_server.png>]
-(./chapters/sections/product_specification.tex
+(chapters/sections/product_specification.tex
 Overfull \hbox (5.2584pt too wide) in paragraph at lines 1--1
 |[]\T1/cmr/bx/n/14.4 Essential code snip-pets be-hind the sys-tem| 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 .
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-(./chapters/sections/subsections/initialization.tex
-(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+(chapters/sections/subsections/initialization.tex
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [32
+)
+[32
 
 ]
 Overfull \hbox (6.66412pt too wide) in paragraph at lines 46--47
@@ -1331,7 +1444,7 @@ Overfull \hbox (6.66412pt too wide) in paragraph at lines 46--47
 nnect");
  []
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+(C:\Users\Ander\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Overfull \hbox (1.4154pt too wide) in paragraph at lines 49--50
@@ -1339,10 +1452,10 @@ Overfull \hbox (1.4154pt too wide) in paragraph at lines 49--50
 rsion=0
  []
 
-[33]) (./chapters/sections/subsections/handshake_and_listener.tex [34] [35]
-[36]) (./chapters/sections/subsections/patching.tex [37])
-(./chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=905, 953.5625pt x 879.285pt>
+[33]) (chapters/sections/subsections/handshake_and_listener.tex [34] [35]
+[36]) (chapters/sections/subsections/patching.tex [37])
+(chapters/sections/subsections/database.tex
+<figures/intersection_concept.png, id=852, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1358,7 +1471,7 @@ Overfull \hbox (45.4953pt too wide) in paragraph at lines 58--59
 ies of [][]\T1/cmtt/m/n/10 VehiclesHubDatabase[]\T1/cmr/m/n/10 : 
  []
 
-[40]) (./chapters/sections/subsections/route_planner.tex
+[40]) (chapters/sections/subsections/route_planner.tex
 Overfull \hbox (6.51602pt too wide) in paragraph at lines 128--1
 \T1/cmr/m/n/10 cle clos-est to the in-ter-sec-tion. The lat-ter method [][]\T1/
 cmtt/m/n/10 OnlyFirstIntoNextVehiclesIn
@@ -1378,55 +1491,71 @@ Overfull \hbox (8.21005pt too wide) in paragraph at lines 58--59
 /10 SetTravelPlan
  []
 
-[43]))) [44] [45
+[43]))) [44]
 
+LaTeX Warning: Empty bibliography on input line 321.
 
-
-
-]
-Overfull \hbox (5.6762pt too wide) in paragraph at lines 322--322
-\T1/cmr/m/n/10 Re-trieved May 23, 2022, from [][]$https : / / www . n -[] able 
-. com / blog / centralized -[]
- []
-
-[46]
 \openout2 = `appendices/user_manual.aux'.
 
- (./appendices/user_manual.tex
+(appendices/user_manual.tex
 Appendix A.
-[47
+[45
 
 
-] [48]
-<figures/alt_intersection_config.png, id=1237, 735.74875pt x 741.77126pt>
+
+
+
+] [46]
+<figures/alt_intersection_config.png, id=1128, 735.74875pt x 741.77126pt>
 File: figures/alt_intersection_config.png Graphic file (type png)
 <use figures/alt_intersection_config.png>
 Package pdftex.def Info: figures/alt_intersection_config.png  used on input lin
 e 88.
 (pdftex.def)             Requested size: 345.0pt x 347.82893pt.
-) [49 <./figures/alt_intersection_config.png>] [50]
+) [47 <./figures/alt_intersection_config.png>] [48]
 \openout2 = `appendices/acronyms.aux'.
 
 
-(./appendices/acronyms.tex
+(appendices/acronyms.tex
 Appendix B.
-[51
+
+LaTeX Warning: Citation 'rest_api' on page 49 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'artificial_intelligence' on page 49 undefined on input
+ line 5.
+
+
+LaTeX Warning: Citation 'chinese_iov' on page 49 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'rpc_ibm' on page 49 undefined on input line 21.
+
+[49
 
 
 
 
-]) [52]
+]
+
+LaTeX Warning: Citation 'google_tpu' on page 50 undefined on input line 25.
+
+
+LaTeX Warning: Citation 'rfc_websockets' on page 50 undefined on input line 29.
+
+
+) [50]
 \openout2 = `appendices/sprint_retroperspective.aux'.
 
- (./appendices/sprint_retroperspective.tex
+ (appendices/sprint_retroperspective.tex
 Appendix C.
-<figures/sprint_retroperspective.png, id=1270, 474.27188pt x 253.94875pt>
+<figures/sprint_retroperspective.png, id=1154, 474.27188pt x 253.94875pt>
 File: figures/sprint_retroperspective.png Graphic file (type png)
 <use figures/sprint_retroperspective.png>
 Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 345.0pt x 184.7378pt.
-<figures/sprint_planning.png, id=1271, 326.72063pt x 152.57pt>
+<figures/sprint_planning.png, id=1155, 326.72063pt x 152.57pt>
 File: figures/sprint_planning.png Graphic file (type png)
 <use figures/sprint_planning.png>
 Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
@@ -1434,12 +1563,12 @@ Package pdftex.def Info: figures/sprint_planning.png  used on input line 12.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [53
+) [51
 
 
 
 
- <./figures/sprint_retroperspective.png>] [54 <./figures/sprint_planning.png>]
+ <./figures/sprint_retroperspective.png>] [52 <./figures/sprint_planning.png>]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1447,45 +1576,52 @@ This document will not have a glossary.
 
 
 AED: lastpage setting LastPage
-(./main.aux (./chapters/introductions.aux)
-(./chapters/process_documentation.aux) (./chapters/implementation.aux)
-(./chapters/conclusion.aux) (./chapters/product_documentation.aux)
-(./appendices/user_manual.aux) (./appendices/acronyms.aux)
-(./appendices/sprint_retroperspective.aux))
+(main.aux (chapters/introductions.aux) (chapters/process_documentation.aux)
+(chapters/implementation.aux) (chapters/conclusion.aux)
+(chapters/product_documentation.aux) (appendices/user_manual.aux)
+(appendices/acronyms.aux) (appendices/sprint_retroperspective.aux))
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 197A8E1342C5EF56892A06785EB355FA;10613.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33054 strings out of 478238
- 599402 string characters out of 5843941
- 1562715 words of memory out of 5000000
- 50103 multiletter control sequences out of 15000+600000
+ 32826 strings out of 478614
+ 601673 string characters out of 2843122
+ 1565627 words of memory out of 3000000
+ 49832 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,17n,117p,1238b,5162s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
-2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2022
-/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2022/t
-exmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (58 pages, 2381964 bytes).
+ 91i,17n,117p,1240b,5162s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecti1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1440.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Ander\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Ander\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Ander\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Ander\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Ander\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/A
+nder/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Users/Ander/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb>
+Output written on main.pdf (56 pages, 2431209 bytes).
 PDF statistics:
- 1465 PDF objects out of 1728 (max. 8388607)
- 1320 compressed objects within 14 object streams
- 547 named destinations out of 1000 (max. 500000)
+ 1777 PDF objects out of 2073 (max. 8388607)
+ 520 named destinations out of 1000 (max. 500000)
  579 words of extra memory for PDF output out of 10000 (max. 10000000)
 
