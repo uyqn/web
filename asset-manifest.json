@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.d0fa399b.css",
-    "main.js": "/web/static/js/main.0b6b634a.js",
+    "main.js": "/web/static/js/main.c5902e31.js",
     "static/media/main.pdf": "/web/static/media/main.52ca4eae12860ccd5cc2.pdf",
     "static/media/LandingPhoto.jpg": "/web/static/media/LandingPhoto.15c20fe106ea3244f49e.jpg",
     "static/media/uyImg.jpg": "/web/static/media/uyImg.89163723da8bb4dbd02e.jpg",
@@ -12,10 +12,10 @@
     "static/media/Accenture-name-logo.png": "/web/static/media/Accenture-name-logo.0ec1bc859d0cfae08684.png",
     "index.html": "/web/index.html",
     "main.d0fa399b.css.map": "/web/static/css/main.d0fa399b.css.map",
-    "main.0b6b634a.js.map": "/web/static/js/main.0b6b634a.js.map"
+    "main.c5902e31.js.map": "/web/static/js/main.c5902e31.js.map"
   },
   "entrypoints": [
     "static/css/main.d0fa399b.css",
-    "static/js/main.0b6b634a.js"
+    "static/js/main.c5902e31.js"
   ]
 }
