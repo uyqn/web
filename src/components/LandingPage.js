@@ -8,10 +8,10 @@ const LandingPage = () => {
             <img src={LandingPhoto} alt='LandingPhoto' className='object-cover object-left-top h-screen w-screen'/>
             <div className='absolute h-screen w-full bg-gray-900/50 flex flex-col items-center justify-center'>
             <h1 className="text-gray-100 text-3xl font-bold my-5 prose">
-                IoT-oppgave
+                Centralized IoT System for Raspberry Pi Vehicles
             </h1>
             <p className='text-xl text-gray-200 prose'>
-                «En sentralisert system for Raspberry Pi kjøretøy»
+                «A semi-physical simulation of traffic at an intersection»
             </p>
             <Link to='scroll-to' smooth={true} duration={500} className='my-5 border border-solid border-gray-200 rounded-full hover:bg-purple-600 cursor-pointer'>
                 <FiChevronsDown className='m-2 text-gray-200 text-xl'/>

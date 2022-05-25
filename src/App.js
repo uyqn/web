@@ -10,10 +10,8 @@ const App = () => {
   return (
     <div>
       <LandingPage/>
-      <ClientPage/>
       <ProblemPage/>
-      <InternalSupervisor/>
-      <ExternalSupervisor/>
+      <ClientPage/>
       <MembersPage/>
       <ReportPage/>
     </div>
