@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  24 MAY 2022 22:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  25 MAY 2022 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,13 +1160,13 @@ Chapter 2.
 <figures/Sprint_overview.png, id=407, 358.84062pt x 273.02pt>
 File: figures/Sprint_overview.png Graphic file (type png)
 <use figures/Sprint_overview.png>
-Package pdftex.def Info: figures/Sprint_overview.png  used on input line 15.
+Package pdftex.def Info: figures/Sprint_overview.png  used on input line 13.
 (pdftex.def)             Requested size: 345.0pt x 262.50865pt.
  [8 <./figures/Sprint_overview.png>]
 <figures/kanban_screenshot.png, id=417, 1495.5875pt x 858.20625pt>
 File: figures/kanban_screenshot.png Graphic file (type png)
 <use figures/kanban_screenshot.png>
-Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 36.
+Package pdftex.def Info: figures/kanban_screenshot.png  used on input line 34.
 (pdftex.def)             Requested size: 345.0pt x 197.97256pt.
 ) (./chapters/sections/tools_and_technology.tex [9 <./figures/kanban_screenshot
 .png>]) (./chapters/sections/MoSCoW_method.tex [10]
@@ -1200,7 +1200,7 @@ Overfull \hbox (8.14732pt too wide) in paragraph at lines 1--1
  []
 
 [13]
-<figures/flow_diagram_first.png, id=469, 226.34563pt x 409.53pt>
+<figures/flow_diagram_first.png, id=466, 226.34563pt x 409.53pt>
 File: figures/flow_diagram_first.png Graphic file (type png)
 <use figures/flow_diagram_first.png>
 Package pdftex.def Info: figures/flow_diagram_first.png  used on input line 14.
@@ -1227,7 +1227,7 @@ Overfull \hbox (36.90567pt too wide) in paragraph at lines 17--17
 ) (./chapters/sections/signalr.tex [17] [18])
 (./chapters/sections/demo_phase.tex
 (./chapters/sections/subsections/building_car.tex [19]
-<figures/two_cars.jpg, id=566, 4047.12pt x 3035.34pt>
+<figures/two_cars.jpg, id=564, 4047.12pt x 3035.34pt>
 File: figures/two_cars.jpg Graphic file (type jpg)
 <use figures/two_cars.jpg>
 Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
@@ -1235,14 +1235,14 @@ Package pdftex.def Info: figures/two_cars.jpg  used on input line 8.
 )
 (./chapters/sections/subsections/calibration_of_cars.tex [20 <./figures/two_car
 s.jpg>]
-<figures/velocity_and_power.png, id=576, 358.84062pt x 215.30438pt>
+<figures/velocity_and_power.png, id=574, 358.84062pt x 215.30438pt>
 File: figures/velocity_and_power.png Graphic file (type png)
 <use figures/velocity_and_power.png>
 Package pdftex.def Info: figures/velocity_and_power.png  used on input line 32.
 
 (pdftex.def)             Requested size: 345.0pt x 207.01509pt.
  [21 <./figures/velocity_and_power.png>]
-<figures/function_of_power.png, id=594, 254.45062pt x 218.8175pt>
+<figures/function_of_power.png, id=592, 254.45062pt x 218.8175pt>
 File: figures/function_of_power.png Graphic file (type png)
 <use figures/function_of_power.png>
 Package pdftex.def Info: figures/function_of_power.png  used on input line 42.
@@ -1256,13 +1256,13 @@ Overfull \hbox (0.2008pt too wide) in paragraph at lines 47--48
 ) (./chapters/sections/subsections/construction_of_demo.tex [22
 
  <./figures/function_of_power.png>]
-<figures/demo_crash.png, id=613, 427.5975pt x 343.2825pt>
+<figures/demo_crash.png, id=611, 427.5975pt x 343.2825pt>
 File: figures/demo_crash.png Graphic file (type png)
 <use figures/demo_crash.png>
 Package pdftex.def Info: figures/demo_crash.png  used on input line 10.
 (pdftex.def)             Requested size: 310.4979pt x 249.27414pt.
  [23 <./figures/demo_crash.png>]
-<figures/succsess_demo.png, id=622, 271.0125pt x 216.05719pt>
+<figures/succsess_demo.png, id=620, 271.0125pt x 216.05719pt>
 File: figures/succsess_demo.png Graphic file (type png)
 <use figures/succsess_demo.png>
 Package pdftex.def Info: figures/succsess_demo.png  used on input line 21.
@@ -1279,8 +1279,8 @@ Chapter 4.
 
 
 ])
-(./chapters/sections/self_evaluation.tex [26]
-(./chapters/sections/subsections/educational_value.tex))
+(./chapters/sections/self_evaluation.tex
+(./chapters/sections/subsections/educational_value.tex [26]))
 (./chapters/sections/further_work.tex)) [27] [28
 
 
@@ -1291,7 +1291,7 @@ Chapter 4.
 
 (./chapters/product_documentation.tex
 Chapter 5.
-<figures/Flow_diagram_server.png, id=695, 236.38312pt x 387.4475pt>
+<figures/Flow_diagram_server.png, id=693, 236.38312pt x 387.4475pt>
 File: figures/Flow_diagram_server.png Graphic file (type png)
 <use figures/Flow_diagram_server.png>
 Package pdftex.def Info: figures/Flow_diagram_server.png  used on input line 7.
@@ -1339,7 +1339,7 @@ rsion=0
 [32]) (./chapters/sections/subsections/handshake_and_listener.tex [33] [34]
 [35]) (./chapters/sections/subsections/patching.tex [36])
 (./chapters/sections/subsections/database.tex
-<figures/intersection_concept.png, id=914, 953.5625pt x 879.285pt>
+<figures/intersection_concept.png, id=912, 953.5625pt x 879.285pt>
 File: figures/intersection_concept.png Graphic file (type png)
 <use figures/intersection_concept.png>
 Package pdftex.def Info: figures/intersection_concept.png  used on input line 5
@@ -1395,7 +1395,7 @@ Appendix A.
 
 
 ] [47]
-<figures/alt_intersection_config.png, id=1246, 735.74875pt x 741.77126pt>
+<figures/alt_intersection_config.png, id=1244, 735.74875pt x 741.77126pt>
 File: figures/alt_intersection_config.png Graphic file (type png)
 <use figures/alt_intersection_config.png>
 Package pdftex.def Info: figures/alt_intersection_config.png  used on input lin
@@ -1407,12 +1407,12 @@ e 88.
 
 (./appendices/uml.tex
 Appendix B.
-<figures/Hub_and_database.png, id=1264, 524.55975pt x 383.63326pt>
+<figures/Hub_and_database.png, id=1262, 524.55975pt x 383.63326pt>
 File: figures/Hub_and_database.png Graphic file (type png)
 <use figures/Hub_and_database.png>
 Package pdftex.def Info: figures/Hub_and_database.png  used on input line 5.
 (pdftex.def)             Requested size: 345.0pt x 252.3265pt.
-<figures/IRoadComponents.png, id=1265, 607.068pt x 403.5075pt>
+<figures/IRoadComponents.png, id=1263, 607.068pt x 403.5075pt>
 File: figures/IRoadComponents.png Graphic file (type png)
 <use figures/IRoadComponents.png>
 Package pdftex.def Info: figures/IRoadComponents.png  used on input line 12.
@@ -1420,7 +1420,7 @@ Package pdftex.def Info: figures/IRoadComponents.png  used on input line 12.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Vehicle_and_routeplanner.png, id=1266, 234.8775pt x 413.1435pt>
+<figures/Vehicle_and_routeplanner.png, id=1264, 234.8775pt x 413.1435pt>
 File: figures/Vehicle_and_routeplanner.png Graphic file (type png)
 <use figures/Vehicle_and_routeplanner.png>
 Package pdftex.def Info: figures/Vehicle_and_routeplanner.png  used on input li
@@ -1436,7 +1436,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  <./figures/Hub_and_database.png>] [51 <./figures/IRoadComponents.png>]
 [52 <./figures/Vehicle_and_routeplanner.png>]
-<figures/client_diagram.png, id=1286, 245.11575pt x 345.08925pt>
+<figures/client_diagram.png, id=1284, 245.11575pt x 345.08925pt>
 File: figures/client_diagram.png Graphic file (type png)
 <use figures/client_diagram.png>
 Package pdftex.def Info: figures/client_diagram.png  used on input line 29.
@@ -1458,13 +1458,13 @@ Appendix C.
 
  (./appendices/sprint_retroperspective.tex
 Appendix D.
-<figures/sprint_retroperspective.png, id=1308, 474.27188pt x 253.94875pt>
+<figures/sprint_retroperspective.png, id=1305, 474.27188pt x 253.94875pt>
 File: figures/sprint_retroperspective.png Graphic file (type png)
 <use figures/sprint_retroperspective.png>
 Package pdftex.def Info: figures/sprint_retroperspective.png  used on input lin
 e 4.
 (pdftex.def)             Requested size: 345.0pt x 184.7378pt.
-<figures/sprint_planning.png, id=1309, 326.72063pt x 152.57pt>
+<figures/sprint_planning.png, id=1306, 326.72063pt x 152.57pt>
 File: figures/sprint_planning.png Graphic file (type png)
 <use figures/sprint_planning.png>
 Package pdftex.def Info: figures/sprint_planning.png  used on input line 11.
@@ -1472,7 +1472,7 @@ Package pdftex.def Info: figures/sprint_planning.png  used on input line 11.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/gantt.png, id=1310, 494.44725pt x 274.92712pt>
+<figures/gantt.png, id=1307, 494.44725pt x 274.92712pt>
 File: figures/gantt.png Graphic file (type png)
 <use figures/gantt.png>
 Package pdftex.def Info: figures/gantt.png  used on input line 18.
@@ -1500,7 +1500,7 @@ AED: lastpage setting LastPage
 (./appendices/user_manual.aux) (./appendices/uml.aux)
 (./appendices/acronyms.aux) (./appendices/sprint_retroperspective.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AC7934302E4689B7DB647C242DDF2A3E;10715.
+(rerunfilecheck)             Checksum: 79BB90AA68908A8A431EE09F446B64B5;10667.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1508,7 +1508,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  33141 strings out of 478238
  601536 string characters out of 5843941
- 1565207 words of memory out of 5000000
+ 1565173 words of memory out of 5000000
  50176 multiletter control sequences out of 15000+600000
  486080 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1529,10 +1529,10 @@ e/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
 22/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2022
 /texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2022/t
 exmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (61 pages, 2600988 bytes).
+Output written on main.pdf (61 pages, 2600047 bytes).
 PDF statistics:
- 1508 PDF objects out of 1728 (max. 8388607)
- 1349 compressed objects within 14 object streams
+ 1506 PDF objects out of 1728 (max. 8388607)
+ 1347 compressed objects within 14 object streams
  555 named destinations out of 1000 (max. 500000)
  604 words of extra memory for PDF output out of 10000 (max. 10000000)
 

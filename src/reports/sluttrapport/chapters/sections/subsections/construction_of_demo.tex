@@ -12,7 +12,7 @@ Making the demo one hundred percent accurate was not possible in our circumstanc
 	\label{fig:crashdemo}
 \end{figure}
 
-Furthermore, the server did not account for the lengths of the vehicles during its calculations. Thus, we included the vehicles' length in the server's calculation. We also introduced a buffer zone to create a minimum gap between the cars. With these additions, we could consistently reproduce successful semi physical simulations.
+Furthermore, the server did not account for the lengths of the vehicles during its computations. Thus, we included the vehicles' length in the server's calculation. We also introduced a buffer zone to create a minimum gap between the cars. With these additions, we could consistently reproduce successful semi-physical simulations.
 
 When both vehicles had connected to the server, the cars would drive with an initial speed of 80 cm/s, the upper limit of the Raspberry Pi. Not long after they started to drive, the server recognized the cars approaching the intersection. Using the cars's velocity, position, and length, the server determined the target speed for one of the cars to avoid collision. After the other car had passed the intersection, the car that slowed down was told by the server to change its velocity back to 80 cm/s. \figref{fig:successdemo} is a snapshot of a successful test demo.
 
