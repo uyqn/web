@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/uyqn.github.io/web/static/css/main.d0fa399b.css",
+    "main.js": "/uyqn.github.io/web/static/js/main.98268eea.js",
+    "static/media/main.pdf": "/uyqn.github.io/web/static/media/main.52ca4eae12860ccd5cc2.pdf",
+    "static/media/LandingPhoto.jpg": "/uyqn.github.io/web/static/media/LandingPhoto.15c20fe106ea3244f49e.jpg",
+    "static/media/uyImg.jpg": "/uyqn.github.io/web/static/media/uyImg.89163723da8bb4dbd02e.jpg",
+    "static/media/ExternalSupervisor.jpg": "/uyqn.github.io/web/static/media/ExternalSupervisor.5a60c1e03f11bd4cbf81.jpg",
+    "static/media/andersImg.jpg": "/uyqn.github.io/web/static/media/andersImg.70960f23641c2e5fe390.jpg",
+    "static/media/InternalSupervisor.jpg": "/uyqn.github.io/web/static/media/InternalSupervisor.809c6bb57b3afdca8d58.jpg",
+    "static/media/andreasImg.jpg": "/uyqn.github.io/web/static/media/andreasImg.89b3bc15e735d6a7dd4a.jpg",
+    "static/media/Accenture-name-logo.png": "/uyqn.github.io/web/static/media/Accenture-name-logo.0ec1bc859d0cfae08684.png",
+    "index.html": "/uyqn.github.io/web/index.html",
+    "main.d0fa399b.css.map": "/uyqn.github.io/web/static/css/main.d0fa399b.css.map",
+    "main.98268eea.js.map": "/uyqn.github.io/web/static/js/main.98268eea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0fa399b.css",
+    "static/js/main.98268eea.js"
+  ]
+}
